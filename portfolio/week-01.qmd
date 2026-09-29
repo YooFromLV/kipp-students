@@ -22,20 +22,20 @@ Membedakan person, personality, dan character serta memilih objective, repertoir
 
 | Domain dan character | Person & relationship | Objective & responsibility | Repertoire & language | Risiko dan latihan |
 |---|---|---|---|---|
-| Intra-Self — Evaluator Logika | Diri sendiri saat pengerjaan kodingan *stuck* | Mengurai penyebab *bug* secara tenang tanpa panik | Self-talk analitis , "Di mana *payload* JSON yang belum sesuai?" | Frustrasi dan lelah; ambil jeda istirahat 5 menit |
-| Family — Anak Sulung | Orang tua di rumah | Memberikan kepastian kabar di tengah kesibukan Hackathon | Bahasa hangat dan santun , "Ibu , ini acara Hackathon lancar , besok pagi baru pulang ya" | Mengabaikan pesan; usahakan sempatkan membalas via VN singkat |
-| Friends & Project — Co-Developer | Jevon (Rekan tim Hackathon) | Mengintegrasikan API *backend* dengan *frontend* tepat waktu | Kolaboratif dan solutif , "Bagian mana endpoint yang responnya 500? Coba kita *trace* bareng" | Tegang karena *deadline*; gunakan nada tenang dan fokus solusi |
-| Campus — Teman Diskusi | Nathan (Teman seangkatan) | Saling bertukar pikiran terkait materi kuliah dan tugas | Tanya jawab informal , "Gimana pemahamanmu di modul minggu ini?" | Memotong pembicaraan; dengarkan sampai selesai baru tanggapi |
-| Community — Staf Himpunan | Agas (Pengurus himpunan) | Menyinkronkan program kerja divisi internal | Ringkas dan konfirmatif , "Catatan rapat sudah aman , siap dieksekusi besok" | Pasif dalam forum; ajukan minimal satu tanggapan di setiap sesi |
+| Domain 1: Keluarga — Anak Sulung | Orang tua di rumah | Memberikan kepastian kabar di tengah kesibukan kuliah ITB | Bahasa hangat dan santun , "Ibu , ini acara di kampus lancar , besok pagi baru pulang ya" | Mengabaikan pesan; usahakan sempatkan membalas via VN singkat |
+| Domain 2: Kampus (Tugas) — Teman Diskusi | Nathan (Teman seangkatan) | Saling bertukar pikiran terkait materi kuliah dan tugas latihan OOP | Tanya jawab informal , "Nat , gimana pemahaman lu soal logika perulangan di modul minggu ini?" | Memotong pembicaraan; dengarkan sampai selesai baru tanggapi |
+| Domain 3: Kepanitiaan (Tutor Asrama) — Anggota Divisi | Zahra (Rekan Divisi Desain dan Konten) | Menjaga alur kerja publikasi visual berjalan sesuai batas revisi | Asertif dan suportif , "Ra , kalau ada revisi desain mendadak, drop chat singkat dulu ya biar draf utama ga ketimpa" | Komunikasi asinkron; biasakan selalu konfirmasi sebelum merombak berkas tim |
+| Domain 4: Komunitas — Staf Himpunan | Agas (Pengurus himpunan HMIF) | Menyinkronkan program kerja divisi internal | Ringkas dan konfirmatif , "Catatan rapat sudah aman Gas , siap dieksekusi besok" | Pasif dalam forum; ajukan minimal satu tanggapan di setiap sesi |
+| Domain 5: Proyek Hackathon — Co-Developer | Jevon (Rekan tim Hackathon) | Mengintegrasikan API *backend* dengan *frontend* tepat waktu | Kolaboratif dan solutif , "Bagian mana endpoint yang responnya 500? Coba kita *trace* bareng" | Tegang karena *deadline*; gunakan nada tenang dan fokus solusi |
 
 ## Contoh perubahan language ketika character berubah
 
-Maksud pesan sama: Meminta pengecekan ulang fungsi *database* / API yang gagal memuat data.
+Maksud pesan sama: Meminta pengecekan ulang atau revisi atas suatu pekerjaan.
 
-- **Character 1: Co-Developer Tim Hackathon (Sederajat / Berpacu Waktu)**  
+- **Character 1: Proyek Hackathon (Ke Jevon - Sedang Berpacu Waktu)**  
   "Jev , *endpoint* auth masih nolak *token* nih , padahal *payload*-nya udah sesuai. Coba cek *CORS* atau *env* di server lu bentar."
-- **Character 2: Mahasiswa ke Dosen Pengampu / Asisten (Sopan / Formal)**  
-  "Selamat malam Pak , mohon maaf mengganggu waktunya. Terkait integrasi *database* untuk proyek tugas besar , apakah ada ketentuan spesifik mengenai batasan hak akses akun yang perlu kami sesuaikan? Terima kasih Pak."
+- **Character 2: Kepanitiaan Tutor Asrama (Ke Zahra - Asertif namun Sopan)**  
+  "Ra , gue perhatiin tata letaknya diubah lumayan banyak ya dari draf kemarin. Boleh tolong dicek lagi versi duplikatnya biar draf asli gue tetep ada historinya?"
 
 ## Konteks performance
 
