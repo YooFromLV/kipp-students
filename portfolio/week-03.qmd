@@ -48,7 +48,18 @@ Catatan percakapan ini direkonstruksi dari ingatan saya sesaat setelah obrolan d
 > **Saya:** "Sama sama Ra , gue juga minta maaf kalau tadi pas awal nanya kesannya agak kaku."
 
 Setelah percakapan selesai , kami langsung memperbarui aturan Drive divisi dengan memisahkan folder draf dan folder final serta mewajibkan konfirmasi via WhatsApp sebelum mengubah file utama.
-:::
+
+---
+
+### 2. Bukti Fisik Log Personal Chat WhatsApp (18 - 22 September 2025)
+
+Berikut adalah rekaman jejak digital percakapan Personal Chat (PC) WhatsApp bersama Zahra sebagai bukti fisik penetapan dan penerapan kesepakatan konfirmasi sebelum revisi berkas:
+
+#### A. Log PC WhatsApp Pasca Diskusi Selasar (18 September 2025, 20.25 WIB)
+```text
+[18/09/25, 20.25] Saya: Ra, thanks ya buat obrolan di selasar tadi. Biar makin enak kerjaannya, ke depannya kalau ada revisi besar di draf poster, tolong kabarin dulu via chat sebelum diubah file utamanya yaa.
+[18/09/25, 20.26] Zahra: Siap banget! Noted yaa, sorry sekali lagi soal tadi yang keburu panik mengejar deadline.
+[18/09/25, 20.27] Saya: Santai Ra, yang penting ke depannya koordinasi kita tetap aman.
 
 ## Analisis komunikasi
 
