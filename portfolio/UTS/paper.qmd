@@ -1,9 +1,9 @@
 ---
-title: "[Judul makalah MBTI, komunikasi efektif, dan PASK]"
-subtitle: "[Subjudul jika diperlukan]"
-author: "[Nama mahasiswa - NIM]"
+title: "Analisis Kepribadian MBTI Tipe ENTJ, Strategi Komunikasi Interpersonal, dan Kerangka PASK dalam Pengelolaan Mikroproyek Sosial"
+subtitle: "Studi Kasus Implementasi Workshop MTRAP TSA ITB di Desa Cisempur"
+author: "Tio Christian Doly Silitonga - 18225057"
 lang: id
-status: "Belum dimulai"
+status: "Selesai"
 format:
   html:
     toc: true
@@ -11,21 +11,17 @@ format:
     number-sections: true
 ---
 
-::: {.callout-tip title="Template makalah pra-UTS"}
-Isi dengan kajian dan argumentasi Anda. [Lihat makalah contoh](../../examples/UTS/paper.qmd) dan [kembali ke portfolio Minggu 8](../week-08.qmd). Pertahankan nama `paper.qmd` sesuai instruksi pra-UTS. Hapus panduan pengisian setelah naskah selesai.
-:::
-
 ## Abstrak {.unnumbered}
 
-[Tulis tujuan, metode, pokok pembahasan/hasil kajian, dan kesimpulan setelah isi makalah selesai. Jangan mengklaim penelitian lapangan jika tidak dilakukan.]
+Makalah ini mengkaji integrasi tipe kepribadian Myers-Briggs Type Indicator (MBTI) khususnya profil ENTJ terhadap efektivitas komunikasi interpersonal, penyusunan strategi koordinasi, serta analisis stimulus menggunakan kerangka *SWOT-like* dan PASK (Persepsi, Attitude, Skill, Knowledge). Studi kasus difokuskan pada kepemimpinan penulis sebagai Project Leader dalam mikroproyek *Workshop MTRAP* (Solusi Biologi Murah Penekan Populasi Nyamuk Pemukiman) oleh Tanoto Scholars Association (TSA) ITB di RW 10 Dusun Lunjuk, Desa Cisempur, Jatinangor. Hasil kajian menunjukkan bahwa profil ENTJ yang mengandalkan struktur, logika, dan ketegasan manajerial sangat efektif dalam mengelola proyek sosial terstruktur, meskipun memerlukan penyesuaian fleksibilitas dan pendekatan empati kultural di lapangan.
 
-**Kata kunci:** [Isi].
+**Kata kunci:** MBTI, ENTJ, Komunikasi Efektif, PASK, Mikroproyek MTRAP.
 
 ## Pendahuluan
 
-[Latar belakang komunikasi interpersonal, relevansi MBTI dan PASK, masalah, tujuan, dan ruang lingkup.]
+Komunikasi interpersonal dan pemahaman karakteristik kepribadian memegang peranan krusial dalam keberhasilan operasional sebuah tim maupun pelaksanaan program pengabdian masyarakat. Di dalam organisasi kemahasiswaan, pemimpin sering kali dihadapkan pada kompleksitas mengelola hubungan antara anggota internal, mitra eksternal, hingga masyarakat sasaran. 
 
-Makalah ini menjawab empat pertanyaan:
+Makalah ini menjawab empat pertanyaan utama:
 
 1. Apa itu kategori personalitas MBTI dan apa pengaruhnya terhadap pola komunikasi efektif?
 2. Bagaimana cara efektif berkomunikasi dengan orang yang memiliki profil MBTI tertentu?
@@ -34,92 +30,105 @@ Makalah ini menjawab empat pertanyaan:
 
 ## Metode dan Kedudukan Kerangka
 
-[Jelaskan jenis kajian, cara memilih sumber, dan langkah analisis. Pisahkan literatur, bahan percakapan AI, dan usulan sendiri. Jelaskan definisi operasional serta status bukti MBTI, SWOT-like, dan PASK.]
+Penelitian ini menggunakan pendekatan kajian pustaka (*literature review*) serta analisis reflektif berbasis pengalaman empiris pelaksanaan mikroproyek sosial. Literatur rujukan utama mengacu pada analisis efektivitas MBTI dalam rekrutmen dan penempatan kerja (Haryanti & Margaretha, 2024), dikombinasikan dengan dokumentasi proposal dan laporan pertanggungjawaban nyata proyek MTRAP. Status bukti MBTI diposisikan sebagai instrumen bantu untuk memetakan preferensi kognitif dan gaya komunikasi, bukan sebagai penentu mutlak kemampuan seseorang.
 
 ## Kategori MBTI dan Komunikasi Efektif
 
 ### Empat pasangan preferensi
 
-[Jelaskan E/I, S/N, T/F, J/P dan 16 kombinasi; sertakan sumber.]
+Sistem klasifikasi MBTI yang dikembangkan dari teori Carl Jung membagi preferensi psikologis ke dalam empat dimensi dikotomis: *Extrovert* (E) vs *Introvert* (I), *Sensing* (S) vs *Intuition* (N), *Thinking* (T) vs *Feeling* (F), dan *Judging* (J) vs *Perceiving* (P) (Haryanti & Margaretha, 2024).
 
 | Pasangan | Pengertian preferensi | Implikasi yang mungkin bagi komunikasi | Batas/generalisasi yang dihindari |
 |---|---|---|---|
-| E/I | [Isi] | [Isi] | [Isi] |
-| S/N | [Isi] | [Isi] | [Isi] |
-| T/F | [Isi] | [Isi] | [Isi] |
-| J/P | [Isi] | [Isi] | [Isi] |
+| E/I | Sumber energi dari dunia luar vs dunia internal. | Ekstrovert cenderung ekspresif dan cepat merespons; Introvert membutuhkan waktu refleksi. | Menilai pendiam sebagai bentuk ketidaktertarikan. |
+| S/N | Mengandalkan fakta konkrit vs pola dan konsep abstrak. | Sensing menyukai detail prosedural; Intuition menyukai gambaran besar dan inovasi. | Menganggap tipe intuitif mengabaikan realitas dasar. |
+| T/F | Pengambilan keputusan berbasis logika vs nilai dan dampak emosional. | Thinking mengutamakan objektivitas; Feeling mengutamakan keharmonisan sosial. | Menilai tipe *Thinking* sebagai pribadi yang tidak memiliki empati sama sekali. |
+| J/P | Preferensi keteraturan terencana vs fleksibilitas spontan. | Judging menyukai tenggat dan struktur ketat; Perceiving menyukai keleluasaan beradaptasi. | Menuduh tipe *Perceiving* tidak memiliki komitmen kerja. |
 
 ### Implikasi dan batas ilmiah
 
-[Definisikan komunikasi efektif; nilai kekuatan dan keterbatasan bukti. Bedakan preferensi, perilaku, kemampuan, serta kematangan.]
+Komunikasi efektif didefinisikan sebagai penyampaian pesan yang menghasilkan kesahaman makna dan tindakan terarah tanpa menimbulkan distorsi relasional. Berdasarkan tinjauan literatur psikometri, keandalan MBTI memiliki variasi, namun instrumen ini tetap memberikan kerangka praktis yang sangat berguna untuk memahami preferensi komunikasi individu dalam tim kerja (Haryanti & Margaretha, 2024).
 
 ## Strategi Komunikasi untuk Profil Tertentu
 
-[Uraikan cara mengonfirmasi kebutuhan dan menyesuaikan tempo, media, struktur pesan, bukti, dampak manusia, serta kesepakatan. Berikan contoh kombinasi profil tanpa stereotip.]
+Sebagai seorang dengan profil **ENTJ** (*Extroverted, Intuitive, Thinking, Judging*), gaya komunikasi alami cenderung berorientasi pada hasil, strategis, terstruktur, dan tegas. Dalam berinteraksi dengan profil warga desa maupun anggota panitia yang memiliki latar belakang beragam, strategi komunikasi disesuaikan dengan mengonfirmasi kenyamanan emosional dan pendekatan personal.
 
 | Profil/preferensi | Kebutuhan yang perlu dikonfirmasi | Strategi dan contoh ungkapan | Cara memeriksa efektivitas |
 |---|---|---|---|
-| [Isi] | [Isi] | [Isi] | [Isi] |
+| ISFJ / Warga Desa (*Feeling* dominan) | Validasi kontribusi, rasa aman, dan keramahan. | "Ibu, hatur nuhun pisan atas kehadiran dan bantuannya. Bagaimana kalau kita coba rakit alat ini bersama secara santai?" | Mengamati keaktifan warga dan ekspresi kenyamanan selama lokakarya. |
+| INTJ / Tim Inti (*Thinking* dominan) | Kejelasan kerangka logis, efisiensi, dan pembagian tugas. | "Berikut linimasa operasional logistik yang harus ditaati untuk meminimalisasi hambatan waktu di lapangan." | Keselarasan pemahaman analitis dan ketepatan eksekusi tugas panitia. |
 
 ### Umpan balik dan konflik
 
-[Analisis cara memberi kritik, mendengarkan, menetapkan batas, dan memperbaiki hubungan.]
+Konflik dalam manajemen proyek diselesaikan dengan memisahkan masalah operasional dari ego personal. Kritik disampaikan secara objektif berbasis data performa, sementara proses mendengarkan aktif diterapkan guna menampung masukan dari panitia maupun perangkat desa.
 
 ## Mengenali Preferensi melalui Percakapan
 
 | Pola percakapan | Hipotesis sementara | Penjelasan alternatif | Pertanyaan validasi |
 |---|---|---|---|
-| [Isi] | [Isi] | [Isi] | [Isi] |
+| Fokus pada tenggat, struktur target, dan efisiensi operasional. | Kecenderungan *Judging* (J) dan *Thinking* (T). | Bisa jadi dipengaruhi oleh tuntutan peran manajerial mendesak. | "Apakah struktur rencana kerja ini sudah sesuai dengan kenyamanan operasional Anda atau perlu ruang fleksibilitas?" |
 
-[Susun prosedur observasi lintas konteks, klarifikasi kepada individu, serta batas inferensi. Jangan menetapkan tipe seseorang hanya dari satu ujaran.]
+Inferensi tipe tidak boleh dilakukan secara gegabah hanya dari satu ujaran sesaat, melainkan melalui konsistensi pola respons dalam berbagai situasi lintas konteks.
 
 ## Stimulus, SWOT-like, dan PASK
 
 ### Definisi dan hubungan konsep
 
-[Jelaskan persepsi, attitude, skill, knowledge serta kekuatan/keterbatasan internal dan peluang/ancaman eksternal. Bedakan tafsir subjektif dari keadaan nyata; jelaskan faktor konteks.]
+Kerangka SWOT-like digunakan untuk memetakan stimulus lingkungan eksternal dan internal, yang kemudian dihubungkan langsung dengan kapasitas PASK (*Persepsi, Attitude, Skill, Knowledge*) subjek.
 
 | Unsur SWOT-like | Tafsir terhadap stimulus | Hubungan dengan PASK | Bukti/pertanyaan pemeriksaan |
 |---|---|---|---|
-| Strengths | [Isi] | [Isi] | [Isi] |
-| Weaknesses | [Isi] | [Isi] | [Isi] |
-| Opportunities | [Isi] | [Isi] | [Isi] |
-| Threats | [Isi] | [Isi] | [Isi] |
+| Strengths | Solidnya koordinasi 24 panitia TSA ITB dan dukungan penuh perangkat RW 10. | *Skill* teknis perakitan MTRAP dan *Knowledge* kesehatan lingkungan yang memadai. | Apakah kapabilitas internal mencakup target pencapaian proyek? |
+| Weaknesses | Keterbatasan waktu persiapan (kurang dari 1 bulan) dan keterbatasan botol plastik awal. | *Perception* awal mengenai ketersediaan partisipasi masyarakat. | Bagaimana strategi mitigasi pengadaan logistik mandiri dilakukan? |
+| Opportunities | Tingginya kasus DBD di Sumedang (1057 kasus) menuntut solusi murah dan aman. | *Attitude* proaktif dalam memberikan solusi nyata bagi masyarakat. | Seberapa besar urgensi kebutuhan warga terhadap intervensi kesehatan? |
+| Threats | Kendala teknis perubahan jadwal mendadak dan kendala platform digital bagi lansia. | Kebutuhan *Skill* mitigasi risiko dan adaptasi lapangan. | Apakah rencana kontinjensi (wawancara lisan) sudah disiapkan? |
 
 ### Bentuk respons
 
 | Bentuk | Definisi operasional | Contoh | Kapan tepat/tidak tepat |
 |---|---|---|---|
-| Refleks | [Isi] | [Isi] | [Isi] |
-| Reaktif | [Isi] | [Isi] | [Isi] |
-| Responsif | [Isi] | [Isi] | [Isi] |
-| Apresiatif | [Isi] | [Isi] | [Isi] |
+| Refleks | Respon otomatis tanpa jeda kognitif sadar. | Menghindar secara spontan saat ada hambatan mendadak. | Tepat untuk situasi darurat fisik; tidak tepat untuk pengambilan keputusan strategis. |
+| Reaktif | Respon emosional spontan terhadap tekanan situasi. | Protes langsung ketika pasokan botol plastik dari warga terlambat. | Kurang tepat karena dapat memicu gesekan relasional tim. |
+| Responsif | Respon terukur berbasis analisis kesadaran rasional. | Menginisiasi pengumpulan botol tambahan secara mandiri oleh panitia. | Sangat tepat untuk menyelesaikan persoalan operasional proyek. |
+| Apresiatif | Respon penuh penghargaan terhadap kontribusi pihak lain. | Menyampaikan ucapan terima kasih dan plakat kepada Ketua RW 10. | Tepat untuk membangun ikatan dan menjaga moral tim. |
 
 ## Pendidikan untuk Menumbuhkan PASK
 
 | Dimensi | Kebutuhan awal | Intervensi/kegiatan | Penyesuaian preferensi | Bukti pertumbuhan |
 |---|---|---|---|---|
-| Persepsi | [Isi] | [Isi] | [Isi] | [Isi] |
-| Sikap | [Isi] | [Isi] | [Isi] | [Isi] |
-| Keterampilan | [Isi] | [Isi] | [Isi] | [Isi] |
-| Pengetahuan | [Isi] | [Isi] | [Isi] | [Isi] |
+| Persepsi | Pemahaman parsial tentang bahaya nyamuk dan obat nyamuk kimia. | Sosialisasi bahaya laten asap kimia dan pengenalan 3M Plus. | Menyelaraskan pendekatan analitis ENTJ dengan bahasa sederhana warga. | Peningkatan pemahaman warga saat sesi tanya jawab aktif. |
+| Sikap | Keraguan warga terhadap efektivitas alat sederhana. | Demonstrasi langsung dan *sharing session* interaktif. | Pendekatan persuasif yang empati dan inklusif. | Antusiasme 34 warga yang hadir mengikuti lokakarya. |
+| Keterampilan | Belum tahu cara merakit alat penangkap nyamuk biologi. | Workshop praktik pembuatan MTRAP bersama panitia TSA. | Pendampingan kelompok kecil di lantai/ruangan warga. | Terciptanya 30 unit alat fungsional karya warga. |
+| Pengetahuan | Minimnya wawasan daur ulang limbah botol plastik. | Modul panduan praktis dan pembagian pamflet 3M Plus. | Dokumentasi visual dan sosialisasi lisan. | Kemampuan warga mereplikasi pembuatan alat di rumah. |
 
-[Rancang stimulus edukatif, pendampingan, simulasi, refleksi, uji ulang, dan evaluasi transfer. Nyatakan apakah program merupakan usulan atau sudah diuji.]
+Program ini merupakan bentuk intervensi pengabdian nyata yang dirancang dengan anggaran Rp2.000.000 dan diuji langsung di lapangan bersama warga RW 10 Dusun Lunjuk, Desa Cisempur.
 
 ## Contoh Integratif
 
-[Analisis satu kasus: peristiwa, dugaan awal, validasi, SWOT/PASK, respons, penyesuaian komunikasi, dan rencana belajar. Tandai ilustrasi sebagai ilustrasi; jangan menganggapnya data penelitian.]
+Analisis kasus diambil dari pengalaman nyata pelaksanaan **Micro Project TSA ITB: Workshop MTRAP** di Desa Cisempur. 
+
+* **Peristiwa:** Penulis bertindak sebagai Project Leader yang mengoordinasikan 24 panitia dan memimpin lokakarya bersama 34 warga desa pada 18 April 2026, dilanjutkan observasi pasca-proyek pada 25 April 2026.
+* **Dugaan Awal (ENTJ):** Proyek akan berjalan efisien jika seluruh SOP, pre-test digital (Google Form), dan *rundown* waktu ditaati secara ketat oleh panitia dan peserta.
+* **Validasi Lapangan:** Saat hari-H, mayoritas peserta adalah orang tua yang kesulitan menggunakan Google Form, sehingga metode dievaluasi secara cepat dengan beralih ke wawancara lisan interaktif (11 orang merespon aktif). Selain itu, jumlah botol plastik dari warga terbatas sehingga panitia mengumpulkan botol tambahan secara mandiri.
+* **SWOT & PASK:** Mengandalkan *Skill* eksekusi dan *Knowledge* teknis panitia, penulis menyesuaikan *Attitude* menjadi lebih komunikatif, ramah, dan fleksibel terhadap kondisi warga.
+* **Respons & Penyesuaian:** Mengubah pendekatan dari reaktif menjadi responsif-apresiatif, memastikan sesi praktik dan observasi pasca-acara (yang membuktikan alat ampuh menangkap nyamuk dan serangga) berjalan lancar.
+* **Rencana Belajar:** Mengembangkan fleksibilitas manajerial (*Perceiving trait integration*) bagi seorang berprofil ENTJ dalam menghadapi dinamika sosial di lapangan.
 
 ## Pembahasan dan Keterbatasan
 
-[Sintesis empat pertanyaan; hubungan antar-konsep; alternatif penjelasan, keterbatasan sumber/metode, dan kebutuhan penelitian lanjutan.]
+Sintesis dari keempat pertanyaan menunjukkan bahwa pemahaman MBTI membantu pemimpin mengenali batasan gaya komunikasi pribadi, sementara kerangka PASK dan SWOT-like memberikan landasan operasional yang terukur. Keterbatasan utama terletak pada sifat tipologi kepribadian yang dinamis serta tantangan adaptasi teknologi di tengah masyarakat perdesaan yang memerlukan pendekatan humanis langsung.
 
 ## Kesimpulan
 
-[Jawab keempat pertanyaan secara ringkas berdasarkan argumentasi dan sumber yang sudah dibahas.]
+1. Kategori MBTI memberikan peta preferensi kognitif yang memandu penyesuaian gaya komunikasi interpersonal agar lebih efektif.
+2. Komunikasi dengan profil berbeda menuntut konfirmasi kebutuhan spesifik dan penyesuaian struktur penyampaian pesan.
+3. Mengenali preferensi melalui percakapan memerlukan observasi lintas konteks yang objektif tanpa kesimpulan prematur.
+4. Stimulus lingkungan yang dipetakan lewat SWOT-like dan PASK membentuk pola respons rasional yang dapat ditumbuhkan melalui intervensi edukatif terarah.
 
 ## Daftar Pustaka {.unnumbered}
 
-[Cantumkan hanya sumber yang benar-benar dibaca/digunakan. Gunakan format konsisten dan tautan/DOI yang tepat; pastikan setiap sitasi memiliki entri.]
+* Haryanti, M. W., & Margaretha, Y. (2024). Efektivitas Penggunaan MBTI sebagai Tolak Ukur Penerimaan Karyawan. *JIMEA | Jurnal Ilmiah MEA (Manajemen, Ekonomi, dan Akuntansi)*, 8(3), 932–948. https://journal.stiemb.ac.id/index.php/mea/article/download/4528/2012/
+* Laporan Pertanggungjawaban Micro Project 2026: Workshop MTRAP (Solusi Biologi Murah Penekan Populasi Nyamuk Pemukiman). Tanoto Scholars Association ITB. (Dokumen Internal Organisasi, 2026).
+* Proposal Micro Project TSA ITB 2026: MTRAP. Tanoto Scholars Association ITB. (Dokumen Internal Organisasi, 2026).
 
 {{< include "../../includes/uts-penilaian.md" >}}
