@@ -1,0 +1,196 @@
+---
+title: "Laporan UTS KIPP 2026 — Versi 2.0"
+subtitle: "Sesi 1 — Kasus 1: Memimpin diri dan terus belajar"
+author: "Tio Christian Doly Silitonga"
+date: "2026-10-14"
+lang: id
+format:
+  html:
+    toc: true
+execute:
+  eval: false
+---
+
+# A) Identitas
+
+| Elemen | Keterangan |
+|---|---|
+| Nama mahasiswa | Tio Christian Doly Silitonga |
+| NIM | 18225057 |
+| Kelas | 01 |
+| Tanggal pelaksanaan | 14 Oktober 2026 |
+| Nomor/judul kasus | Sesi 1, urutan 1 dari 5, Kasus 1 — Memimpin diri dan terus belajar |
+| Target utama | Diri mahasiswa |
+| Tokoh pembanding | Budi, K1-02, tokoh fiktif |
+| Versi bank/paket | Bank 2.0, paket individual 2.0 |
+| Sumber penugasan | PENUGASAN.md dalam kasus_1_18225057.zip |
+| Modalitas | Teks |
+| Konteks nyata/fiktif | Manajemen energi dan emosi bersifat nyata, dialog pembanding bersama Budi bersifat fiktif. |
+| Nama laporan | hasil_1_18225057.qmd |
+| Kelengkapan transkrip | Lengkap dari tahap identifikasi hingga uji ulang dan refleksi |
+
+# B) Kasus dan Tujuan
+
+## Kasus dan tujuan tindakan
+
+* **Brief kasus:** Memilih satu kemampuan atau hambatan belajar yang ingin dikembangkan agar lebih berguna dalam kuliah, kerja, atau kehidupan, serta memeriksa cara memimpin diri ketika menghadapi hambatan belajar.
+* **Kemampuan/hambatan yang dipilih:** Manajemen energi dan regulasi emosi saat harus *switching* antara tugas teknis bertekanan tinggi seperti kodingan atau *hardware* dan tuntutan komunikasi sosial di hari yang sama.
+* **Tujuan yang dikonfirmasi:** 
+  1. Berhasil menerapkan metode *Time-Blocking* harian memisahkan blok jam khusus kodingan dan blok jam khusus urusan sosial atau ngajar selama 14 hari berturut-turut tanpa merasa *overwhelmed*.
+  2. Bikin satu template komunikasi asertif atau jawaban tertulis buat nolak atau menunda permintaan diskusi dari orang lain secara sopan saat kapasitas energi lagi penuh.
+  3. Punya catatan refleksi harian singkat 3 hingga 5 menit tiap malam buat memantau tingkat stres dan keberhasilan menjaga ritme kerja.
+
+## Profil awal komunikator
+
+| Unsur | Laporan/dugaan awal | Bukti | Tingkat kepastian |
+|---|---|---|---|
+| SWOT subjektif | **Strengths:** Punya logika pemecahan masalah yang kuat (*Investigative*) dan jiwa kepemimpinan serta empati alami (*Social*).<br>**Weaknesses:** Mudah lelah emosional kalau porsi tugas analitis dan interaksi sosial dipaksa jalan berbarengan dalam waktu lama.<br>**Opportunities:** Banyak ruang latihan langsung lewat peran Tutor Asrama, tugas kelompok kampus, dan kepanitiaan atau *project*.<br>**Threats:** Risiko *burnout* yang bisa bikin performa kodingan turun dan nada bicara ke orang lain jadi agak kaku. | U001 | Laporan diri |
+| Attitude | Tetap mau belajar rendah hati, sadar batas kemampuan, dan gak maksain diri keliatan sempurna di depan tim. | U001 | Laporan diri |
+| Knowledge | Paham logika pemrosesan tugas, tahu mana yang butuh *focus time* murni dan mana yang butuh energi sosial. | U001 | Laporan diri |
+| Skill | Cepat nangkep alur kerja teknis, tapi perlu diperdalam di teknik *time-boxing* dan komunikasi asertif pas lagi lelah. | U001 | Demonstrasi lisan |
+| Preferensi/MBTI | ENTJ (laporan diri/hipotesis) | U001 | Laporan diri |
+| Karakter, peran, kultur/ko-kultur | Mahasiswa STEI-K, Tutor Asrama ITB, Project Leader. | U001 | Laporan diri |
+
+## Dugaan awal profil target dan rencana
+
+**Diri mahasiswa sebagai target utama:** Peserta menyadari bahwa hambatan utama dalam pengembangan diri adalah terpecahnya energi antara kerja teknis dan interaksi sosial. Pesan kepada diri menekankan pentingnya komunikasi internal yang terstruktur dan penerapan *time-blocking*.
+
+**Budi sebagai pembanding (K1-02):** Tokoh fiktif berkarakter ISTJ yang mengutamakan prosedur baku, bukti empiris, takut standar turun, dan menolak perubahan jika alasannya belum teruji.
+
+| TAIDA | Status awal/target | Edukasi A/K/S | Repertoar dalam sesi | Bukti |
+|---|---|---|---|---|
+| Target | Mengembangkan manajemen energi dan regulasi emosi saat *context switching* | Tujuan dan perencanaan | Penjelasan gagasan dan penetapan target 14 hari | U001 |
+| Attention | Energi *drain* akibat tugas teknis dan sosial bersamaan | A: Mengakui batasan kapasitas emosional | Refleksi pemicu stres harian | U001, U002 |
+| Interest | Menilai *time-blocking* relevan menjaga fokus dan empati | A/K: Relevansi efisiensi tanpa multitasking | Menjelaskan konsep *pagar energi* ke Budi | U003 |
+| Desire | Berkeinginan kuat mereduksi *burnout* dan menjaga kualitas kepemimpinan | A: Motivasi internal dan kehematan emosi | Menerapkan *buffer time* dan komunikasi asertif | U001, U004 |
+| Action | Menyusun jadwal blok waktu dan aturan mitigasi tugas mendadak | S: Pengelolaan operasional harian | Jawaban langkah konkret penanganan tugas darurat | U004 |
+
+# C) Skrip Percakapan
+
+### AI001 — AI — A — Identifikasi
+> ZIP berhasil dibuka. Sesi 1 — Kasus 1 dimulai. Mohon konfirmasi nama, NIM (18225057), kelas, tanggal (14 Oktober 2026), dan modalitas (teks).
+
+### U001 — Peserta — A/B — Identifikasi dan Rencana
+> Tio Christian Doly Silitonga, 18225057, Kelas 01, 14 Oktober 2026, modalitas teks.
+>
+> **Fokus Kemampuan / Hambatan:** Manajemen energi dan regulasi emosi saat harus *switching* antara tugas teknis bertekanan tinggi (kodingan/hardware) dan tuntutan komunikasi sosial di hari yang sama.
+> **Konteks Nyata:** Sering ngerasa energi *drain* atau keteteran pas di hari yang sama harus memecahkan bug rumit/tubes STI, tapi malamnya harus langsung ngajar adek tingkat sebagai Tutor Asrama atau memimpin koordinasi tim.
+>
+> **Tujuan Tindakan Komunikasi:**
+> 1. Membangun komunikasi internal (*self-talk*) yang lebih terstruktur saat mengalami *mental block* atau kelelahan.
+> 2. Meningkatkan kemampuan asertif dalam menyampaikan batasan kapasitas diri ke anggota tim/adek bimbingan tanpa mengurangi kualitas kepemimpinan dan empati.
+>
+> **Dugaan Awal SWOT & ASK:**
+> * **Strengths (S):** Punya logika pemecahan masalah yang kuat (*Investigative*) dan jiwa kepemimpinan serta empati alami (*Social*).
+> * **Weaknesses (W):** Mudah lelah emosional kalau porsi tugas analitis dan interaksi sosial dipaksa jalan berbarengan dalam waktu lama.
+> * **Opportunities (O):** Banyak ruang latihan langsung lewat peran Tutor Asrama, tugas kelompok kampus, dan kepanitiaan/project.
+> * **Threats (T):** Risiko *burnout* yang bisa ngebuat performa kodingan turun dan nada bicara ke orang lain jadi agak kaku.
+> * **Attitude:** Tetep mau belajar rendah hati, sadar batas kemampuan, dan gak maksain diri keliatan sempurna di depan tim.
+> * **Knowledge:** Paham logika pemrosesan tugas (mana yang butuh *focus time* murni, mana yang butuh energi sosial).
+> * **Skill:** Cepat nangkep alur kerja teknis, tapi perlu diperdalam di teknik *time-boxing* dan komunikasi asertif pas lagi lelah.
+>
+> **Target Konkret 14 Hari:**
+> * **Hasil 1:** Berhasil menerapkan metode *Time-Blocking* harian (memisahkan blok jam khusus kodingan dan blok jam khusus urusan sosial/ngajar) selama 14 hari berturut-turut tanpa merasa *overwhelmed*.
+> * **Hasil 2:** Bikin satu template komunikasi asertif/jawaban tertulis buat nolak atau menunda permintaan diskusi dari orang lain secara sopan saat kapasitas energi lagi penuh.
+> * **Hasil 3:** Punya catatan refleksi harian singkat (3-5 menit tiap malam) buat memantau tingkat stres dan keberhasilan menjaga ritme kerja.
+
+### AI002 — AI — C — Pembanding Budi (K1-02)
+> Kita lanjutkan ke Tahap C: Simulasi Percakapan. Budi (K1-02) membuka dengan pertanyaan:
+> *"Cara sekarang sudah jelas. Mengapa harus berubah?"*
+
+### U002 — Peserta — C — Pembanding Budi
+> Paham sih , Bud. Kalau cara yang sekarang masih jalan dan efisien , emang wajar banget kita ngerasa gak perlu repot-repot berubah. Tapi kalau menurutku , tujuannya berubah itu bukan karena cara sekarang salah , melainkan buat ngantisipasi pas beban atau tantangannya makin berat nanti. Kalau menurutmu sendiri , cara yang sekarang masih ada celah atau hambatan kecil yang bikin lelah gak?
+
+### AI003 — AI — C — Pembanding Budi
+> *"Capek atau lelah itu kan risiko kerjaan biasa. Kalau diubah pakai time-blocking, takutnya malah tambah ribet karena harus ngurusin jadwal ketimbang ngerjain tugasnya. Memangnya ada bukti konkret kalau cara itu lebih cepat dan gak ganggu prosedur yang sudah ada?"*
+
+### U003 — Peserta — C — Pembanding Budi
+> wajar sih kalau mikirnya gitu , soalnya bikin jadwal baru emang keliatan nambah beban pikiran di awal. tapi sebenernya time blocking itu bukan buat ngebikin aturan yang kaku banget , melainkan cuma ngasih "pagar" biar energi ga ludes gara gara mikirin mau ngerjain apa dulu pas tugas lagi numpuk.
+>
+> soal bukti konkretnya , cara ini tuh terbukti bikin kerjaan jauh lebih cepat KARENA kita ga perlu ngelakuin multitasking atau bolak balik pindah fokus antar tugas. pas fokus kita ga terdistraksi , otak tuh ga gampang lelah dan kodingan atau tugas teknis justru bisa beres lebih cepet dari biasanya.
+>
+> jadi tenang aja , ini ga bakal ngerusak atau ngganggu prosedur yang udah ada kok. kita cuma nata ulang jam kerjanya aja , biar pas lagi deep work ga terdistraksi , dan pas lagi waktunya diskusi atau ngajar energi kita udah siap.
+
+### AI004 — AI — C — Pembanding Budi
+> *"Oalah, begitu... Jadi time-blocking ini tujuannya bukan merombak aturan main, tapi cuma bikin batas jam biar energi nggak habis buat mikir harus ngerjain apa dulu ya. Kalau penerapannya cuma nata jam dan tetep nempatin prosedur lama di bloknya masing-masing, oke sih, masuk akal. Terus kalau tiba-tiba ada tugas kuliah atau instruksi mendadak di tengah-tengah blok fokus kodingan, gimana caranya biar jadwal yang udah dibuat nggak berantakan?"*
+
+### U004 — Peserta — C — Pembanding Budi / Uji Ulang
+> kalau ada tugas atau instruksi mendadak di tengah blok fokus , kuncinya ada di "buffer time" atau alokasi waktu fleksibel yang sengaja disiapin tiap hari. pas ada hal darurat masuk , kita liat dulu sifatnya: kalau emang butuh penanganan detik itu juga , kita bisa pindah blok fokus kodingannya ke jam buffer tersebut tanpa ngerasa bersalah atau jadwal harian jadi hancur total.
+>
+> tapi kalau tugas mendadak itu sebenernya masih bisa ditunda 1-2 jam , cukup catat dulu di to-do list kecil , lalu lanjutin blok kodingan sampai selesai. dengan begitu , prosedur kerja lama tetep jalan , jadwal ga bakal berantakan , dan energi kita ga kaget gara gara buru buru pindah fokus secara mendadak.
+
+### AI005 — AI — G — Konfirmasi
+> Ringkasan tujuan, simulasi, dan rencana tindakan dikonfirmasi lengkap. Laporan siap dicetak.
+
+# D) Hasil, Evaluasi, dan Refleksi
+
+## Hasil tujuan dan perubahan SWOT/ASK
+
+| Unsur | Awal | Akhir | Bukti giliran | Jenis bukti dan batas |
+|---|---|---|---|---|
+| Kesimpulan SWOT | Merasa kelelahan emosional akibat *context switching* mendadak | Menemukan solusi lewat *time-blocking* dan penyediaan *buffer time* | U001, U004 | Laporan diri dan simulasi |
+| Attitude | Ingin memaksakan semua tugas selesai bersamaan | Sadar batasan kemampuan dan pentingnya alokasi waktu asertif | U001, U002 | Penegasan motivasi personal |
+| Knowledge | Memahami beban teknis dan sosial secara terpisah | Paham cara menggabungkan prosedur lama ke dalam blok waktu fleksibel | U001, U003 | Pemahaman operasional |
+| Skill | Kehilangan fokus saat interupsi mendadak | Mampu menyusun alur penanganan darurat berbasis *urgency sorting* | U001, U004 | Demonstrasi verbal uji ulang |
+
+## Evaluasi stimulus–respons dan diagnosis profil
+
+| Episode/ID | Estimasi status dan bukti | Stimulus mahasiswa | Respons | Perubahan ASK/SWOT | Adaptasi |
+|---|---|---|---|---|---|
+| U002 | Budi menolak perubahan (A) | Empati pada kenyamanan cara lama, bertanya celah | Budi mulai mempertimbangkan risiko kelelahan | A membaik, rasa aman naik | Mengarahkan ke manfaat kehematan energi |
+| U003 | Budi ragu efisiensi *time-blocking* (K) | Menggunakan analogi *pagar energi* dan penjelasan *no multitasking* | Budi paham bahwa prosedur lama tidak dirombak | K meningkat pesat | Menjelaskan mitigasi interupsi |
+| U004 | Budi menanyakan penanganan masalah mendadak (S) | Konsep *buffer time* dan triase *to-do list* | Budi menerima kerangka fleksibilitas | S/kesiapan beradaptasi tuntas | Menetapkan kerangka kerja harian |
+
+## Pengaruh pesan personal dan kualitas relasi
+
+| Episode/ID | Pesan personal/kepedulian | Respons yang teramati | Rasa aman, kepercayaan, keterbukaan | Dampak ASK/SWOT dan batas inferensi |
+|---|---|---|---|---|
+| U002 | Validasi bahwa merasa nyaman dengan cara lama adalah hal wajar | Budi menurunkan nada defensifnya | Awal: Sedang $\rightarrow$ Akhir: Tinggi | Budi mau membagikan kekhawatirannya soal kerumitan jadwal |
+| U003 | Menjamin bahwa cara baru tidak merusak prosedur kerja lama Budi | Budi menjadi lebih terbuka dan bertanya teknis | Awal: Sedang $\rightarrow$ Akhir: Tinggi | Budi bergeser dari menolak menjadi mencari cara penerapan |
+
+## Uji ulang dan pembelajaran
+
+* **Stimulus sejenis:** Penanganan interupsi atau instruksi mendadak di tengah jadwal fokus yang padat.
+* **Respons awal vs uji ulang:** Pada awal mula, peserta cenderung merasa tertekan dan keteteran saat dipaksa pindah fokus. Pada uji ulang, peserta dengan tenang menawarkan solusi *buffer time* dan klasifikasi urgensi tugas.
+* **Transfer dan keterbatasan:** Konsep *buffer time* sangat aplikatif untuk tugas akademik maupun organisasi, namun efektivitas pastinya memerlukan konsistensi eksekusi harian selama 14 hari di dunia nyata.
+
+## Penilaian enam dimensi
+
+| Dimensi | Skor 1–4/BT | ID dan kutipan bukti | Alasan |
+|---|---|---|---|
+| Tujuan dan konteks | BT | U001, U004 | Target 14 hari, time-blocking, dan buffer time dirumuskan sangat konkret |
+| Persepsi dan validasi profil/status | BT | U002, U003 | Peserta mampu membaca kecemasan Budi (ISTJ) dan memvalidasinya dulu |
+| Pemilihan dan urutan repertoar | BT | U002–U004 | Menggunakan urutan empati $\rightarrow$ penjelasan konsep $\rightarrow$ langkah taktis |
+| Eksekusi jelas, peduli dan konsisten | BT | U003, U004 | Bahasa lugas, menghargai prosedur lama, dan solutif |
+| Evaluasi dan adaptasi | BT | U004 | Mampu beradaptasi secara cepat saat diuji skenario tugas mendadak |
+| Refleksi dan lesson learned | BT | U001, U004 | Menyadari pentingnya menjaga energi internal dan batas asertif |
+
+*Catatan: Skor numerik ditandai BT (Belum dapat ditetapkan) untuk menunggu moderasi dosen.*
+
+## Refleksi dan lesson learned mahasiswa
+
+Pesan yang paling membantu dalam komunikasi adalah mengakui dan memvalidasi kenyamanan orang lain terlebih dahulu sebelum menawarkan metode baru. Dengan menjelaskan bahwa *time-blocking* berfungsi sebagai *pagar energi* tanpa merusak prosedur lama, resistensi Budi berkurang secara drastis. Bagi diri sendiri, pelajaran terbesarnya adalah disiplin menyediakan *buffer time* agar *context switching* antara tugas kodingan dan interaksi sosial tidak lagi menguras emosi.
+
+## Tindak lanjut dan batas bukti
+
+* Menerapkan jadwal *time-blocking* harian dan mengevaluasinya lewat jurnal refleksi 3 menit setiap malam.
+* Menyiapkan template balasan asertif tertulis untuk menunda diskusi tatap muka saat energi emosional sedang berada di titik terendah.
+* Batas bukti: Hasil simulasi dalam laporan ini merupakan demonstrasi kemampuan lisan dan konseptual, pembuktian ketahanan energi nyata memerlukan penilaian jangka panjang di lapangan.
+
+## Bobot dan nilai akhir UTS
+
+| Komponen | Bobot | Nilai komponen |
+|---|---:|---|
+| Makalah pra-UTS (`paper.qmd`) | 10% | Nilai dosen pada skala 0–100 |
+| Sesi 1 | 18% | Jumlah enam skor / 24 × 100 |
+| Sesi 2a | 18% | Jumlah enam skor / 24 × 100 |
+| Sesi 2b | 18% | Jumlah enam skor / 24 × 100 |
+| Sesi 3a | 18% | Jumlah enam skor / 24 × 100 |
+| Sesi 3b | 18% | Jumlah enam skor / 24 × 100 |
+| **Total** | **100%** | |
+
+**Nilai akhir UTS = 0,10 × M + 0,18 × (S1 + S2a + S2b + S3a + S3b)**, dengan seluruh nilai komponen pada skala 0–100. Bobot ini berlaku di dalam nilai UTS.
+
+Nilai sesi hanya dihitung jika keenam skor sah tersedia. BT berarti belum dapat ditetapkan, bukan nol; komponen yang belum tersedia atau belum dapat dinilai tidak dianggap nol dan bobotnya tidak dinormalisasi ulang. Nilai akhir ditulis **Belum dihitung** sampai nilai makalah dan kelima sesi tersedia.
+
+{{< include "../../includes/uts-penilaian.md" >}}
