@@ -1,0 +1,190 @@
+---
+title: "Laporan UTS KIPP 2026 — Versi 2.0"
+subtitle: "Sesi 2a — Kasus 2: Persahabatan dan Profesionalitas"
+author: "Tio Christian Doly Silitonga"
+date: "2026-10-14"
+lang: id
+format:
+  html:
+    toc: true
+execute:
+  eval: false
+---
+
+# A) Identitas
+
+| Elemen | Keterangan |
+|---|---|
+| Nama mahasiswa | Tio Christian Doly Silitonga |
+| NIM | 18225057 |
+| Kelas | 01 |
+| Tanggal pelaksanaan | 14 Oktober 2026 |
+| Nomor/judul kasus | Sesi 2a, urutan 2 dari 5, Kasus 2 — Persahabatan dan profesionalitas |
+| Target utama | Dimas (K2-04) |
+| Versi bank/paket | Bank 2.0, paket individual 2.0 |
+| Sumber penugasan | PENUGASAN.md dalam kasus_2a_18225057.zip |
+| Modalitas | Teks |
+| Konteks nyata/fiktif | Koordinasi penyelesaian tugas kelompok mendekati tenggat 48 jam bersifat nyata, interaksi dialog bersama Dimas bersifat simulasi fiktif. |
+| Nama laporan | hasil_2a_18225057.qmd |
+| Kelengkapan transkrip | Lengkap dari tahap identifikasi hingga uji ulang, refleksi, dan konfirmasi |
+
+# B) Kasus dan Tujuan
+
+## Kasus dan tujuan tindakan
+
+* **Brief kasus:** Tenggat tugas kelompok tinggal 48 jam lagi. Rekan dekat (Dimas) belum mengirim bagiannya dan merasa pembagian tugas tidak adil. Mahasiswa mengajak percakapan untuk menjaga hubungan persahabatan sekaligus menyepakati tanggung jawab agar tugas selesai tepat waktu.
+* **Tujuan komunikasi:** 
+  1. Menyamakan persepsi dan orientasi tim dengan menjelaskan bahwa sistem koordinasi dibuat untuk melindungi efisiensi kerja bersama tanpa membebani sebelah pihak.
+  2. Membangun komitmen bersama dengan merapikan kerangka acuan tugas dan menyepakati ulang pembagian porsi kerja secara adil.
+* **Indikator keberhasilan:** Dimas bersedia kembali aktif menyelesaikan bagian analisis data setelah kerangka acuan diperjelas dan beban kerja diseimbangkan.
+
+## Profil awal komunikator
+
+| Unsur | Laporan/dugaan awal | Bukti | Tingkat kepastian |
+|---|---|---|---|
+| SWOT subjektif | **Strengths:** Memiliki logika alur kerja teknis yang terstruktur serta kemampuan komunikasi yang empati dan jelas.<br>**Weaknesses:** Energi cepat habis apabila interaksi spontan masuk secara beruntun di tengah sesi fokus teknis.<br>**Opportunities:** Ruang diskusi terbuka untuk menciptakan standar pola kerja tim yang lebih efektif dan minim stres.<br>**Threats:** Resistensi awal dari rekan tim yang menganggap alokasi jadwal fleksibel justru menyulitkan koordinasi instan. | U001 | Laporan diri |
+| Attitude | Terbuka terhadap masukan, tidak defensif, dan tetap tenang dalam menjelaskan batasan kapasitas diri. | U001 | Laporan diri |
+| Knowledge | Memahami cara kerja *energy management*, *time-blocking*, dan pembagian prioritas tugas. | U001 | Laporan diri |
+| Skill | Mampu melakukan komunikasi asertif, pemecahan masalah secara terstruktur, dan penyusunan strategi fleksibilitas jadwal. | U001 | Demonstrasi lisan |
+| Preferensi/MBTI | ENTJ (laporan diri/hipotesis) | U001 | Laporan diri |
+| Karakter, peran, kultur/ko-kultur | Mahasiswa STEI-K, Project Leader, rekan kerja kelompok. | U001 | Laporan diri |
+
+## Dugaan awal profil target dan rencana
+
+**Dimas sebagai target (K2-04):** Berprofil fiktif INTJ yang bersikap skeptis terhadap klaim, mengutamakan otonomi, logika ringkas, dan menuntut kejelasan ukuran keberhasilan.
+
+| TAIDA | Status awal/target | Edukasi A/K/S | Repertoar dalam sesi | Bukti |
+|---|---|---|---|---|
+| Target | Menyepakati pembagian ulang tugas dan merampungkan pekerjaan dalam 48 jam | A (Fairness & Validasi) | Pendekatan empatik dan validasi beban kerja | U001, U002 |
+| Attention | Skeptis terhadap keadilan pembagian kerja sebelumnya | A (Validasi perasaan) | Mengakui kekurangan koordinasi awal tim | U002, U003 |
+| Interest | Membutuhkan kejelasan kerangka acuan dan *interface* data | K (Klarifikasi file & struktur) | Mengirim draf kerangka acuan dan merapikan porsi tugas | U003, U004 |
+| Desire | Menginginkan ruang kerja mandiri yang jelas tanpa beban timpang | S (Dukungan operasional) | Membantu penanganan kendala data korup | U004, U005 |
+| Action | Menuntaskan analisis data tepat sebelum tenggat 48 jam | A/K/S (Mitigasi krisis) | Berbagi tugas perbaikan file rusak | U005 |
+
+# C) Skrip Percakapan
+
+### AI001 — AI — A — Identifikasi
+> ZIP berhasil dibuka. Sesi 2a — Kasus 2 dimulai. Mohon konfirmasi nama, NIM (18225057), kelas, tanggal, dan modalitas.
+
+### U001 — Peserta — A/B — Identifikasi dan Rencana
+> Tio Christian Doly Silitonga, 18225057, Kelas 01, 14 Oktober 2026, modalitas teks.
+>
+> **Tujuan Komunikasi:** Menyamakan persepsi terkait sistem kerja tim dan membangun komitmen bersama untuk menyelesaikan tugas dalam tenggat 48 jam.
+> **Dugaan SWOT & ASK:** Kekuatan pada struktur logika dan empati, kelemahan pada manajemen energi interupsi, sikap terbuka dan asertif.
+> **Rencana Pendekatan:** Pendekatan empatik, validasi kekhawatiran Dimas, penjelasan manfaat nyata, serta tawaran solusi fleksibel berupa perbaikan kerangka acuan.
+
+### AI002 — AI — C — Simulasi Awal
+> Dimas (K2-04) membuka percakapan dengan nada kritis:
+> *"Apa bukti pendekatan ini lebih baik?"*
+
+### U002 — Peserta — C — Simulasi Awal
+> buktinya sederhana sih , pas kita ga pake time-blocking , fokus kita bakal terus kepecah tiap ada interupsi atau tugas mendadak yang masuk. akibatnya , energi habis cuma buat bolak balik switching fokus , kodingan malah makin lama beres , dan pas malam mau ngobrol atau ngajar pun kondisi otak udah terlanjur capek banget.
+> 
+> nah pas pendekatan ini dicoba , bedanya keliatan jelas di dua hal:
+> 1. eksekusi teknis jadi jauh lebih cepat: KARENA ada blok deep work yang dilindungi , tugas rumit bisa kelar tanpa hambatan terdistraksi.
+> 2. stres & kelelahan emosional berkurang: KARENA ada buffer time , instruksi mendadak tetep bisa ditangani tanpa ngerusak ritme kerja atau ngebikin jadwal harian hancur total.
+> 
+> jadi tujuannya bukan buat gaya gayaan sok sibuk , tapi murni biar hasil kerjaan teknis kita tetep maksimal dan energi buat koordinasi tim ga habis di tengah jalan.
+
+### AI003 — AI — C — Simulasi Awal
+> *"Logika untuk diri lu sendiri sih masuk akal. Tapi masalahnya di tugas kelompok kita ini, pembagian kerja kemarin itu nggak adil dan nggak sesuai kompetensi gua. Gua dikasih bagian analisis data tanpa kerangka acuan atau interface yang jelas dari kalian, makanya bagian gua belum kelar dan belum dikirim. Kalau pembagian tugasnya tetap timpang kayak gitu, ya percuma pakai sistem apa juga. Menurut lu gimana?"*
+
+### U003 — Peserta — C — Simulasi Awal
+> paham Dim, dan fair banget kalau lu ngerasa berat karena kerangka acuannya belum jelas dari kemarin. itu murni kekurangan di koordinasi awal tim kita.
+> 
+> solusinya simpel aja:
+> * habis ini langsung gua kirimin draf kerangka acuan dan format output analisis datanya biar lu ga bingung lagi.
+> * kita liat lagi load tugasnya, kalau porsi lu emang kematangan nanti sebagian gua tarik ke gua atau anggota lain biar seimbang.
+> * jadi lu fokus di bagian yang pas aja, sisanya biar disesuaiin lagi.
+
+### AI004 — AI — C — Simulasi Awal
+> *"Nah, kalau dari awal ada kejelasan kerangka acuan dan pembagian bebannya dirapikan, gua bisa langsung jalan tanpa buang waktu. Kirim drafnya sekarang, gua akan selesain analisis bagian gua sesuai tenggat. Thanks udah objektif, Tio."*
+
+### AI005 — AI — E — Uji Ulang
+> Dimas mengirim kendala teknis mendadak:
+> *"Tio, format data mentah dari sistem ternyata ada yang korup dan sebagian tabelnya nggak terbaca di kerangka yang lu kirim. Kalau gua harus perbaiki data mentahnya sendirian dari nol, estimasi waktu gua pasti lewat dari tenggat 48 jam. Menurut lu kita harus ambil langkah apa?"*
+
+### U004 — Peserta — E — Uji Ulang
+> aman Dim, santai aja. data korup di sistem emang bukan tanggung jawab lu buat benerin dari nol sendirian.
+> 
+> biar tenggat 48 jam kita tetep kekejar dan lu ga kebebanan, ini langkah cepatnya:
+> * pemisahan tugas: kirim ke gua file data mentah yang korup sama bagian tabel mana aja yang ga terbaca. bagian perbaikan data mentah itu bakal langsung gua ambil alih dan beresin sekarang.
+> * fokus ke data aman: lu lanjutin dulu analisis data buat bagian tabel yang udah bersih dan terbaca di kerangka acuan.
+> * begitu data yang korup udah gua clean dan rapikan, langsung gua lempar balik ke lu biar bisa lu gabungin. jadwal kita tetep aman dan lu ga usah buang waktu benerin file rusak.
+
+### AI006 — AI — G — Konfirmasi
+> Seluruh transkrip simulasi awal dan uji ulang berhasil dicatat. Laporan siap dikompilasi.
+
+# D) Hasil, Evaluasi, dan Refleksi
+
+## Hasil tujuan dan perubahan SWOT/ASK
+
+| Unsur | Awal | Akhir | Bukti giliran | Jenis bukti dan batas |
+|---|---|---|---|---|
+| Kesimpulan SWOT | Meragukan keadilan pembagian tugas dan hambatan teknis data | Beban kerja dirapikan, kendala data korup diambil alih bersama | U002, U004 | Laporan diri dan simulasi |
+| Attitude | Skeptis terhadap metode dan merasa diperlakukan tidak adil | Kooperatif, objektif, dan siap menyelesaikan bagian tugas | U002, U004 | Respons relasional target |
+| Knowledge | Batas tanggung jawab dan kerangka acuan tidak jelas | Paham spesifikasi *interface* dan pembagian porsi analisis | U003 | Klarifikasi informasi |
+| Skill | Terhambat oleh format file rusak dan minimnya panduan | Siap mengeksekusi analisis pada data yang bersih | U004 | Demonstrasi kesiapan kerja |
+
+## Evaluasi stimulus–respons dan diagnosis profil
+
+| Episode/ID | Estimasi status dan bukti | Stimulus mahasiswa | Respons | Perubahan ASK/SWOT | Adaptasi |
+|---|---|---|---|---|---|
+| U002 | Dimas skeptis terhadap efektivitas metode | Menjelaskan logika *deep work* dan *buffer time* | Dimas mengalihkan isu ke ketidakadilan tugas kelompok | A awal defensif | Beralih mendengarkan inti keluhan beban tugas |
+| U003 | Dimas merasa terbebani tanpa kerangka acuan (K/S) | Validasi perasaan, pengakuan kesalahan tim, janji kirim draf | Dimas melunak dan mengapresiasi objektivitas | A dan K membaik | Menawarkan pembagian ulang beban kerja |
+| U004 | Dimas menghadapi data korup mendekati tenggat (Uji Ulang) | Membagi tugas secara taktis (*take over* perbaikan file rusak) | Dimas menerima solusi pembagian dan melanjutkan analisis | S/kesiapan tuntas | Solusi operasional cepat |
+
+## Pengaruh pesan personal dan kualitas relasi
+
+| Episode/ID | Pesan personal/bantuan konkret | Respons teramati | Rasa aman, kepercayaan, keterbukaan | Dampak ASK/SWOT dan batas inferensi |
+|---|---|---|---|---|
+| U003 | Mengakui kekurangan tim secara terbuka tanpa menyalahkan Dimas | Dimas merespons dengan terima kasih atas sikap objektif | Awal: Rendah $\rightarrow$ Akhir: Tinggi | Kepercayaan meningkat, Dimas bersedia langsung bekerja |
+| U004 | Mengambil alih perbaikan data korup agar Dimas tidak kerja sendirian | Dimas menerima pembagian tugas dengan tenang | Awal: Sedang $\rightarrow$ Akhir: Tinggi | Ketegangan tenggat 48 jam mereda lewat kolaborasi nyata |
+
+## Uji ulang dan pembelajaran
+
+* **Kendala baru:** Format data mentah korup dan tabel tidak terbaca yang mengancam tenggat 48 jam.
+* **Respons awal vs uji ulang:** Tanpa persiapan, respons reaktif mungkin menyalahkan rekan. Lewat uji ulang, peserta langsung menawarkan pemisahan tugas (*take over* pembersihan data) agar beban terbagi adil.
+* **Transfer dan keterbatasan:** Pendekatan pembagian beban kerja berbasis empati sangat efektif meredakan ketegangan tim, namun keberhasilan operasional tetap bergantung pada eksekusi teknis di luar sesi.
+
+## Penilaian enam dimensi
+
+| Dimensi | Skor 1–4/BT | ID dan kutipan bukti | Alasan |
+|---|---|---|---|
+| Tujuan dan konteks | BT | U003, U004 | Kesepakatan tenggat 48 jam dan pembagian tugas dirumuskan jelas |
+| Persepsi dan validasi profil/status | BT | U003 | Peserta mampu memvalidasi rasa frustrasi Dimas (INTJ) tanpa defensif |
+| Pemilihan dan urutan repertoar | BT | U003, U004 | Urutan validasi $\rightarrow$ perbaikan kerangka $\rightarrow$ penanganan krisis teknis |
+| Eksekusi jelas, peduli dan konsisten | BT | U004 | Peserta konsisten membantu lewat tindakan nyata (*take over* data rusak) |
+| Evaluasi dan adaptasi | BT | U004 | Beradaptasi cepat terhadap kendala data korup pada tahap uji ulang |
+| Refleksi dan lesson learned | BT | U003, U004 | Menyadari pentingnya kejelasan kerangka acuan dan pembagian adil |
+
+*Catatan: Skor numerik ditandai BT (Belum dapat ditetapkan) untuk menunggu moderasi dosen.*
+
+## Refleksi dan lesson learned mahasiswa
+
+Pesan yang paling membantu dalam menjaga kepercayaan adalah mengakui kekurangan koordinasi secara transparan alih-alih mendebat keluhan rekan kerja. Ketika Dimas merasa otonomi dan beban kerjanya dihormati lewat kejelasan kerangka acuan serta bantuan teknis, resistensinya hilang. Pelajaran utamanya adalah kepemimpinan yang efektif menuntut kepekaan terhadap hambatan operasional tim, bukan sekadar menagih hasil akhir.
+
+## Tindak lanjut dan batas bukti
+
+* Mengirimkan draf kerangka acuan dan format output analisis data.
+* Mengambil alih pembersihan file data mentah yang korup malam ini juga.
+* Melakukan sinkronisasi progres berkala menjelang batas waktu 48 jam.
+* Batas bukti: Interaksi tercatat dalam bentuk transkrip teks simulasi, pelaksanaan nyata di lapangan bergantung pada komitmen kolaboratif tim.
+
+## Bobot dan nilai akhir UTS
+
+| Komponen | Bobot | Nilai komponen |
+|---|---:|---|
+| Makalah pra-UTS (`paper.qmd`) | 10% | Nilai dosen pada skala 0–100 |
+| Sesi 1 | 18% | Jumlah enam skor / 24 × 100 |
+| Sesi 2a | 18% | Jumlah enam skor / 24 × 100 |
+| Sesi 2b | 18% | Jumlah enam skor / 24 × 100 |
+| Sesi 3a | 18% | Jumlah enam skor / 24 × 100 |
+| Sesi 3b | 18% | Jumlah enam skor / 24 × 100 |
+| **Total** | **100%** | |
+
+**Nilai akhir UTS = 0,10 × M + 0,18 × (S1 + S2a + S2b + S3a + S3b)**, dengan seluruh nilai komponen pada skala 0–100. Bobot ini berlaku di dalam nilai UTS.
+
+Nilai sesi hanya dihitung jika keenam skor sah tersedia. BT berarti belum dapat ditetapkan, bukan nol; komponen yang belum tersedia atau belum dapat dinilai tidak dianggap nol dan bobotnya tidak dinormalisasi ulang. Nilai akhir ditulis **Belum dihitung** sampai nilai makalah dan kelima sesi tersedia.
+
+{{< include "../../includes/uts-penilaian.md" >}}
