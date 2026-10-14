@@ -1,0 +1,189 @@
+---
+title: "Laporan UTS KIPP 2026 — Versi 2.0"
+subtitle: "Sesi 3a — Kasus 3: Menawarkan Solusi TI dan AI"
+author: "Tio Christian Doly Silitonga"
+date: "2026-10-14"
+lang: id
+format:
+  html:
+    toc: true
+execute:
+  eval: false
+---
+
+# A) Identitas
+
+| Elemen | Keterangan |
+|---|---|
+| Nama mahasiswa | Tio Christian Doly Silitonga |
+| NIM | 18225057 |
+| Kelas | 01 |
+| Tanggal pelaksanaan | 14 Oktober 2026 |
+| Nomor/judul kasus | Sesi 3a, urutan 4 dari 5, Kasus 3 — Menawarkan solusi TI dan AI |
+| Target utama | Cyntia (K3-03)[cite: 11] |
+| Versi bank/paket | Bank 2.0, paket individual 2.0 |
+| Sumber penugasan | PENUGASAN.md dalam kasus_3a_18225057.zip |
+| Modalitas | Teks |
+| Konteks nyata/fiktif | Penawaran solusi otomatisasi bisnis pada pengelola usaha bersifat nyata, interaksi dialog bersama Cyntia bersifat simulasi fiktif. |
+| Nama laporan | hasil_3a_18225057.qmd[cite: 10] |
+| Kelengkapan transkrip | Lengkap dari tahap identifikasi hingga uji ulang, refleksi, dan konfirmasi |
+
+# B) Kasus dan Tujuan
+
+## Kasus dan tujuan tindakan
+
+* **Brief kasus:** Pengelola usaha (Cyntia) menangani pertanyaan pelanggan berulang dan pesanan tercecer dengan tenaga terbatas, serta belum yakin memerlukan AI[cite: 12]. Mahasiswa bertugas menggali kebutuhan, menawarkan solusi TI/AI yang sesuai, dan menyepakati uji coba konkret.
+* **Tujuan komunikasi:** 
+  1. Menggali kebutuhan operasional dan memvalidasi masalah secara objektif.
+  2. Menawarkan solusi *pilot project* skala kecil (chatbot FAQ) yang tidak membebani waktu.
+  3. Menjaga komitmen dan mencegah pelebaran ruang lingkup (*scope creep*) dengan menetapkan *PIC* dan *milestone* 1 minggu.
+* **Indikator keberhasilan:** Cyntia menyetujui uji coba *chatbot* skala kecil, bersedia menyediakan data 5 pertanyaan utama, dan mampu menjaga fokus saat dihadapkan pada ide penambahan fitur baru.
+
+## Profil awal komunikator
+
+| Unsur | Laporan/dugaan awal | Bukti | Tingkat kepastian |
+|---|---|---|---|
+| SWOT subjektif | **Strengths:** Kuat di analitis teknis perancangan alur sistem TI/AI yang efisien.<br>**Weaknesses:** Risiko penjelasan terlalu teknis yang membuat komunikan kewalahan.<br>**Opportunities:** Karakter Cyntia yang antusias terhadap inovasi memudahkan adopsi teknologi baru.<br>**Threats:** Risiko proyek mangkrak akibat komitmen tersebar dan mudah terdistraksi ide lain. | U001 | Laporan diri |
+| Attitude | Antusias, solutif, namun tetap tegas menjaga prioritas dan batasan proyek. | U001 | Laporan diri |
+| Knowledge | Paham integrasi otomatisasi pesan, pemrosesan order, dan manajemen proyek skala kecil. | U001 | Laporan diri |
+| Skill | Komunikasi persuasif, penyusunan *roadmap* ringkas, serta penetapan *PIC* dan *milestone*. | U001 | Demonstrasi lisan |
+| Preferensi/MBTI | ENTJ (laporan diri/hipotesis) | U001 | Laporan diri |
+| Karakter, peran, kultur/ko-kultur | Mahasiswa STEI-K, Project Lead / Konsultan Teknologi. | U001 | Laporan diri |
+
+## Dugaan awal profil target dan rencana
+
+**Cyntia sebagai target (K3-03):** Berprofil fiktif ENFP yang kreatif, antusias, namun komitmennya mudah tersebar, membutuhkan ruang lingkup uji coba (*pilot*), serta penanggung jawab yang jelas.
+
+| TAIDA | Status awal/target | Edukasi A/K/S | Repertoar dalam sesi | Bukti |
+|---|---|---|---|---|
+| Target | Menyetujui uji coba otomatisasi FAQ skala kecil | A (Validasi kesibukan) | Pendekatan energi positif dan solusi ringkas | U001, U002 |
+| Attention | Tertarik namun ragu karena sibuk dan takut mangkrak | A (Eliminasi keraguan) | Menawarkan format *pilot project* tanpa beban operasional harian | U002, U003 |
+| Interest | Membutuhkan kejelasan bentuk praktis dan tanggung jawab | K (Struktur PIC & milestone) | Menetapkan *PIC* teknis dan batasan 5 pertanyaan | U003, U004 |
+| Desire | Berkeinginan mencoba sistem tanpa mengganggu rutinitas | S (Dukungan penuh) | Menjamin alur kerja yang sangat singkat (*checklist* 10 menit) | U004, U005 |
+| Action | Mengirim data uji coba dan menjaga fokus (*scope control*) | A/K/S (Pengendalian proyek) | Mengarahkan penambahan fitur ke Tahap 2 agar terhindar dari *scope creep* | U005, U006 |
+
+# C) Skrip Percakapan
+
+### AI001 — AI — A — Identifikasi
+> ZIP berhasil dibuka. Sesi 3a — Kasus 3 dimulai. Mohon konfirmasi nama, NIM (18225057), kelas, tanggal, dan modalitas.
+
+### U001 — Peserta — A/B — Identifikasi dan Rencana
+> Tio Christian Doly Silitonga, 18225057, Kelas 01, 14 Oktober 2026, modalitas teks.
+>
+> **Tujuan Komunikasi:** Menggali kebutuhan operasional Cyntia, menawarkan solusi uji coba chatbot FAQ skala kecil (*pilot project*), serta menetapkan *PIC* dan *milestone* agar proyek tidak mangkrak.
+> **Dugaan SWOT & ASK:** Kekuatan pada perancangan sistem dan komunikasi persuasif, kelemahan pada potensi penjelasan terlalu teknis.
+> **Rencana Pendekatan:** Menyamakan energi positif, menyederhanakan konsep TI/AI, dan menawarkan proyek percontohan bertahap.
+
+### AI002 — AI — C — Simulasi Awal
+> Cyntia (K3-03) membuka percakapan dengan antusias namun menyela kesibukannya:
+> *"Menarik! Tapi minggu ini banyak hal yang harus saya kerjakan."*
+
+### U002 — Peserta — C — Simulasi Awal
+> Paham banget kok, Mbak Cyntia. Bisnis lagi rame-ramenya emang pasti bikin hectic banget. Nah, justru karena waktu Mbak terbatas, kita gak bakal bikin proyek yang ribet atau malah nambah beban pikiran Mbak.
+> Solusinya simpel banget: kita bikin uji coba skala kecil dulu aja, khusus buat nanganin pertanyaan pelanggan yang itu-itu aja/paling sering diulang.
+> Jadi Mbak gak perlu ngerombak semua sistem operasional yang ada sekarang. Kita tes dulu di satu bagian kecil ini, biar Mbak bisa langsung ngerasain gimana hematnya waktu Mbak nanti, tanpa ganggu kesibukan minggu ini sama sekali
+
+### AI003 — AI — C — Simulasi Awal
+> *"Ide uji coba kecil itu kedengarannya seru sih, Tio! Tapi masalahnya, jujur aja aku gampang banget ke-distract sama urusan operasional lain tiap hari, jadi takutnya proyek AI ini malah mangkrak di tengah jalan karena gak ada yang konsisten ngurusin. Kalau mau lanjut, kira-kira bentuk praktisnya kayak gimana ya?"*
+
+### U003 — Peserta — C — Simulasi Awal
+> Wajar banget sih Mbak kalau khawatir soal itu, tapi tenang aja. Justru di pilot project ini Mbak gak perlu ikut pusing mikirin teknis operasionalnya tiap hari.
+> Biar proyeknya gak mandek dan bisa jalan otomatis, alurnya sengaja kita pangkas biar praktis banget:
+> 1. **PIC Jelas (Penanggung Jawab Utama):** Gua yang bakal jadi PIC teknisnya dari awal sampai akhir. Mbak Cyntia tinggal kasih masukan aja di awal, sisanya buat setup sama maintenance sistem bakal gua yang pegang penuh.
+> 2. **Lingkup Uji Coba Ringkas:** Kita cuma fokus di 1 hal yang paling krusial dulu, yaitu otomatisasi jawaban buat 5 pertanyaan pelanggan yang paling sering ditanyain (misalnya: pricelist, cara order, sama stok).
+> 3. **Milestone 1 Minggu:**
+>    * Hari 1-2: Mbak cukup kirim list 5 pertanyaan & jawaban dasar itu ke gua (paling cuma butuh waktu 10 menit aja kok).
+>    * Hari 3-5: Bagian gua yang bikin dan testing sistem otomatisnya.
+>    * Hari 6-7: Kita langsung launching uji cobanya terus evaluasi bareng hasilnya gimana.
+> Jadi dengan alur kayak gini, Mbak tetep bisa fokus sama operasional harian, proyek AI-nya tetep jalan rapi, dan kita udah bisa lihat hasilnya dalam seminggu.
+
+### AI004 — AI — C — Simulasi Awal
+> *"Wah, kalau detail pembagian tugasnya jelas kayak gini—ada PIC teknis dari kamu, ruang lingkupnya cuma 5 pertanyaan utama, dan evaluasinya cukup seminggu—aku jadi jauh lebih tenang dan semangat mau coba! Oke, Tio, aku siap kirim list 5 pertanyaan itu hari ini juga. Langkah selanjutnya apa yang harus aku siapin lagi?"*
+
+### AI005 — AI — E — Uji Ulang
+> Beberapa hari kemudian, Cyntia mengusulkan penambahan fitur baru di tengah jalan:
+> *"Tio, seru banget sih chatbot FAQ-nya kemarin! Tapi gara-gara itu, stafku malah jadi kepikiran nambah fitur baru buat otomatisasi rekap pesanan WhatsApp yang sering tercecer juga sekalian. Menurutmu kita langsung gas tambah fitur itu sekarang barengan, atau gimana?"*
+
+### U005 — Peserta — E — Uji Ulang
+> Keren banget, Mbak Cyntia! Mantap kalau chatbot FAQ kemarin udah langsung kerasa efeknya. Antusiasme staf Mbak juga bagus banget nih, langsung bisa ngeliat peluang buat efisiensi di bagian rekap pesanan.
+> Biar fitur baru ini kinerjanya tetep maksimal dan gak bikin fokus pilot project kita yang sekarang jadi buyar (biar gak scope creep), ini langkah paling aman yang bisa kita ambil:
+> 1. **Selesain & Stabilin Fitur FAQ:** Kita kelarin dulu siklus evaluasi seminggu buat chatbot FAQ ini, sampai datanya bener-bener stabil dan tim Mbak udah terbiasa 100%.
+> 2. **Catat Ide Otomatisasi Rekap Pesanan:** Ide rekap pesanan WhatsApp ini tetep kita tampung kok, langsung kita masukin ke daftar Upgrade Tahap 2.
+> 3. **Eksekusi Bertahap:** Begitu evaluasi FAQ kelar minggu ini, kita langsung gas bikin rancangan pilot project kedua khusus buat otomatisasi rekap pesanan itu.
+> Dengan cara bertahap gini, sistem yang udah jalan gak bakal keganggu, dan fitur baru rekap pesanan nanti bisa kita garap dengan persiapan yang jauh lebih matang!
+
+### AI006 — AI — G — Konfirmasi
+> Seluruh transkrip simulasi awal dan uji ulang berhasil dicatat. Laporan siap dikompilasi.
+
+# D) Hasil, Evaluasi, dan Refleksi
+
+## Hasil tujuan dan perubahan SWOT/ASK
+
+| Unsur | Awal | Akhir | Bukti giliran | Jenis bukti dan batas |
+|---|---|---|---|---|
+| Kesimpulan SWOT | Antusias namun khawatir proyek mangkrak dan ruang lingkup melebar | Pilot project berjalan terstruktur, PIC jelas, dan ekspansi fitur terkontrol | U003, U005 | Laporan diri dan simulasi |
+| Attitude | Ragu mendelegasikan waktu karena kesibukan harian | Termotivasi, disiplin menjaga tahapan, dan kooperatif | U004, U005 | Respons relasional target |
+| Knowledge | Belum memahami implementasi praktis teknologi AI di usahanya | Paham konsep pilot project, milestone 1 minggu, dan pembagian PIC | U003 | Klarifikasi informasi |
+| Skill | Belum memiliki mekanisme penyaringan ide operasional | Mampu menjaga fokus proyek dan mengarahkan ekspansi ke tahap lanjutan | U005 | Demonstrasi kesiapan kerja |
+
+## Evaluasi stimulus–respons dan diagnosis profil
+
+| Episode/ID | Estimasi status dan bukti | Stimulus mahasiswa | Respons | Perubahan ASK/SWOT | Adaptasi |
+|---|---|---|---|---|---|
+| U002 | Cyntia merasa terlalu sibuk minggu ini (A) | Validasi kesibukan + penawaran uji coba skala kecil tanpa beban | Cyntia tertarik namun khawatir proyek mangkrak | A membaik, minat awal naik | Menawarkan kejelasan operasional |
+| U003 | Cyntia takut proyek mangkrak tanpa PIC (S) | Penetapan PIC teknis + batasan 5 pertanyaan + milestone 1 minggu | Cyntia merasa tenang dan siap mengeksekusi | S meningkat pesat | Struktur proyek transparan |
+| U005 | Cyntia ingin langsung menambah fitur rekap pesanan (Uji Ulang) | Apresiasi antusiasme + batasan bertahap (masuk Tahap 2 agar terhindar dari *scope creep*) | Cyntia menerima pengaturan bertahap dengan antusias | Kesiapan menjaga batas tuntas | Manajemen ruang lingkup (*scope control*) |
+
+## Pengaruh pesan personal dan kualitas relasi
+
+| Episode/ID | Pesan personal/bantuan konkret | Respons teramati | Rasa aman, kepercayaan, keterbukaan | Dampak ASK/SWOT dan batas inferensi |
+|---|---|---|---|---|
+| U003 | Mengambil alih penanganan teknis (*maintenance*) agar Cyntia tidak pusing | Cyntia merasa sangat terbantu dan bersemangat mencoba | Awal: Rendah $\rightarrow$ Akhir: Tinggi | Kepercayaan terhadap solusi TI meningkat drastis |
+| U005 | Memuji kontribusi staf dan menampung ide baru secara terhormat | Cyntia menerima penundaan fitur tanpa merasa ditolak atau dikecilkan | Awal: Sedang $\rightarrow$ Akhir: Tinggi | Hubungan profesional terjaga tanpa mengorbankan fokus proyek |
+
+## Uji ulang dan pembelajaran
+
+* **Kendala baru:** Keinginan komunikan untuk langsung menambah fitur otomatisasi rekap pesanan di tengah jalan (*scope creep*).
+* **Respons awal vs uji ulang:** Respons reaktif berisiko menuruti semua permintaan yang berujung proyek gagal selesai. Lewat uji ulang, peserta mengapresiasi ide tersebut namun mengarahkan eksekusinya secara bertahap ke Tahap 2.
+* **Transfer dan keterbatasan:** Pendekatan *pilot project* dan manajemen *milestone* sangat efektif untuk klien yang antusias namun mudah terdistraksi, namun eksekusi teknis aslinya tetap menuntut komitmen operasional di lapangan.
+
+## Penilaian enam dimensi
+
+| Dimensi | Skor 1–4/BT | ID dan kutipan bukti | Alasan |
+|---|---|---|---|
+| Tujuan dan konteks | BT | U003, U005 | Penawaran solusi TI, pilot project, dan batasan ruang lingkup terarah rapi |
+| Persepsi dan validasi profil/status | BT | U002, U003 | Akurat membaca karakteristik ENFP yang antusias namun butuh kejelasan PIC |
+| Pemilihan dan urutan repertoar | BT | U003, U005 | Urutan validasi $\rightarrow$ struktur milestone $\rightarrow$ kontrol scope berjalan runtut |
+| Eksekusi jelas, peduli dan konsisten | BT | U003, U005 | Komunikasi ramah, suportif, namun tegas menjaga batas proyek |
+| Evaluasi dan adaptasi | BT | U005 | Cepat beradaptasi saat klien meminta penambahan fitur di tengah jalan |
+| Refleksi dan lesson learned | BT | U003, U005 | Menyadari pentingnya manajemen scope agar inovasi tidak mangkrak |
+
+*Catatan: Skor numerik ditandai BT (Belum dapat ditetapkan) untuk menunggu moderasi dosen.*
+
+## Refleksi dan lesson learned mahasiswa
+
+Pesan yang paling membantu dalam menawarkan solusi TI kepada komunikan yang kreatif adalah menyederhanakan kompleksitas teknologi menjadi bentuk uji coba kecil (*pilot project*) yang dilengkapi penanggung jawab yang jelas. Ketika Cyntia diyakinkan bahwa aspek teknis dipegang oleh PIC dan ruang lingkupnya dibatasi 5 pertanyaan utama, ketakutannya akan proyek mangkrak sirna. Pelajaran utamanya adalah inovasi digital menuntut disiplin manajemen ruang lingkup agar antusiasme klien tidak berubah menjadi beban operasional yang tak terkendali.
+
+## Tindak lanjut dan batas bukti
+
+* Menerima daftar 5 pertanyaan utama dari Cyntia untuk disiapkan dalam *chatbot* uji coba.
+* Menjalankan evaluasi berkala pada akhir minggu pertama peluncuran pilot project.
+* Batas bukti: Seluruh interaksi tercatat melalui simulasi teks, implementasi nyata di dunia usaha membutuhkan validasi teknis dan operasional secara langsung.
+
+## Bobot dan nilai akhir UTS
+
+| Komponen | Bobot | Nilai komponen |
+|---|---:|---|
+| Makalah pra-UTS (`paper.qmd`) | 10% | Nilai dosen pada skala 0–100 |
+| Sesi 1 | 18% | Jumlah enam skor / 24 × 100 |
+| Sesi 2a | 18% | Jumlah enam skor / 24 × 100 |
+| Sesi 2b | 18% | Jumlah enam skor / 24 × 100 |
+| Sesi 3a | 18% | Jumlah enam skor / 24 × 100 |
+| Sesi 3b | 18% | Jumlah enam skor / 24 × 100 |
+| **Total** | **100%** | |
+
+**Nilai akhir UTS = 0,10 × M + 0,18 × (S1 + S2a + S2b + S3a + S3b)**, dengan seluruh nilai komponen pada skala 0–100. Bobot ini berlaku di dalam nilai UTS.
+
+Nilai sesi hanya dihitung jika keenam skor sah tersedia. BT berarti belum dapat ditetapkan, bukan nol; komponen yang belum tersedia atau belum dapat dinilai tidak dianggap nol dan bobotnya tidak dinormalisasi ulang. Nilai akhir ditulis **Belum dihitung** sampai nilai makalah dan kelima sesi tersedia.
+
+{{< include "../../includes/uts-penilaian.md" >}}
