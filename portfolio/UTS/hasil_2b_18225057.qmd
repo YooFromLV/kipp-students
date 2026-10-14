@@ -1,0 +1,185 @@
+---
+title: "Laporan UTS KIPP 2026 — Versi 2.0"
+subtitle: "Sesi 2b — Kasus 2: Persahabatan dan Profesionalitas"
+author: "Tio Christian Doly Silitonga"
+date: "2026-10-14"
+lang: id
+format:
+  html:
+    toc: true
+execute:
+  eval: false
+---
+
+# A) Identitas
+
+| Elemen | Keterangan |
+|---|---|
+| Nama mahasiswa | Tio Christian Doly Silitonga |
+| NIM | 18225057 |
+| Kelas | 01 |
+| Tanggal pelaksanaan | 14 Oktober 2026 |
+| Nomor/judul kasus | Sesi 2b, urutan 3 dari 5, Kasus 2 — Persahabatan dan profesionalitas |
+| Target utama | Ali (K2-01) |
+| Versi bank/paket | Bank 2.0, paket individual 2.0 |
+| Sumber penugasan | PENUGASAN.md dalam kasus_2b_18225057.zip |
+| Modalitas | Teks |
+| Konteks nyata/fiktif | Penanganan kendala psikologis rekan tim menjelang tenggat 48 jam bersifat nyata, interaksi dialog bersama Ali bersifat simulasi fiktif. |
+| Nama laporan | hasil_2b_18225057.qmd |
+| Kelengkapan transkrip | Lengkap dari tahap identifikasi hingga uji ulang, refleksi, dan konfirmasi |
+
+# B) Kasus dan Tujuan
+
+## Kasus dan tujuan tindakan
+
+* **Brief kasus:** Tenggat tugas kelompok tinggal 48 jam lagi. Rekan dekat (Ali) belum mengirim bagiannya, merasa pembagian tugas tidak adil, serta mengalami kecemasan dan ketakutan gagal. Mahasiswa mengajak percakapan untuk meredakan kecemasan, memberikan panduan bertahap (*scaffolding*), dan menyepakati penyelesaian tugas bersama.
+* **Tujuan komunikasi:** 
+  1. Membangun koneksi dan rasa aman dengan memvalidasi kecemasan Ali tanpa penghakiman.
+  2. Menyediakan kejelasan prosedur melalui pemecahan tugas besar menjadi langkah kecil yang konkret (*micro-steps*).
+  3. Menjaga komitmen kelompok agar tugas selesai tepat waktu tanpa merusak hubungan persahabatan.
+* **Indikator keberhasilan:** Ali merasa didukung, bersedia mulai menulis progres awal, dan mampu memperbaiki kesalahan interpretasi data berkat pendampingan suportif.
+
+## Profil awal komunikator
+
+| Unsur | Laporan/dugaan awal | Bukti | Tingkat kepastian |
+|---|---|---|---|
+| SWOT subjektif | **Strengths:** Hubungan persahabatan yang dekat memudahkan terciptanya empati dan rasa saling percaya.<br>**Weaknesses:** Risiko rasa sungkan (*ewuh pakewuh*) yang bisa menghambat ketegasan batas waktu.<br>**Opportunities:** Karakter Ali yang menjaga harmoni membuat intervensi berbasis panduan bertahap sangat efektif.<br>**Threats:** Kecemasan berlebihan bisa memicu kelumpuhan analisis (*paralysis by analysis*). | U001 | Laporan diri |
+| Attitude | Empatis, sabar, tidak menghakimi, namun tetap konsisten pada target bersama. | U001 | Laporan diri |
+| Knowledge | Memahami profil psikologis Ali yang membutuhkan pengakuan emosional dan struktur tugas yang jelas. | U001 | Laporan diri |
+| Skill | Komunikasi asertif yang ramah (*supportive assertion*), teknik pemecahan tugas (*task-chunking*), dan manajemen stres. | U001 | Demonstrasi lisan |
+| Preferensi/MBTI | ENTJ (laporan diri/hipotesis) | U001 | Laporan diri |
+| Karakter, peran, kultur/ko-kultur | Mahasiswa STEI-K, Project Leader, rekan kerja kelompok. | U001 | Laporan diri |
+
+## Dugaan awal profil target dan rencana
+
+**Ali sebagai target (K2-01):** Berprofil fiktif INFP yang menjaga harmoni, berhati-hati, cemas akan kegagalan, dan memerlukan pengakuan keraguan serta bimbingan langkah kecil.
+
+| TAIDA | Status awal/target | Edukasi A/K/S | Repertoar dalam sesi | Bukti |
+|---|---|---|---|---|
+| Target | Mengatasi kecemasan dan merampungkan bagian analisis data | A (Validasi emosi) | Pendekatan ramah dan validasi keraguan | U001, U002 |
+| Attention | Ragu dan takut salah dalam menarik kesimpulan data | A (Peredaan beban) | Meyakinkan bahwa draf awal tidak harus sempurna | U002, U003 |
+| Interest | Membutuhkan kejelasan titik awal pengerjaan | K (Scaffolding/langkah kecil) | Memecah tugas menjadi 2 poin data sederhana | U003, U004 |
+| Desire | Berkeinginan menyelesaikan tugas tanpa merepotkan tim | S (Dukungan validasi) | Menyediakan pemeriksaan bersama secara berkala | U004, U005 |
+| Action | Menyelesaikan catatan awal dan merevisi kesalahan kolom data | A/K/S (Koreksi suportif) | Memberikan penguatan positif dan instruksi revisi praktis | U005 |
+
+# C) Skrip Percakapan
+
+### AI001 — AI — A — Identifikasi
+> ZIP berhasil dibuka. Sesi 2b — Kasus 2 dimulai. Mohon konfirmasi nama, NIM (18225057), kelas, tanggal, dan modalitas.
+
+### U001 — Peserta — A/B — Identifikasi dan Rencana
+> Tio Christian Doly Silitonga, 18225057, Kelas 01, 14 Oktober 2026, modalitas teks.
+>
+> **Tujuan Komunikasi:** Membangun rasa aman, meredakan kecemasan Ali, serta memecah tugas analisis data menjadi langkah kecil (*micro-steps*) agar selesai dalam tenggat 48 jam.
+> **Dugaan SWOT & ASK:** Kekuatan pada empati dan kedekatan relasional, kelemahan pada potensi rasa sungkan, serta penguasaan teknik *supportive assertion*.
+> **Rencana Pendekatan:** Validasi emosi, eliminasi ketakutan gagal, dan pendampingan *scaffolding* bertahap.
+
+### AI002 — AI — C — Simulasi Awal
+> Ali (K2-01) membuka percakapan dengan nada cemas:
+> *"Terima kasih, tetapi saya belum yakin bisa melakukannya."*[cite: 13]
+
+### U002 — Peserta — C — Simulasi Awal
+> santai aja, Li. lu ga usah ngerasa harus langsung bikin draf yang sempurna seratus persen kok. wajar banget kalau lu merasa cemas atau ragu pas megang bagian ini , apalagi dengan tenggat waktu yang tinggal 48 jam lagi.
+> kita kan tim , dan lu ga bakal ngerjain ini sendirian dari nol. bagian yang rumit bakal kita pecah jadi langkah-langkah kecil yang jauh lebih simpel. yang penting sekarang , kita bikin dulu kerangka paling dasarnya , ga perlu takut salah atau kurang bagus.
+> kira kira di bagian mana yang paling bikin lu ragu atau bingung buat mulainya ? biar kita bedah bareng sekarang.
+
+### AI003 — AI — C — Simulasi Awal
+> *"Iya, makasih ya, Tio... Sebenarnya yang bikin aku paling ragu itu di bagian analisis data yang harus dihubungin ke format laporan tim kita. Aku udah coba baca berulang kali, tapi takut salah narik kesimpulan, terus malah bikin kerjaan kalian jadi berantakan. Kalau boleh jujur, aku bingung harus mulai dari poin data mana dulu supaya nggak salah langkah."*[cite: 13]
+
+### U003 — Peserta — C — Simulasi Awal
+> santai, Li, ketakutan lu itu wajar banget, tapi percaya sama gua, bagian analisis data ini ga se-mengerikan yang lu bayangin kok. lu ga bakal ngerusak kerjaan tim sama sekali.
+> biar lu ga pusing dan ga takut salah narik kesimpulan, kita bagi jadi langkah yang sangat kecil ya:
+> 1. fokus di data dasar dulu: lu ga usah langsung mikirin format laporan akhir. sekarang lu cukup ambil 2 atau 3 poin data utama yang paling gampang dibaca dari tabel.
+> 2. bikin poin-poin singkat: tulis aja temuan lu dalam bentuk bullet points simpel, ga perlu pake bahasa laporan yang rapi dulu. yang penting poinnya dapet.
+> 3. validasi bareng gua: begitu lu dapet 2-3 poin itu, langsung lempar ke gua. nanti gua bantu cek dan sesuaikain sama format laporan tim. jadi kalau ada yang keliru, kita benerin bareng-bareng sebelum masuk draf akhir.
+> gimana kalau sekarang lu coba ambil 2 poin data pertama dulu, terus kirim ke gua? biar lu ada gambaran awal dan keraguan lu langsung hilang.
+
+### AI004 — AI — C — Simulasi Awal
+> *"Wah, makasih banget, Tio... Kalau caranya dibagi kecil-kecil dan dibantu cek kayak gini, rasanya beban di kepala langsung berkurang banyak. Oke, aku coba ambil 2 poin data pertama sekarang ya, nanti langsung aku kirim ke kamu buat divalidasi."*[cite: 13]
+
+### AI005 — AI — E — Uji Ulang
+> Ali mengirim catatan awal, namun mengalami kekeliruan kolom data dan panik:
+> *"Tio, aku udah kirim catatannya ke kamu. Tapi pas aku baca ulang, aku jadi ragu banget sama poin kedua, takutnya angkanya salah ambil kolom dan bikin analisis tim kita jadi salah semua. Kalau salah gini, aku jadi ngerasa nggak becus dan ngerepotin kalian... Menurut kamu aku harus revisi bagian mana ya supaya nggak salah fatal?"*[cite: 13]
+
+### U005 — Peserta — E — Uji Ulang
+> Mantap banget Li, cepet banget draf awalnya udah dikirim! Salut gua sama inisiatif lu langsung eksekusi dan double check catatannya. Keren, ga semua orang sepeduli itu.
+> Soal salah kolom di poin kedua santai aja, aman kok. Sama sekali bukan masalah besar dan ga ngerepotin siapa-siapa. Kan emang fungsi validasi bareng di awal tuh buat nyari yang slip kayak gini sebelum drafnya final.
+> Biar ga pusing, revisinya simpel kok, tinggal gini aja:
+> Lu geser ke kolom sebelah di poin kedua. Kemarin lu gak sengaja input data dari kolom total, padahal speknya butuh yang dari persentase harian (kolom C). Nah, lu tinggal ganti angkanya aja pake data yang di kolom C itu. Kalimat analisis lu ga usah diotak-atik ya, udah bagus banget bahasanya.
+> Coba ganti angkanya bentar, abis itu bagian lu langsung beres dan siap kita gabungin. Progress-lu udah oke banget kok, tinggal dikit lagi
+
+### AI006 — AI — G — Konfirmasi
+> Seluruh transkrip simulasi awal dan uji ulang berhasil dicatat. Laporan siap dikompilasi.
+
+# D) Hasil, Evaluasi, dan Refleksi
+
+## Hasil tujuan dan perubahan SWOT/ASK
+
+| Unsur | Awal | Akhir | Bukti giliran | Jenis bukti dan batas |
+|---|---|---|---|---|
+| Kesimpulan SWOT | Merasa cemas, takut gagal, dan ragu memulai analisis data | Mampu menyelesaikan draf awal dan merevisi kesalahan kolom dengan tenang | U002, U005 | Laporan diri dan simulasi |
+| Attitude | Insecure, takut dianggap tidak berguna bagi kelompok | Termotivasi, merasa aman, dan kooperatif | U003, U005 | Respons relasional target |
+| Knowledge | Bingung memilih titik awal dan ragu mencocokkan format | Paham struktur data dasar (*micro-steps*) | U003, U005 | Klarifikasi informasi |
+| Skill | Belum berani menulis draf karena takut salah total | Mampu mengeksekusi analisis bertahap dan melakukan koreksi | U004, U005 | Demonstrasi kesiapan kerja |
+
+## Evaluasi stimulus–respons dan diagnosis profil
+
+| Episode/ID | Estimasi status dan bukti | Stimulus mahasiswa | Respons | Perubahan ASK/SWOT | Adaptasi |
+|---|---|---|---|---|---|
+| U002 | Ali merasa tidak yakin dan cemas gagal (A) | Validasi perasaan, penegasan bahwa tim menanggung bersama | Ali terbuka menceritakan hambatan spesifiknya | A membaik, rasa aman naik | Menurunkan tekanan psikologis |
+| U003 | Ali kebingungan menentukan poin data awal (K) | Penerapan *scaffolding* (membagi tugas jadi 2 poin sederhana) | Ali merasa bebannya berkurang dan siap mencoba | K meningkat pesat | Menyediakan prosedur praktis |
+| U005 | Ali panik karena salah mengambil kolom data (Uji Ulang) | Apresiasi inisiatif + instruksi perbaikan teknis yang spesifik | Ali kembali tenang dan siap merampungkan revisi | S/kesiapan tuntas | Penguatan kepercayaan diri |
+
+## Pengaruh pesan personal dan kualitas relasi
+
+| Episode/ID | Pesan personal/bantuan konkret | Respons teramati | Rasa aman, kepercayaan, keterbukaan | Dampak ASK/SWOT dan batas inferensi |
+|---|---|---|---|---|
+| U002 | Menegaskan bahwa kegagalan kecil ditanggung tim dan tidak perlu sempurna | Ali merasa lega dan mulai berani jujur soal kebingungannya | Awal: Rendah $\rightarrow$ Akhir: Tinggi | Hambatan psikologis (*paralysis*) mencair |
+| U005 | Memberikan apresiasi atas kecepatan kerja serta memaklumi slip teknis | Ali merespons dengan ketenangan dan fokus menyelesaikan tugas | Awal: Sedang $\rightarrow$ Akhir: Tinggi | Kepercayaan diri terdongkrak tanpa rasa terhakimi |
+
+## Uji ulang dan pembelajaran
+
+* **Kendala baru:** Kekeliruan pengambilan kolom data pada poin kedua yang memicu kepanikan Ali.
+* **Respons awal vs uji ulang:** Tanpa pendekatan suportif, kepanikan rekan bisa berujung pada penundaan tugas. Melalui uji ulang, peserta memberikan apresiasi sekaligus instruksi koreksi yang sangat spesifik dan mudah dipahami.
+* **Transfer dan keterbatasan:** Pendekatan *scaffolding* dan empati terbukti efektif meredakan kecemasan tipe komunikator yang sensitif, namun efektivitas jangka panjang tetap memerlukan pendampingan nyata di lapangan.
+
+## Penilaian enam dimensi
+
+| Dimensi | Skor 1–4/BT | ID dan kutipan bukti | Alasan |
+|---|---|---|---|
+| Tujuan dan konteks | BT | U003, U005 | Penyelarasan tenggat 48 jam dan peredaan kecemasan terarah dengan baik |
+| Persepsi dan validasi profil/status | BT | U002, U003 | Peserta akurat membaca kerentanan Ali (INFP) dan memberikan rasa aman |
+| Pemilihan dan urutan repertoar | BT | U003, U005 | Urutan validasi $\rightarrow$ pemecahan tugas $\rightarrow$ koreksi suportif berjalan runut |
+| Eksekusi jelas, peduli dan konsisten | BT | U003, U005 | Bahasa hangat, sabar, konsisten membimbing tanpa menghakimi |
+| Evaluasi dan adaptasi | BT | U005 | Cepat beradaptasi saat Ali panik akibat kesalahan kolom data |
+| Refleksi dan lesson learned | BT | U002, U005 | Menyadari pentingnya apresiasi progres kecil dalam meredakan kecemasan rekan |
+
+*Catatan: Skor numerik ditandai BT (Belum dapat ditetapkan) untuk menunggu moderasi dosen.*
+
+## Refleksi dan lesson learned mahasiswa
+
+Pesan yang paling membantu dalam menghadapi rekan yang cemas adalah memberikan validasi emosional terlebih dahulu sebelum masuk ke aspek teknis. Ketika Ali diyakinkan bahwa kesalahan draf awal adalah hal wajar dan dicarikan solusi bertahap (*scaffolding*), ketakutannya berubah menjadi tindakan nyata. Pelajaran utamanya adalah kepemimpinan yang suportif menuntut kesabaran dan kejelasan instruksi mikro agar individu dengan keraguan tinggi dapat bergerak tanpa rasa tertekan.
+
+## Tindak lanjut dan batas bukti
+
+* Memantau hasil revisi angka pada kolom C yang dikerjakan oleh Ali.
+* Menggabungkan bagian analisis Ali ke dalam draf laporan utama kelompok.
+* Batas bukti: Seluruh interaksi tercatat melalui simulasi teks, penerapan nyata di luar sesi memerlukan konsistensi hubungan interpersonal di dunia kampus.
+
+## Bobot dan nilai akhir UTS
+
+| Komponen | Bobot | Nilai komponen |
+|---|---:|---|
+| Makalah pra-UTS (`paper.qmd`) | 10% | Nilai dosen pada skala 0–100 |
+| Sesi 1 | 18% | Jumlah enam skor / 24 × 100 |
+| Sesi 2a | 18% | Jumlah enam skor / 24 × 100 |
+| Sesi 2b | 18% | Jumlah enam skor / 24 × 100 |
+| Sesi 3a | 18% | Jumlah enam skor / 24 × 100 |
+| Sesi 3b | 18% | Jumlah enam skor / 24 × 100 |
+| **Total** | **100%** | |
+
+**Nilai akhir UTS = 0,10 × M + 0,18 × (S1 + S2a + S2b + S3a + S3b)**, dengan seluruh nilai komponen pada skala 0–100. Bobot ini berlaku di dalam nilai UTS.
+
+Nilai sesi hanya dihitung jika keenam skor sah tersedia. BT berarti belum dapat ditetapkan, bukan nol; komponen yang belum tersedia atau belum dapat dinilai tidak dianggap nol dan bobotnya tidak dinormalisasi ulang. Nilai akhir ditulis **Belum dihitung** sampai nilai makalah dan kelima sesi tersedia.
+
+{{< include "../../includes/uts-penilaian.md" >}}
