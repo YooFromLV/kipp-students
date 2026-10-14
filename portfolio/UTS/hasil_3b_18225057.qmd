@@ -1,0 +1,179 @@
+---
+title: "Laporan UTS KIPP 2026 — Versi 2.0"
+subtitle: "Sesi 3b — Kasus 3: Menawarkan Solusi TI dan AI"
+author: "Tio Christian Doly Silitonga"
+date: "2026-10-14"
+lang: id
+format:
+  html:
+    toc: true
+execute:
+  eval: false
+---
+
+# A) Identitas
+
+| Elemen | Keterangan |
+|---|---|
+| Nama mahasiswa | Tio Christian Doly Silitonga[cite: 9] |
+| NIM | 18225057[cite: 9] |
+| Kelas | 01 |
+| Tanggal pelaksanaan | 14 Oktober 2026 |
+| Nomor/judul kasus | Sesi 3b, urutan 5 dari 5, Kasus 3 — Menawarkan solusi TI dan AI[cite: 9] |
+| Target utama | Dimas (K3-04)[cite: 10] |
+| Versi bank/paket | Bank 2.0, paket individual 2.0[cite: 9] |
+| Sumber penugasan | PENUGASAN.md dalam kasus_3b_18225057.zip[cite: 9] |
+| Modalitas | Teks |
+| Konteks nyata/fiktif | Penawaran solusi otomatisasi bisnis pada pengelola usaha bersifat nyata, interaksi dialog bersama Dimas bersifat simulasi fiktif. |
+| Nama laporan | hasil_3b_18225057.qmd[cite: 9] |
+| Kelengkapan transkrip | Lengkap dari tahap identifikasi hingga uji ulang, refleksi, dan konfirmasi |
+
+# B) Kasus dan Tujuan
+
+## Kasus dan tujuan tindakan
+
+* **Brief kasus:** Pengelola usaha menangani pertanyaan pelanggan berulang dan pesanan tercecer dengan tenaga terbatas, serta belum yakin memerlukan AI[cite: 12]. Mahasiswa bertugas menggali kebutuhan, menawarkan solusi TI/AI yang sesuai, dan menyepakati uji coba konkret.
+* **Tujuan komunikasi:** 
+  1. Menyampaikan argumen efisiensi berbasis data rasional dan logika operasional.
+  2. Menjamin kendali penuh tetap berada di tangan manusia (*Human-in-the-Loop*).
+  3. Menyusun kriteria target uji coba yang terukur (*KPI* dan durasi 1 minggu).
+* **Indikator keberhasilan:** Dimas menyetujui parameter metrik uji coba dan mekanisme kontrol setelah diberikan argumen logis yang terukur.
+
+## Profil awal komunikator
+
+| Unsur | Laporan/dugaan awal | Bukti | Tingkat kepastian |
+|---|---|---|---|
+| SWOT subjektif | **Strengths:** Latar belakang teknis yang kuat dalam merancang sistem logis dan rasional.<br>**Weaknesses:** Risiko penjelasan yang terlalu teoretis memicu perdebatan teknis berkepanjangan.<br>**Opportunities:** Karakter INTJ yang pragmatis menghargai efisiensi berbasis angka dan struktur sistem.<br>**Threats:** Sikap skeptis awal berisiko memicu penolakan jika otonomi operasional terancam. | U001 | Laporan diri |
+| Attitude | Objektif, lugas, menghargai otonomi komunikan, tanpa basa-basi emosional. | U001 | Laporan diri |
+| Knowledge | Paham arsitektur otomatisasi chat, integrasi database, dan batas kendali teknis (*fallback system*). | U001 | Laporan diri |
+| Skill | Komunikasi berbasis fakta (*data-driven*), pemetaan kriteria sukses (*KPI*), dan perancangan kendali manual. | U001 | Demonstrasi lisan |
+| Preferensi/MBTI | ENTJ (laporan diri/hipotesis) | U001 | Laporan diri |
+| Karakter, peran, kultur/ko-kultur | Mahasiswa STEI-K, Project Lead / Konsultan Teknologi. | U001 | Laporan diri |
+
+## Dugaan awal profil target dan rencana
+
+**Dimas sebagai target (K3-04):** Berprofil fiktif INTJ yang sangat kritis, skeptis terhadap klaim manfaat, menuntut logika ringkas, otonomi, dan ukuran keberhasilan yang terukur[cite: 10].
+
+| TAIDA | Status awal/target | Edukasi A/K/S | Repertoar dalam sesi | Bukti |
+|---|---|---|---|---|
+| Target | Menyetujui skema uji coba sistem otomatisasi berbasis metrik terukur | A (Validasi skeptisisme) | Pendekatan langsung berbasis data dan logika | U001, U002 |
+| Attention | Mempertanyakan bukti keunggulan pendekatan otomatisasi | A (Pengujian rasional) | Menyajikan metrik efisiensi waktu dan penurunan *human error* | U002, U003 |
+| Interest | Menuntut kejelasan mekanisme kendali manusia (*Human-in-the-Loop*) | K (Penjelasan sistem) | Menjabarkan penyaring tingkat pertama dan eskalasi otomatis | U003, U004 |
+| Desire | Membutuhkan kerangka uji coba yang objektif dan terukur | S (Parameter metrik) | Menawarkan skema uji coba 7 hari dengan target akurasi $\ge$ 95% | U004, U005 |
+| Action | Menyetujui pelaksanaan *pilot project* sesuai parameter yang disepakati | A/K/S (Kesepakatan akhir) | Mengunci parameter KPI dan memulai setup sistem | U005, U006 |
+
+# C) Skrip Percakapan
+
+### AI001 — AI — A — Identifikasi
+> ZIP berhasil dibuka. Sesi 3b — Kasus 3 dimulai. Mohon konfirmasi nama, NIM (18225057), kelas, tanggal, dan modalitas.
+
+### U001 — Peserta — A/B — Identifikasi dan Rencana
+> Tio Christian Doly Silitonga, 18225057, Kelas 01, 14 Oktober 2026, modalitas teks.
+>
+> **Tujuan Komunikasi:** Menyampaikan argumen efisiensi berbasis data rasional, memastikan mekanisme *Human-in-the-Loop*, serta menyepakati parameter KPI uji coba 7 hari bersama Dimas.
+> **Dugaan SWOT & ASK:** Kekuatan pada logika teknis dan pendekatan data rasional, kelemahan pada potensi perdebatan teoretis.
+> **Rencana Pendekatan:** Komunikasi langsung (*direct & logical*), penekanan kendali penuh di tangan manusia, dan metrik uji coba terukur.
+
+### AI002 — AI — C — Simulasi Awal
+> Dimas (K3-04) membuka percakapan dengan nada skeptis dan kritis:
+> *"Apa bukti pendekatan ini lebih baik?"*[cite: 10]
+
+### U002 — Peserta — C — Simulasi Awal
+> Buktinya bisa dilihat dari dua metrik utama: efisiensi waktu tanggap sama penurunan persentase human error.
+> Secara kalkulasi teknis, kalau 70% pertanyaan pelanggan yang sifatnya berulang (kayak harga, stok, sama alur pemesanan) ditangani sama otomatisasi tingkat pertama, waktu tunggu respons pelanggan bakal turun dari yang tadinya hitungan jam jadi hitungan detik. Efek langsungnya, beban kerja staf bakal terpotong signifikan, jadi fokusnya bisa dialihkan penuh buat proses pesanan biar gak ada yang tercecer.
+> Tapi, pendekatan ini gak bakal ngelepas kendali penuh ke AI kok. Kita tetep nerapin mekanisme Human-in-the-Loop:
+> 1. **Penyaring Tingkat Pertama:** AI cuma bakal merespons pertanyaan berulang yang template-nya udah lu setujui dari awal.
+> 2. **Sistem Eskalasi Otomatis:** Buat transaksi yang ambigu, komplain, atau pesanan khusus, sistem bakal otomatis ngalihin pesan ke dashboard manual staf.
+> 3. **Kontrol Manual Penuh:** Lu tetep pegang kendali 100% buat matiin, ngubah logika jawaban, atau ngambil alih percakapan kapan aja secara real-time.
+> Jadi solusi ini bukan buat menggantikan kontrol lu, tapi murni sebagai alat bantu saring aja biar data pesanan yang masuk bisa lebih terstruktur dan presisi.
+
+### AI003 — AI — C — Simulasi Awal
+> *"Penjelasan soal mekanisme Human-in-the-Loop dan eskalasi otomatis itu cukup masuk akal untuk memastikan kontrol operasional tetap berada di tangan manusia. Tapi sebelum saya memutuskan untuk menerapkannya, saya butuh skema uji coba dengan parameter metrik dan durasi waktu yang terukur—misalnya tes selama satu minggu—agar saya bisa mengevaluasi tingkat akurasinya secara objektif."*[cite: 10]
+
+### U003 — Peserta — C — Simulasi Awal
+> Setuju banget, Dim. Evaluasi objektif pakai metrik emang cara paling pas buat ngebuktiin efisiensinya.
+> Kita bisa kunci skema uji coba selama 1 minggu (7 hari) dengan 3 parameter metrik utama yang terukur jelas:
+> 1. **Tingkat Akurasi Jawaban (Target: $\ge$ 95%):** Dihitung dari rasio jawaban otomatis yang sesuai template dibanding total pesan FAQ yang masuk.
+> 2. **Tingkat Eskalasi Otomatis (Target: 100% Tepat Sasaran):** Semua pesan non-FAQ, komplain, atau transaksi khusus wajib masuk ke dashboard manual staf tanpa ada yang miss.
+> 3. **Persentase Reduksi Waktu Tunggu (Target: Turun Minimal 60%):** Membandingkan rata-rata kecepatan respons sebelum dan sesudah sistemnya aktif.
+> Nanti di hari ke-7, kita bakal tarik data log percakapan dan rekap metriknya secara transparan. Kalau hasilnya memenuhi target di atas, lu bisa putusin buat lanjut ke integrasi penuh. Tapi kalau belum capai target, kita evaluasi ulang logikanya tanpa ada kerugian apa-apa di pihak lu.
+> Kalau parameter metrik ini udah sesuai sama standar lu, kita bisa setup sistemnya hari ini biar uji coba udah bisa mulai jalan besok.
+
+### AI004 — AI — E — Uji Ulang
+> Dimas memberikan konfirmasi akhir pada uji ulang:
+> *"Parameter metrik uji coba selama 7 hari dengan target akurasi 95% dan reduksi waktu tunggu 60% itu sudah sangat spesifik dan terukur. Sistem Human-in-the-Loop yang kamu tawarkan juga memenuhi standar kontrol operasional saya. Silakan siapkan setup sistemnya, kita mulai uji cobanya besok sesuai parameter yang disepakati."*[cite: 10]
+
+### AI005 — AI — G — Konfirmasi
+> Seluruh transkrip simulasi awal dan uji ulang berhasil dicatat. Laporan siap dikompilasi.
+
+# D) Hasil, Evaluasi, dan Refleksi
+
+## Hasil tujuan dan perubahan SWOT/ASK
+
+| Unsur | Awal | Akhir | Bukti giliran | Jenis bukti dan batas |
+|---|---|---|---|---|
+| Kesimpulan SWOT | Skeptis terhadap klaim manfaat dan khawatir kehilangan kontrol operasional | Menerima skema uji coba 7 hari dengan parameter metrik dan kontrol manual terukur | U003, U004 | Laporan diri dan simulasi |
+| Attitude | Kritis, mempertanyakan bukti, dan menuntut rasionalitas | Kooperatif, objektif, dan menyetujui implementasi uji coba | U003, U004 | Respons relasional target |
+| Knowledge | Belum memiliki gambaran teknis batas kendali AI dan metrik evaluasi | Paham mekanisme *Human-in-the-Loop* dan target KPI uji coba | U002, U003 | Klarifikasi informasi |
+| Skill | Menuntut kepastian akurasi sebelum mengambil keputusan adopsi | Mampu mengevaluasi parameter sistem secara logis | U003, U004 | Demonstrasi kesiapan kerja |
+
+## Evaluasi stimulus–respons dan diagnosis profil
+
+| Episode/ID | Estimasi status dan bukti | Stimulus mahasiswa | Respons | Perubahan ASK/SWOT | Adaptasi |
+|---|---|---|---|---|---|
+| U002 | Dimas menuntut bukti rasional atas klaim efisiensi (A) | Penjelasan berbasis metrik efisiensi + sistem *Human-in-the-Loop* | Dimas menilai penjelasan logis namun meminta uji coba terukur | A membaik, skeptisisme berkurang | Menanggapi dengan logika operasional |
+| U003 | Dimas meminta uji coba 1 minggu dengan parameter terukur (K/S) | Penawaran KPI spesifik (akurasi $\ge$ 95%, eskalasi 100%, reduksi waktu 60%) | Dimas menyatakan parameter metrik sudah memenuhi standarnya | S/kesiapan tuntas | Menyusun kerangka kerja berbasis data |
+
+## Pengaruh pesan personal dan kualitas relasi
+
+| Episode/ID | Pesan personal/bantuan konkret | Respons teramati | Rasa aman, kepercayaan, keterbukaan | Dampak ASK/SWOT dan batas inferensi |
+|---|---|---|---|---|
+| U002 | Menegaskan bahwa kontrol penuh tetap di tangan manusia (*Human Control*) | Dimas mengakui mekanisme kontrol tersebut masuk akal | Awal: Rendah $\rightarrow$ Akhir: Tinggi | Hambatan psikologis skeptis mereda |
+| U003 | Menyediakan evaluasi transparan di hari ke-7 tanpa risiko kerugian | Dimas menerima kesepakatan dan menyetujui jadwal uji coba | Awal: Sedang $\rightarrow$ Akhir: Tinggi | Kepercayaan profesional terbangun kuat |
+
+## Uji ulang dan pembelajaran
+
+* **Kendala baru:** Kebutuhan komunikan akan validasi metrik objektif sebelum menyetujui implementasi teknologi.
+* **Respons awal vs uji ulang:** Respons defensif atau klaim berlebihan akan langsung ditolak oleh profil kritis. Melalui uji ulang, peserta menyajikan parameter metrik yang sangat spesifik dan terukur, sehingga komunikan menerimanya dengan keyakinan penuh.
+* **Transfer dan keterbatasan:** Pendekatan berbasis data dan transparansi metrik sangat efektif untuk audiens berorientasi analitis, namun eksekusi sistem tetap memerlukan pembuktian empiris saat uji coba berjalan.
+
+## Penilaian enam dimensi
+
+| Dimensi | Skor 1–4/BT | ID dan kutipan bukti | Alasan |
+|---|---|---|---|
+| Tujuan dan konteks | BT | U002, U003 | Penyampaian argumen data, kendali manusia, dan KPI uji coba tersusun rapi |
+| Persepsi dan validasi profil/status | BT | U002, U003 | Sangat akurat membaca karakteristik INTJ yang menuntut logika dan bukti |
+| Pemilihan dan urutan repertoar | BT | U002, U003 | Urutan pemaparan metrik $\rightarrow$ penjelasan kontrol $\rightarrow$ kesepakatan KPI runtut |
+| Eksekusi jelas, peduli dan konsisten | BT | U003, U004 | Bahasa profesional, lugas, berbasis fakta, dan menghormati otonomi |
+| Evaluasi dan adaptasi | BT | U003, U004 | Beradaptasi mulus dengan menetapkan parameter metrik sesuai permintaan komunikan |
+| Refleksi dan lesson learned | BT | U003, U004 | Menyadari pentingnya objektivitas data dalam meyakinkan stakeholder analitis |
+
+*Catatan: Skor numerik ditandai BT (Belum dapat ditetapkan) untuk menunggu moderasi dosen.*
+
+## Refleksi dan lesson learned mahasiswa
+
+Pesan yang paling membantu dalam meyakinkan komunikan yang kritis adalah menghindari klaim marketing yang berlebihan dan menggantinya dengan logika operasional serta metrik yang terukur. Ketika Dimas melihat bahwa sistem dirancang dengan kontrol penuh di tangan manusia (*Human-in-the-Loop*) dan dievaluasi melalui KPI yang jelas, keraguannya terhadap teknologi langsung terselesaikan. Pelajaran utamanya adalah inovasi teknis harus dikomunikasikan secara transparan berdasarkan bukti rasional, bukan janji kosong.
+
+## Tindak lanjut dan batas bukti
+
+* Menyiapkan konfigurasi sistem otomatisasi dan dashboard pemantauan metrik untuk uji coba 7 hari.
+* Melakukan evaluasi bersama pada hari ketujuh berdasarkan data log operasional.
+* Batas bukti: Seluruh interaksi tercatat melalui simulasi teks, pelaksanaan nyata di lapangan memerlukan validasi performa sistem secara empiris.
+
+## Bobot dan nilai akhir UTS
+
+| Komponen | Bobot | Nilai komponen |
+|---|---:|---|
+| Makalah pra-UTS (`paper.qmd`) | 10% | Nilai dosen pada skala 0–100 |
+| Sesi 1 | 18% | Jumlah enam skor / 24 × 100 |
+| Sesi 2a | 18% | Jumlah enam skor / 24 × 100 |
+| Sesi 2b | 18% | Jumlah enam skor / 24 × 100 |
+| Sesi 3a | 18% | Jumlah enam skor / 24 × 100 |
+| Sesi 3b | 18% | Jumlah enam skor / 24 × 100 |
+| **Total** | **100%** | |
+
+**Nilai akhir UTS = 0,10 × M + 0,18 × (S1 + S2a + S2b + S3a + S3b)**, dengan seluruh nilai komponen pada skala 0–100. Bobot ini berlaku di dalam nilai UTS.
+
+Nilai sesi hanya dihitung jika keenam skor sah tersedia. BT berarti belum dapat ditetapkan, bukan nol; komponen yang belum tersedia atau belum dapat dinilai tidak dianggap nol dan bobotnya tidak dinormalisasi ulang. Nilai akhir ditulis **Belum dihitung** sampai nilai makalah dan kelima sesi tersedia.
+
+{{< include "../../includes/uts-penilaian.md" >}}
