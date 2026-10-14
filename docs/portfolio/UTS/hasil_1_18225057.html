@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="[Nama mahasiswa]">
+<meta name="author" content="Tio Christian Doly Silitonga">
 
-<title>Laporan UTS KIPP - Sesi 3b – Portfolio KIPP-2</title>
+<title>Laporan UTS KIPP 2026 — Versi 2.0 – Portfolio KIPP-2</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -77,6 +77,35 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -150,7 +179,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alihkan bilah sisi" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Laporan UTS KIPP - Sesi 3b</li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Laporan UTS KIPP 2026 — Versi 2.0</li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alihkan bilah sisi" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -277,19 +306,27 @@ ul.task-list li input[type="checkbox"] {
   </ul></li>
   <li><a href="#c-skrip-percakapan" id="toc-c-skrip-percakapan" class="nav-link" data-scroll-target="#c-skrip-percakapan">C) Skrip Percakapan</a>
   <ul class="collapse">
-  <li><a href="#u001---mahasiswa---tahap" id="toc-u001---mahasiswa---tahap" class="nav-link" data-scroll-target="#u001---mahasiswa---tahap">U001 - Mahasiswa - [Tahap]</a></li>
-  <li><a href="#ai001---fasilitatornama-tokoh---tahap" id="toc-ai001---fasilitatornama-tokoh---tahap" class="nav-link" data-scroll-target="#ai001---fasilitatornama-tokoh---tahap">AI001 - [Fasilitator/nama tokoh] - [Tahap]</a></li>
+  <li><a href="#ai001-ai-a-identifikasi" id="toc-ai001-ai-a-identifikasi" class="nav-link" data-scroll-target="#ai001-ai-a-identifikasi">AI001 — AI — A — Identifikasi</a></li>
+  <li><a href="#u001-peserta-ab-identifikasi-dan-rencana" id="toc-u001-peserta-ab-identifikasi-dan-rencana" class="nav-link" data-scroll-target="#u001-peserta-ab-identifikasi-dan-rencana">U001 — Peserta — A/B — Identifikasi dan Rencana</a></li>
+  <li><a href="#ai002-ai-c-pembanding-budi-k1-02" id="toc-ai002-ai-c-pembanding-budi-k1-02" class="nav-link" data-scroll-target="#ai002-ai-c-pembanding-budi-k1-02">AI002 — AI — C — Pembanding Budi (K1-02)</a></li>
+  <li><a href="#u002-peserta-c-pembanding-budi" id="toc-u002-peserta-c-pembanding-budi" class="nav-link" data-scroll-target="#u002-peserta-c-pembanding-budi">U002 — Peserta — C — Pembanding Budi</a></li>
+  <li><a href="#ai003-ai-c-pembanding-budi" id="toc-ai003-ai-c-pembanding-budi" class="nav-link" data-scroll-target="#ai003-ai-c-pembanding-budi">AI003 — AI — C — Pembanding Budi</a></li>
+  <li><a href="#u003-peserta-c-pembanding-budi" id="toc-u003-peserta-c-pembanding-budi" class="nav-link" data-scroll-target="#u003-peserta-c-pembanding-budi">U003 — Peserta — C — Pembanding Budi</a></li>
+  <li><a href="#ai004-ai-c-pembanding-budi" id="toc-ai004-ai-c-pembanding-budi" class="nav-link" data-scroll-target="#ai004-ai-c-pembanding-budi">AI004 — AI — C — Pembanding Budi</a></li>
+  <li><a href="#u004-peserta-c-pembanding-budi-uji-ulang" id="toc-u004-peserta-c-pembanding-budi-uji-ulang" class="nav-link" data-scroll-target="#u004-peserta-c-pembanding-budi-uji-ulang">U004 — Peserta — C — Pembanding Budi / Uji Ulang</a></li>
+  <li><a href="#ai005-ai-g-konfirmasi" id="toc-ai005-ai-g-konfirmasi" class="nav-link" data-scroll-target="#ai005-ai-g-konfirmasi">AI005 — AI — G — Konfirmasi</a></li>
   </ul></li>
   <li><a href="#d-hasil-evaluasi-dan-refleksi" id="toc-d-hasil-evaluasi-dan-refleksi" class="nav-link" data-scroll-target="#d-hasil-evaluasi-dan-refleksi">D) Hasil, Evaluasi, dan Refleksi</a>
   <ul class="collapse">
   <li><a href="#hasil-tujuan-dan-perubahan-swotask" id="toc-hasil-tujuan-dan-perubahan-swotask" class="nav-link" data-scroll-target="#hasil-tujuan-dan-perubahan-swotask">Hasil tujuan dan perubahan SWOT/ASK</a></li>
-  <li><a href="#evaluasi-stimulus-respons-dan-diagnosis-profil" id="toc-evaluasi-stimulus-respons-dan-diagnosis-profil" class="nav-link" data-scroll-target="#evaluasi-stimulus-respons-dan-diagnosis-profil">Evaluasi stimulus-respons dan diagnosis profil</a></li>
+  <li><a href="#evaluasi-stimulusrespons-dan-diagnosis-profil" id="toc-evaluasi-stimulusrespons-dan-diagnosis-profil" class="nav-link" data-scroll-target="#evaluasi-stimulusrespons-dan-diagnosis-profil">Evaluasi stimulus–respons dan diagnosis profil</a></li>
   <li><a href="#pengaruh-pesan-personal-dan-kualitas-relasi" id="toc-pengaruh-pesan-personal-dan-kualitas-relasi" class="nav-link" data-scroll-target="#pengaruh-pesan-personal-dan-kualitas-relasi">Pengaruh pesan personal dan kualitas relasi</a></li>
   <li><a href="#uji-ulang-dan-pembelajaran" id="toc-uji-ulang-dan-pembelajaran" class="nav-link" data-scroll-target="#uji-ulang-dan-pembelajaran">Uji ulang dan pembelajaran</a></li>
   <li><a href="#penilaian-enam-dimensi" id="toc-penilaian-enam-dimensi" class="nav-link" data-scroll-target="#penilaian-enam-dimensi">Penilaian enam dimensi</a></li>
   <li><a href="#refleksi-dan-lesson-learned-mahasiswa" id="toc-refleksi-dan-lesson-learned-mahasiswa" class="nav-link" data-scroll-target="#refleksi-dan-lesson-learned-mahasiswa">Refleksi dan lesson learned mahasiswa</a></li>
   <li><a href="#tindak-lanjut-dan-batas-bukti" id="toc-tindak-lanjut-dan-batas-bukti" class="nav-link" data-scroll-target="#tindak-lanjut-dan-batas-bukti">Tindak lanjut dan batas bukti</a></li>
   <li><a href="#bobot-dan-nilai-akhir-uts" id="toc-bobot-dan-nilai-akhir-uts" class="nav-link" data-scroll-target="#bobot-dan-nilai-akhir-uts">Bobot dan nilai akhir UTS</a></li>
+  <li><a href="#bobot-dan-nilai-akhir-uts-1" id="toc-bobot-dan-nilai-akhir-uts-1" class="nav-link" data-scroll-target="#bobot-dan-nilai-akhir-uts-1">Bobot dan nilai akhir UTS</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -299,8 +336,8 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Laporan UTS KIPP - Sesi 3b</h1>
-<p class="subtitle lead">Menawarkan solusi TI dan AI - target kedua</p>
+<h1 class="title">Laporan UTS KIPP 2026 — Versi 2.0</h1>
+<p class="subtitle lead">Sesi 1 — Kasus 1: Memimpin diri dan terus belajar</p>
 </div>
 
 
@@ -310,10 +347,16 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Penulis</div>
     <div class="quarto-title-meta-contents">
-             <p>[Nama mahasiswa] </p>
+             <p>Tio Christian Doly Silitonga </p>
           </div>
   </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Diterbitkan</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">14 Oktober 2026</p>
+    </div>
+  </div>
   
     
   </div>
@@ -323,19 +366,6 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div class="callout callout-style-default callout-tip callout-titled" title="Template belum terisi">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Tip</span>Template belum terisi
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Isi dari sesi Anda sendiri. <a href="../../examples/UTS/hasil_3b.html">Lihat contoh sesi 3b</a> dan <a href="../../portfolio/week-08.html">kembali ke portfolio Minggu 8</a>. Jangan menyalin dialog contoh sebagai transkrip. Simpan nama laporan sesuai <code>PENUGASAN.md</code> pada ZIP aktif; jika ditentukan, tambahkan NIM pada nama berkas dan perbarui tautan di Minggu 8.</p>
-</div>
-</div>
 <section id="a-identitas" class="level1">
 <h1>A) Identitas</h1>
 <table class="caption-top table">
@@ -352,55 +382,55 @@ ul.task-list li input[type="checkbox"] {
 <tbody>
 <tr class="odd">
 <td>Nama mahasiswa</td>
-<td>[Isi]</td>
+<td>Tio Christian Doly Silitonga</td>
 </tr>
 <tr class="even">
 <td>NIM</td>
-<td>[Isi sebagai teks; pertahankan nol di awal]</td>
+<td>18225057</td>
 </tr>
 <tr class="odd">
 <td>Kelas</td>
-<td>[Isi]</td>
+<td>01</td>
 </tr>
 <tr class="even">
 <td>Tanggal pelaksanaan</td>
-<td>[Tanggal aktual sesi]</td>
+<td>14 Oktober 2026</td>
 </tr>
 <tr class="odd">
 <td>Nomor/judul kasus</td>
-<td>Sesi 3b: Menawarkan solusi TI dan AI - target kedua</td>
+<td>Sesi 1, urutan 1 dari 5, Kasus 1 — Memimpin diri dan terus belajar</td>
 </tr>
 <tr class="even">
-<td>Target</td>
-<td>[Nama dan ID customer sesuai ZIP 3b; berbeda dari 3a]</td>
+<td>Target utama</td>
+<td>Diri mahasiswa</td>
 </tr>
 <tr class="odd">
+<td>Tokoh pembanding</td>
+<td>Budi, K1-02, tokoh fiktif</td>
+</tr>
+<tr class="even">
 <td>Versi bank/paket</td>
-<td>[Salin versi ZIP aktif; jangan mengikuti versi contoh secara otomatis]</td>
-</tr>
-<tr class="even">
-<td>Sumber penugasan</td>
-<td>[Nama ZIP dan PENUGASAN.md]</td>
+<td>Bank 2.0, paket individual 2.0</td>
 </tr>
 <tr class="odd">
-<td>Modalitas</td>
-<td>[Teks/suara; sumber transkripsi bila digunakan]</td>
+<td>Sumber penugasan</td>
+<td>PENUGASAN.md dalam kasus_1_18225057.zip</td>
 </tr>
 <tr class="even">
+<td>Modalitas</td>
+<td>Teks</td>
+</tr>
+<tr class="odd">
 <td>Konteks nyata/fiktif</td>
-<td>[Nyatakan dan jelaskan bagian hipotetis]</td>
+<td>Manajemen energi dan emosi bersifat nyata, dialog pembanding bersama Budi bersifat fiktif.</td>
+</tr>
+<tr class="even">
+<td>Nama laporan</td>
+<td>hasil_1_18225057.qmd</td>
 </tr>
 <tr class="odd">
 <td>Kelengkapan transkrip</td>
-<td>[Lengkap/parsial; bagian yang hilang dan sebabnya]</td>
-</tr>
-<tr class="even">
-<td>Nama laporan menurut paket</td>
-<td>[Isi nama berkas yang ditentukan]</td>
-</tr>
-<tr class="odd">
-<td>Konfirmasi identitas/ringkasan</td>
-<td>[ID giliran; konfirmasi bukan verifikasi identitas]</td>
+<td>Lengkap dari tahap identifikasi hingga uji ulang dan refleksi</td>
 </tr>
 </tbody>
 </table>
@@ -409,41 +439,19 @@ ul.task-list li input[type="checkbox"] {
 <h1>B) Kasus dan Tujuan</h1>
 <section id="kasus-dan-tujuan-tindakan" class="level2">
 <h2 class="anchored" data-anchor-id="kasus-dan-tujuan-tindakan">Kasus dan tujuan tindakan</h2>
-<p>[Ringkas brief dari ZIP sesi ini, konteks, target utama, dan respons akhir yang diharapkan. Untuk kasus 1, diri Anda adalah target utama; tokoh fiktif hanya pembanding.]</p>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Unsur</th>
-<th>Isi</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Tujuan komunikasi/tindakan</td>
-<td>[Isi]</td>
-</tr>
-<tr class="even">
-<td>Keadaan awal</td>
-<td>[Bukti dan ID; bedakan dugaan dari laporan target]</td>
-</tr>
-<tr class="odd">
-<td>Indikator keberhasilan</td>
-<td>[Apa yang dapat diperiksa?]</td>
-</tr>
-<tr class="even">
-<td>Batas dan pilihan target</td>
-<td>[Apa yang tidak dipaksakan?]</td>
-</tr>
-<tr class="odd">
-<td>Tenggat</td>
-<td>[Tanggal/jam atau waktu relatif yang konsisten]</td>
-</tr>
-</tbody>
-</table>
+<ul>
+<li><strong>Brief kasus:</strong> Memilih satu kemampuan atau hambatan belajar yang ingin dikembangkan agar lebih berguna dalam kuliah, kerja, atau kehidupan, serta memeriksa cara memimpin diri ketika menghadapi hambatan belajar.</li>
+<li><strong>Kemampuan/hambatan yang dipilih:</strong> Manajemen energi dan regulasi emosi saat harus <em>switching</em> antara tugas teknis bertekanan tinggi seperti kodingan atau <em>hardware</em> dan tuntutan komunikasi sosial di hari yang sama.</li>
+<li><strong>Tujuan yang dikonfirmasi:</strong>
+<ol type="1">
+<li>Berhasil menerapkan metode <em>Time-Blocking</em> harian memisahkan blok jam khusus kodingan dan blok jam khusus urusan sosial atau ngajar selama 14 hari berturut-turut tanpa merasa <em>overwhelmed</em>.</li>
+<li>Bikin satu template komunikasi asertif atau jawaban tertulis buat nolak atau menunda permintaan diskusi dari orang lain secara sopan saat kapasitas energi lagi penuh.</li>
+<li>Punya catatan refleksi harian singkat 3 hingga 5 menit tiap malam buat memantau tingkat stres dan keberhasilan menjaga ritme kerja.</li>
+</ol></li>
+</ul>
 </section>
 <section id="profil-awal-komunikator" class="level2">
 <h2 class="anchored" data-anchor-id="profil-awal-komunikator">Profil awal komunikator</h2>
-<p>Isi tentang <strong>diri Anda</strong>, bukan profil target. Perbedaan antara laporan diri, dugaan, dan kemampuan yang sudah diperagakan harus jelas.</p>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 25%">
@@ -455,53 +463,54 @@ ul.task-list li input[type="checkbox"] {
 <tr class="header">
 <th>Unsur</th>
 <th>Laporan/dugaan awal</th>
-<th>Bukti/ID</th>
-<th>Kepastian dan batas</th>
+<th>Bukti</th>
+<th>Tingkat kepastian</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Persepsi/SWOT subjektif</td>
-<td>[Kekuatan, keterbatasan, peluang, ancaman]</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
+<td>SWOT subjektif</td>
+<td><strong>Strengths:</strong> Punya logika pemecahan masalah yang kuat (<em>Investigative</em>) dan jiwa kepemimpinan serta empati alami (<em>Social</em>).<br><strong>Weaknesses:</strong> Mudah lelah emosional kalau porsi tugas analitis dan interaksi sosial dipaksa jalan berbarengan dalam waktu lama.<br><strong>Opportunities:</strong> Banyak ruang latihan langsung lewat peran Tutor Asrama, tugas kelompok kampus, dan kepanitiaan atau <em>project</em>.<br><strong>Threats:</strong> Risiko <em>burnout</em> yang bisa bikin performa kodingan turun dan nada bicara ke orang lain jadi agak kaku.</td>
+<td>U001</td>
+<td>Laporan diri</td>
 </tr>
 <tr class="even">
 <td>Attitude</td>
-<td>[Nilai, sikap, keyakinan]</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
+<td>Tetap mau belajar rendah hati, sadar batas kemampuan, dan gak maksain diri keliatan sempurna di depan tim.</td>
+<td>U001</td>
+<td>Laporan diri</td>
 </tr>
 <tr class="odd">
 <td>Knowledge</td>
-<td>[Pemahaman dan informasi yang belum diketahui]</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
+<td>Paham logika pemrosesan tugas, tahu mana yang butuh <em>focus time</em> murni dan mana yang butuh energi sosial.</td>
+<td>U001</td>
+<td>Laporan diri</td>
 </tr>
 <tr class="even">
 <td>Skill</td>
-<td>[Kemampuan dan kebutuhan latihan/dukungan]</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
+<td>Cepat nangkep alur kerja teknis, tapi perlu diperdalam di teknik <em>time-boxing</em> dan komunikasi asertif pas lagi lelah.</td>
+<td>U001</td>
+<td>Demonstrasi lisan</td>
 </tr>
 <tr class="odd">
-<td>Preferensi/MBTI jika dilaporkan</td>
-<td>[Laporan diri atau belum diketahui; bukan diagnosis dari percakapan]</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
+<td>Preferensi/MBTI</td>
+<td>ENTJ (laporan diri/hipotesis)</td>
+<td>U001</td>
+<td>Laporan diri</td>
 </tr>
 <tr class="even">
-<td>Peran, karakter, kultur/ko-kultur</td>
-<td>[Norma spesifik yang relevan]</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
+<td>Karakter, peran, kultur/ko-kultur</td>
+<td>Mahasiswa STEI-K, Tutor Asrama ITB, Project Leader.</td>
+<td>U001</td>
+<td>Laporan diri</td>
 </tr>
 </tbody>
 </table>
 </section>
 <section id="dugaan-awal-profil-target-dan-rencana" class="level2">
 <h2 class="anchored" data-anchor-id="dugaan-awal-profil-target-dan-rencana">Dugaan awal profil target dan rencana</h2>
-<p>[Catat dugaan sebelum profil lengkap diungkap. Pisahkan fakta, dugaan, dan pertanyaan validasi. Jangan mengisi ulang dugaan setelah mengetahui konfigurasi tokoh. Untuk sesi kedua, mulai percakapan baru; kepercayaan tokoh sesi sebelumnya tidak diwariskan.]</p>
+<p><strong>Diri mahasiswa sebagai target utama:</strong> Peserta menyadari bahwa hambatan utama dalam pengembangan diri adalah terpecahnya energi antara kerja teknis dan interaksi sosial. Pesan kepada diri menekankan pentingnya komunikasi internal yang terstruktur dan penerapan <em>time-blocking</em>.</p>
+<p><strong>Budi sebagai pembanding (K1-02):</strong> Tokoh fiktif berkarakter ISTJ yang mengutamakan prosedur baku, bukti empiris, takut standar turun, dan menolak perubahan jika alasannya belum teruji.</p>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 20%">
@@ -515,45 +524,45 @@ ul.task-list li input[type="checkbox"] {
 <th>TAIDA</th>
 <th>Status awal/target</th>
 <th>Edukasi A/K/S</th>
-<th>Repertoar yang direncanakan</th>
-<th>Bukti yang diharapkan</th>
+<th>Repertoar dalam sesi</th>
+<th>Bukti</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>Target</td>
-<td>[Sasaran dan tujuan]</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
+<td>Mengembangkan manajemen energi dan regulasi emosi saat <em>context switching</em></td>
+<td>Tujuan dan perencanaan</td>
+<td>Penjelasan gagasan dan penetapan target 14 hari</td>
+<td>U001</td>
 </tr>
 <tr class="even">
 <td>Attention</td>
-<td>[Status]</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
+<td>Energi <em>drain</em> akibat tugas teknis dan sosial bersamaan</td>
+<td>A: Mengakui batasan kapasitas emosional</td>
+<td>Refleksi pemicu stres harian</td>
+<td>U001, U002</td>
 </tr>
 <tr class="odd">
 <td>Interest</td>
-<td>[Status]</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
+<td>Menilai <em>time-blocking</em> relevan menjaga fokus dan empati</td>
+<td>A/K: Relevansi efisiensi tanpa multitasking</td>
+<td>Menjelaskan konsep <em>pagar energi</em> ke Budi</td>
+<td>U003</td>
 </tr>
 <tr class="even">
 <td>Desire</td>
-<td>[Status]</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
+<td>Berkeinginan kuat mereduksi <em>burnout</em> dan menjaga kualitas kepemimpinan</td>
+<td>A: Motivasi internal dan kehematan emosi</td>
+<td>Menerapkan <em>buffer time</em> dan komunikasi asertif</td>
+<td>U001, U004</td>
 </tr>
 <tr class="odd">
 <td>Action</td>
-<td>[Langkah pertama]</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
+<td>Menyusun jadwal blok waktu dan aturan mitigasi tugas mendadak</td>
+<td>S: Pengelolaan operasional harian</td>
+<td>Jawaban langkah konkret penanganan tugas darurat</td>
+<td>U004</td>
 </tr>
 </tbody>
 </table>
@@ -561,23 +570,72 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="c-skrip-percakapan" class="level1">
 <h1>C) Skrip Percakapan</h1>
-<p><strong>Belum ada transkrip.</strong> Tempel seluruh pesan aktual dari identifikasi sampai konfirmasi, termasuk rencana, simulasi awal, evaluasi, uji ulang, dan refleksi. Jangan membuat dialog pengganti untuk pesan yang hilang. Jika parsial, jelaskan pada bagian A.</p>
-<!-- Ulangi blok berikut sesuai jumlah giliran. Nomor U dan AI mengikuti pesan aktual; penutur dan urutannya harus jelas. Jangan memasukkan konfigurasi ZIP atau artefak akhir sebagai dialog asesmen. -->
-<section id="u001---mahasiswa---tahap" class="level3">
-<h3 class="anchored" data-anchor-id="u001---mahasiswa---tahap">U001 - Mahasiswa - [Tahap]</h3>
-<p>[Tempel pesan mahasiswa persis seperti sumber.]</p>
+<section id="ai001-ai-a-identifikasi" class="level3">
+<h3 class="anchored" data-anchor-id="ai001-ai-a-identifikasi">AI001 — AI — A — Identifikasi</h3>
+<blockquote class="blockquote">
+<p>ZIP berhasil dibuka. Sesi 1 — Kasus 1 dimulai. Mohon konfirmasi nama, NIM (18225057), kelas, tanggal (14 Oktober 2026), dan modalitas (teks).</p>
+</blockquote>
 </section>
-<section id="ai001---fasilitatornama-tokoh---tahap" class="level3">
-<h3 class="anchored" data-anchor-id="ai001---fasilitatornama-tokoh---tahap">AI001 - [Fasilitator/nama tokoh] - [Tahap]</h3>
-<p>[Tempel pesan AI persis seperti sumber.]</p>
-<!-- Tambahkan semua giliran. Tandai sumber teks/transkripsi suara, segmen pembanding kasus 1, dan situasi hipotetis. Transkripsi suara bukan bukti prosodi. -->
+<section id="u001-peserta-ab-identifikasi-dan-rencana" class="level3">
+<h3 class="anchored" data-anchor-id="u001-peserta-ab-identifikasi-dan-rencana">U001 — Peserta — A/B — Identifikasi dan Rencana</h3>
+<blockquote class="blockquote">
+<p>Tio Christian Doly Silitonga, 18225057, Kelas 01, 14 Oktober 2026, modalitas teks.</p>
+<p><strong>Fokus Kemampuan / Hambatan:</strong> Manajemen energi dan regulasi emosi saat harus <em>switching</em> antara tugas teknis bertekanan tinggi (kodingan/hardware) dan tuntutan komunikasi sosial di hari yang sama. <strong>Konteks Nyata:</strong> Sering ngerasa energi <em>drain</em> atau keteteran pas di hari yang sama harus memecahkan bug rumit/tubes STI, tapi malamnya harus langsung ngajar adek tingkat sebagai Tutor Asrama atau memimpin koordinasi tim.</p>
+<p><strong>Tujuan Tindakan Komunikasi:</strong> 1. Membangun komunikasi internal (<em>self-talk</em>) yang lebih terstruktur saat mengalami <em>mental block</em> atau kelelahan. 2. Meningkatkan kemampuan asertif dalam menyampaikan batasan kapasitas diri ke anggota tim/adek bimbingan tanpa mengurangi kualitas kepemimpinan dan empati.</p>
+<p><strong>Dugaan Awal SWOT &amp; ASK:</strong> * <strong>Strengths (S):</strong> Punya logika pemecahan masalah yang kuat (<em>Investigative</em>) dan jiwa kepemimpinan serta empati alami (<em>Social</em>). * <strong>Weaknesses (W):</strong> Mudah lelah emosional kalau porsi tugas analitis dan interaksi sosial dipaksa jalan berbarengan dalam waktu lama. * <strong>Opportunities (O):</strong> Banyak ruang latihan langsung lewat peran Tutor Asrama, tugas kelompok kampus, dan kepanitiaan/project. * <strong>Threats (T):</strong> Risiko <em>burnout</em> yang bisa ngebuat performa kodingan turun dan nada bicara ke orang lain jadi agak kaku. * <strong>Attitude:</strong> Tetep mau belajar rendah hati, sadar batas kemampuan, dan gak maksain diri keliatan sempurna di depan tim. * <strong>Knowledge:</strong> Paham logika pemrosesan tugas (mana yang butuh <em>focus time</em> murni, mana yang butuh energi sosial). * <strong>Skill:</strong> Cepat nangkep alur kerja teknis, tapi perlu diperdalam di teknik <em>time-boxing</em> dan komunikasi asertif pas lagi lelah.</p>
+<p><strong>Target Konkret 14 Hari:</strong> * <strong>Hasil 1:</strong> Berhasil menerapkan metode <em>Time-Blocking</em> harian (memisahkan blok jam khusus kodingan dan blok jam khusus urusan sosial/ngajar) selama 14 hari berturut-turut tanpa merasa <em>overwhelmed</em>. * <strong>Hasil 2:</strong> Bikin satu template komunikasi asertif/jawaban tertulis buat nolak atau menunda permintaan diskusi dari orang lain secara sopan saat kapasitas energi lagi penuh. * <strong>Hasil 3:</strong> Punya catatan refleksi harian singkat (3-5 menit tiap malam) buat memantau tingkat stres dan keberhasilan menjaga ritme kerja.</p>
+</blockquote>
+</section>
+<section id="ai002-ai-c-pembanding-budi-k1-02" class="level3">
+<h3 class="anchored" data-anchor-id="ai002-ai-c-pembanding-budi-k1-02">AI002 — AI — C — Pembanding Budi (K1-02)</h3>
+<blockquote class="blockquote">
+<p>Kita lanjutkan ke Tahap C: Simulasi Percakapan. Budi (K1-02) membuka dengan pertanyaan: <em>“Cara sekarang sudah jelas. Mengapa harus berubah?”</em></p>
+</blockquote>
+</section>
+<section id="u002-peserta-c-pembanding-budi" class="level3">
+<h3 class="anchored" data-anchor-id="u002-peserta-c-pembanding-budi">U002 — Peserta — C — Pembanding Budi</h3>
+<blockquote class="blockquote">
+<p>Paham sih , Bud. Kalau cara yang sekarang masih jalan dan efisien , emang wajar banget kita ngerasa gak perlu repot-repot berubah. Tapi kalau menurutku , tujuannya berubah itu bukan karena cara sekarang salah , melainkan buat ngantisipasi pas beban atau tantangannya makin berat nanti. Kalau menurutmu sendiri , cara yang sekarang masih ada celah atau hambatan kecil yang bikin lelah gak?</p>
+</blockquote>
+</section>
+<section id="ai003-ai-c-pembanding-budi" class="level3">
+<h3 class="anchored" data-anchor-id="ai003-ai-c-pembanding-budi">AI003 — AI — C — Pembanding Budi</h3>
+<blockquote class="blockquote">
+<p><em>“Capek atau lelah itu kan risiko kerjaan biasa. Kalau diubah pakai time-blocking, takutnya malah tambah ribet karena harus ngurusin jadwal ketimbang ngerjain tugasnya. Memangnya ada bukti konkret kalau cara itu lebih cepat dan gak ganggu prosedur yang sudah ada?”</em></p>
+</blockquote>
+</section>
+<section id="u003-peserta-c-pembanding-budi" class="level3">
+<h3 class="anchored" data-anchor-id="u003-peserta-c-pembanding-budi">U003 — Peserta — C — Pembanding Budi</h3>
+<blockquote class="blockquote">
+<p>wajar sih kalau mikirnya gitu , soalnya bikin jadwal baru emang keliatan nambah beban pikiran di awal. tapi sebenernya time blocking itu bukan buat ngebikin aturan yang kaku banget , melainkan cuma ngasih “pagar” biar energi ga ludes gara gara mikirin mau ngerjain apa dulu pas tugas lagi numpuk.</p>
+<p>soal bukti konkretnya , cara ini tuh terbukti bikin kerjaan jauh lebih cepat KARENA kita ga perlu ngelakuin multitasking atau bolak balik pindah fokus antar tugas. pas fokus kita ga terdistraksi , otak tuh ga gampang lelah dan kodingan atau tugas teknis justru bisa beres lebih cepet dari biasanya.</p>
+<p>jadi tenang aja , ini ga bakal ngerusak atau ngganggu prosedur yang udah ada kok. kita cuma nata ulang jam kerjanya aja , biar pas lagi deep work ga terdistraksi , dan pas lagi waktunya diskusi atau ngajar energi kita udah siap.</p>
+</blockquote>
+</section>
+<section id="ai004-ai-c-pembanding-budi" class="level3">
+<h3 class="anchored" data-anchor-id="ai004-ai-c-pembanding-budi">AI004 — AI — C — Pembanding Budi</h3>
+<blockquote class="blockquote">
+<p><em>“Oalah, begitu… Jadi time-blocking ini tujuannya bukan merombak aturan main, tapi cuma bikin batas jam biar energi nggak habis buat mikir harus ngerjain apa dulu ya. Kalau penerapannya cuma nata jam dan tetep nempatin prosedur lama di bloknya masing-masing, oke sih, masuk akal. Terus kalau tiba-tiba ada tugas kuliah atau instruksi mendadak di tengah-tengah blok fokus kodingan, gimana caranya biar jadwal yang udah dibuat nggak berantakan?”</em></p>
+</blockquote>
+</section>
+<section id="u004-peserta-c-pembanding-budi-uji-ulang" class="level3">
+<h3 class="anchored" data-anchor-id="u004-peserta-c-pembanding-budi-uji-ulang">U004 — Peserta — C — Pembanding Budi / Uji Ulang</h3>
+<blockquote class="blockquote">
+<p>kalau ada tugas atau instruksi mendadak di tengah blok fokus , kuncinya ada di “buffer time” atau alokasi waktu fleksibel yang sengaja disiapin tiap hari. pas ada hal darurat masuk , kita liat dulu sifatnya: kalau emang butuh penanganan detik itu juga , kita bisa pindah blok fokus kodingannya ke jam buffer tersebut tanpa ngerasa bersalah atau jadwal harian jadi hancur total.</p>
+<p>tapi kalau tugas mendadak itu sebenernya masih bisa ditunda 1-2 jam , cukup catat dulu di to-do list kecil , lalu lanjutin blok kodingan sampai selesai. dengan begitu , prosedur kerja lama tetep jalan , jadwal ga bakal berantakan , dan energi kita ga kaget gara gara buru buru pindah fokus secara mendadak.</p>
+</blockquote>
+</section>
+<section id="ai005-ai-g-konfirmasi" class="level3">
+<h3 class="anchored" data-anchor-id="ai005-ai-g-konfirmasi">AI005 — AI — G — Konfirmasi</h3>
+<blockquote class="blockquote">
+<p>Ringkasan tujuan, simulasi, dan rencana tindakan dikonfirmasi lengkap. Laporan siap dicetak.</p>
+</blockquote>
 </section>
 </section>
 <section id="d-hasil-evaluasi-dan-refleksi" class="level1">
 <h1>D) Hasil, Evaluasi, dan Refleksi</h1>
 <section id="hasil-tujuan-dan-perubahan-swotask" class="level2">
 <h2 class="anchored" data-anchor-id="hasil-tujuan-dan-perubahan-swotask">Hasil tujuan dan perubahan SWOT/ASK</h2>
-<p>[Tujuan tercapai/sebagian/belum; sertakan bukti respons. Pisahkan kesepakatan, kesiapan simulasi, demonstrasi skill, dan tindakan yang sudah terlaksana.]</p>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 20%">
@@ -591,44 +649,44 @@ ul.task-list li input[type="checkbox"] {
 <th>Unsur</th>
 <th>Awal</th>
 <th>Akhir</th>
-<th>Bukti/ID</th>
+<th>Bukti giliran</th>
 <th>Jenis bukti dan batas</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Persepsi/kesimpulan SWOT</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
+<td>Kesimpulan SWOT</td>
+<td>Merasa kelelahan emosional akibat <em>context switching</em> mendadak</td>
+<td>Menemukan solusi lewat <em>time-blocking</em> dan penyediaan <em>buffer time</em></td>
+<td>U001, U004</td>
+<td>Laporan diri dan simulasi</td>
 </tr>
 <tr class="even">
 <td>Attitude</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
+<td>Ingin memaksakan semua tugas selesai bersamaan</td>
+<td>Sadar batasan kemampuan dan pentingnya alokasi waktu asertif</td>
+<td>U001, U002</td>
+<td>Penegasan motivasi personal</td>
 </tr>
 <tr class="odd">
 <td>Knowledge</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
+<td>Memahami beban teknis dan sosial secara terpisah</td>
+<td>Paham cara menggabungkan prosedur lama ke dalam blok waktu fleksibel</td>
+<td>U001, U003</td>
+<td>Pemahaman operasional</td>
 </tr>
 <tr class="even">
-<td>Skill/kesiapan</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
-<td>[Skill nyata tidak meningkat hanya karena menyatakan setuju]</td>
+<td>Skill</td>
+<td>Kehilangan fokus saat interupsi mendadak</td>
+<td>Mampu menyusun alur penanganan darurat berbasis <em>urgency sorting</em></td>
+<td>U001, U004</td>
+<td>Demonstrasi verbal uji ulang</td>
 </tr>
 </tbody>
 </table>
 </section>
-<section id="evaluasi-stimulus-respons-dan-diagnosis-profil" class="level2">
-<h2 class="anchored" data-anchor-id="evaluasi-stimulus-respons-dan-diagnosis-profil">Evaluasi stimulus-respons dan diagnosis profil</h2>
+<section id="evaluasi-stimulusrespons-dan-diagnosis-profil" class="level2">
+<h2 class="anchored" data-anchor-id="evaluasi-stimulusrespons-dan-diagnosis-profil">Evaluasi stimulus–respons dan diagnosis profil</h2>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 16%">
@@ -643,23 +701,38 @@ ul.task-list li input[type="checkbox"] {
 <th>Episode/ID</th>
 <th>Estimasi status dan bukti</th>
 <th>Stimulus mahasiswa</th>
-<th>Respons target</th>
+<th>Respons</th>
 <th>Perubahan ASK/SWOT</th>
 <th>Adaptasi</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Isi]</td>
-<td>[Isi]</td>
-<td>[Kutipan]</td>
-<td>[Kutipan]</td>
-<td>[Interpretasi dan batas]</td>
-<td>[Perubahan berikutnya]</td>
+<td>U002</td>
+<td>Budi menolak perubahan (A)</td>
+<td>Empati pada kenyamanan cara lama, bertanya celah</td>
+<td>Budi mulai mempertimbangkan risiko kelelahan</td>
+<td>A membaik, rasa aman naik</td>
+<td>Mengarahkan ke manfaat kehematan energi</td>
+</tr>
+<tr class="even">
+<td>U003</td>
+<td>Budi ragu efisiensi <em>time-blocking</em> (K)</td>
+<td>Menggunakan analogi <em>pagar energi</em> dan penjelasan <em>no multitasking</em></td>
+<td>Budi paham bahwa prosedur lama tidak dirombak</td>
+<td>K meningkat pesat</td>
+<td>Menjelaskan mitigasi interupsi</td>
+</tr>
+<tr class="odd">
+<td>U004</td>
+<td>Budi menanyakan penanganan masalah mendadak (S)</td>
+<td>Konsep <em>buffer time</em> dan triase <em>to-do list</em></td>
+<td>Budi menerima kerangka fleksibilitas</td>
+<td>S/kesiapan beradaptasi tuntas</td>
+<td>Menetapkan kerangka kerja harian</td>
 </tr>
 </tbody>
 </table>
-<p>[Bandingkan dugaan awal dengan informasi profil tokoh setelah simulasi. Preferensi tokoh adalah parameter fiktif, bukan diagnosis mahasiswa. Jika dugaan awal tidak tercatat, nyatakan keterbatasannya.]</p>
 </section>
 <section id="pengaruh-pesan-personal-dan-kualitas-relasi" class="level2">
 <h2 class="anchored" data-anchor-id="pengaruh-pesan-personal-dan-kualitas-relasi">Pengaruh pesan personal dan kualitas relasi</h2>
@@ -674,61 +747,37 @@ ul.task-list li input[type="checkbox"] {
 <thead>
 <tr class="header">
 <th>Episode/ID</th>
-<th>Pesan personal/bantuan konkret</th>
-<th>Respons teramati</th>
+<th>Pesan personal/kepedulian</th>
+<th>Respons yang teramati</th>
 <th>Rasa aman, kepercayaan, keterbukaan</th>
 <th>Dampak ASK/SWOT dan batas inferensi</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Isi]</td>
-<td>[Kutipan/tindakan]</td>
-<td>[Kutipan]</td>
-<td>[Awal dan akhir; bukti]</td>
-<td>[Isi]</td>
+<td>U002</td>
+<td>Validasi bahwa merasa nyaman dengan cara lama adalah hal wajar</td>
+<td>Budi menurunkan nada defensifnya</td>
+<td>Awal: Sedang <span class="math inline">\(\rightarrow\)</span> Akhir: Tinggi</td>
+<td>Budi mau membagikan kekhawatirannya soal kerumitan jadwal</td>
+</tr>
+<tr class="even">
+<td>U003</td>
+<td>Menjamin bahwa cara baru tidak merusak prosedur kerja lama Budi</td>
+<td>Budi menjadi lebih terbuka dan bertanya teknis</td>
+<td>Awal: Sedang <span class="math inline">\(\rightarrow\)</span> Akhir: Tinggi</td>
+<td>Budi bergeser dari menolak menjadi mencari cara penerapan</td>
 </tr>
 </tbody>
 </table>
-<p>[Bedakan ungkapan hangat, bantuan konkret, konsistensi, dan penghormatan pilihan. Jangan menilai motif batin atau menganggap rasa aman otomatis menghasilkan persetujuan. Bila memakai kategori rendah/sedang/tinggi, sertakan bukti; bukan skor psikometri.]</p>
 </section>
 <section id="uji-ulang-dan-pembelajaran" class="level2">
 <h2 class="anchored" data-anchor-id="uji-ulang-dan-pembelajaran">Uji ulang dan pembelajaran</h2>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 50%">
-<col style="width: 50%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Unsur</th>
-<th>Bukti/uraian</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Kendala baru atau peristiwa sejenis</td>
-<td>[Isi dan ID]</td>
-</tr>
-<tr class="even">
-<td>Respons awal dibanding uji ulang</td>
-<td>[Isi dan kutipan]</td>
-</tr>
-<tr class="odd">
-<td>Revisi rencana/dukungan</td>
-<td>[Isi]</td>
-</tr>
-<tr class="even">
-<td>Indikator perbaikan</td>
-<td>[Isi]</td>
-</tr>
-<tr class="odd">
-<td>Transfer dan keterbatasan</td>
-<td>[Apa yang diperagakan; apa yang belum diuji?]</td>
-</tr>
-</tbody>
-</table>
-<p>[Jika uji ulang belum dilakukan, nyatakan belum teramati. Jangan menyusun ulang kejadian yang tidak ada.]</p>
+<ul>
+<li><strong>Stimulus sejenis:</strong> Penanganan interupsi atau instruksi mendadak di tengah jadwal fokus yang padat.</li>
+<li><strong>Respons awal vs uji ulang:</strong> Pada awal mula, peserta cenderung merasa tertekan dan keteteran saat dipaksa pindah fokus. Pada uji ulang, peserta dengan tenang menawarkan solusi <em>buffer time</em> dan klasifikasi urgensi tugas.</li>
+<li><strong>Transfer dan keterbatasan:</strong> Konsep <em>buffer time</em> sangat aplikatif untuk tugas akademik maupun organisasi, namun efektivitas pastinya memerlukan konsistensi eksekusi harian selama 14 hari di dunia nyata.</li>
+</ul>
 </section>
 <section id="penilaian-enam-dimensi" class="level2">
 <h2 class="anchored" data-anchor-id="penilaian-enam-dimensi">Penilaian enam dimensi</h2>
@@ -742,100 +791,117 @@ ul.task-list li input[type="checkbox"] {
 <thead>
 <tr class="header">
 <th>Dimensi</th>
-<th>Skor 1-4/BT</th>
+<th>Skor 1–4/BT</th>
 <th>ID dan kutipan bukti</th>
-<th>Alasan sesuai indikator</th>
+<th>Alasan</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>Tujuan dan konteks</td>
 <td>BT</td>
-<td>[Isi]</td>
-<td>[Belum dinilai]</td>
+<td>U001, U004</td>
+<td>Target 14 hari, time-blocking, dan buffer time dirumuskan sangat konkret</td>
 </tr>
 <tr class="even">
 <td>Persepsi dan validasi profil/status</td>
 <td>BT</td>
-<td>[Isi]</td>
-<td>[Belum dinilai]</td>
+<td>U002, U003</td>
+<td>Peserta mampu membaca kecemasan Budi (ISTJ) dan memvalidasinya dulu</td>
 </tr>
 <tr class="odd">
 <td>Pemilihan dan urutan repertoar</td>
 <td>BT</td>
-<td>[Isi]</td>
-<td>[Belum dinilai]</td>
+<td>U002–U004</td>
+<td>Menggunakan urutan empati <span class="math inline">\(\rightarrow\)</span> penjelasan konsep <span class="math inline">\(\rightarrow\)</span> langkah taktis</td>
 </tr>
 <tr class="even">
 <td>Eksekusi jelas, peduli dan konsisten</td>
 <td>BT</td>
-<td>[Isi]</td>
-<td>[Belum dinilai]</td>
+<td>U003, U004</td>
+<td>Bahasa lugas, menghargai prosedur lama, dan solutif</td>
 </tr>
 <tr class="odd">
 <td>Evaluasi dan adaptasi</td>
 <td>BT</td>
-<td>[Isi]</td>
-<td>[Belum dinilai]</td>
+<td>U004</td>
+<td>Mampu beradaptasi secara cepat saat diuji skenario tugas mendadak</td>
 </tr>
 <tr class="even">
 <td>Refleksi dan lesson learned</td>
 <td>BT</td>
-<td>[Isi]</td>
-<td>[Belum dinilai]</td>
+<td>U001, U004</td>
+<td>Menyadari pentingnya menjaga energi internal dan batas asertif</td>
 </tr>
 </tbody>
 </table>
-<p><strong>Nilai sesi:</strong> [Belum dihitung]. BT berarti belum dapat ditetapkan, bukan nol. Rumus <code>jumlah enam skor / 24 x 100</code> hanya digunakan jika seluruh skor sah tersedia. Skor harus mengikuti indikator resmi, bukan kesepakatan akhir saja. Bedakan evaluasi diri, usulan AI, dan nilai resmi dosen.</p>
+<p><em>Catatan: Skor numerik ditandai BT (Belum dapat ditetapkan) untuk menunggu moderasi dosen.</em></p>
 </section>
 <section id="refleksi-dan-lesson-learned-mahasiswa" class="level2">
 <h2 class="anchored" data-anchor-id="refleksi-dan-lesson-learned-mahasiswa">Refleksi dan lesson learned mahasiswa</h2>
-<ul>
-<li><strong>Dugaan yang dikoreksi:</strong> [Jawaban Anda dan bukti].</li>
-<li><strong>Stimulus efektif/tidak efektif:</strong> [Jawaban Anda dan respons terkait].</li>
-<li><strong>Pertumbuhan PASK/ASK diri:</strong> [Perubahan persepsi, sikap, keterampilan, pengetahuan; bukti dan batas].</li>
-<li><strong>Relasi:</strong> [Pesan apa yang membantu atau menghambat rasa dipercaya/dipedulikan? Apa buktinya?].</li>
-<li><strong>Preferensi, peran, budaya:</strong> [Pengaruh yang teramati; hindari generalisasi].</li>
-<li><strong>Pelajaran untuk situasi berikutnya:</strong> [Isi].</li>
-</ul>
+<p>Pesan yang paling membantu dalam komunikasi adalah mengakui dan memvalidasi kenyamanan orang lain terlebih dahulu sebelum menawarkan metode baru. Dengan menjelaskan bahwa <em>time-blocking</em> berfungsi sebagai <em>pagar energi</em> tanpa merusak prosedur lama, resistensi Budi berkurang secara drastis. Bagi diri sendiri, pelajaran terbesarnya adalah disiplin menyediakan <em>buffer time</em> agar <em>context switching</em> antara tugas kodingan dan interaksi sosial tidak lagi menguras emosi.</p>
 </section>
 <section id="tindak-lanjut-dan-batas-bukti" class="level2">
 <h2 class="anchored" data-anchor-id="tindak-lanjut-dan-batas-bukti">Tindak lanjut dan batas bukti</h2>
+<ul>
+<li>Menerapkan jadwal <em>time-blocking</em> harian dan mengevaluasinya lewat jurnal refleksi 3 menit setiap malam.</li>
+<li>Menyiapkan template balasan asertif tertulis untuk menunda diskusi tatap muka saat energi emosional sedang berada di titik terendah.</li>
+<li>Batas bukti: Hasil simulasi dalam laporan ini merupakan demonstrasi kemampuan lisan dan konseptual, pembuktian ketahanan energi nyata memerlukan penilaian jangka panjang di lapangan.</li>
+</ul>
+</section>
+<section id="bobot-dan-nilai-akhir-uts" class="level2">
+<h2 class="anchored" data-anchor-id="bobot-dan-nilai-akhir-uts">Bobot dan nilai akhir UTS</h2>
 <table class="caption-top table">
-<colgroup>
-<col style="width: 16%">
-<col style="width: 16%">
-<col style="width: 16%">
-<col style="width: 16%">
-<col style="width: 16%">
-<col style="width: 16%">
-</colgroup>
 <thead>
 <tr class="header">
-<th>Langkah</th>
-<th>Penanggung jawab</th>
-<th>Waktu</th>
-<th>Dukungan</th>
-<th>Indikator/cara evaluasi</th>
-<th>Status rencana/pelaksanaan</th>
+<th>Komponen</th>
+<th style="text-align: right;">Bobot</th>
+<th>Nilai komponen</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Isi]</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
+<td>Makalah pra-UTS (<code>paper.qmd</code>)</td>
+<td style="text-align: right;">10%</td>
+<td>Nilai dosen pada skala 0–100</td>
+</tr>
+<tr class="even">
+<td>Sesi 1</td>
+<td style="text-align: right;">18%</td>
+<td>Jumlah enam skor / 24 × 100</td>
+</tr>
+<tr class="odd">
+<td>Sesi 2a</td>
+<td style="text-align: right;">18%</td>
+<td>Jumlah enam skor / 24 × 100</td>
+</tr>
+<tr class="even">
+<td>Sesi 2b</td>
+<td style="text-align: right;">18%</td>
+<td>Jumlah enam skor / 24 × 100</td>
+</tr>
+<tr class="odd">
+<td>Sesi 3a</td>
+<td style="text-align: right;">18%</td>
+<td>Jumlah enam skor / 24 × 100</td>
+</tr>
+<tr class="even">
+<td>Sesi 3b</td>
+<td style="text-align: right;">18%</td>
+<td>Jumlah enam skor / 24 × 100</td>
+</tr>
+<tr class="odd">
+<td><strong>Total</strong></td>
+<td style="text-align: right;"><strong>100%</strong></td>
+<td></td>
 </tr>
 </tbody>
 </table>
-<p>[Batas bukti: kelengkapan transkrip, modalitas, perilaku tokoh simulasi, klaim belum terverifikasi, dan hasil di luar sesi. Pastikan hari, tanggal, dan waktu konsisten. Pengiriman portal dilakukan mahasiswa.]</p>
-<p><strong>Konfirmasi akhir:</strong> [ID giliran konfirmasi/koreksi identitas, tujuan, hasil, dan refleksi sebelum laporan disimpan].</p>
+<p><strong>Nilai akhir UTS = 0,10 × M + 0,18 × (S1 + S2a + S2b + S3a + S3b)</strong>, dengan seluruh nilai komponen pada skala 0–100. Bobot ini berlaku di dalam nilai UTS.</p>
+<p>Nilai sesi hanya dihitung jika keenam skor sah tersedia. BT berarti belum dapat ditetapkan, bukan nol; komponen yang belum tersedia atau belum dapat dinilai tidak dianggap nol dan bobotnya tidak dinormalisasi ulang. Nilai akhir ditulis <strong>Belum dihitung</strong> sampai nilai makalah dan kelima sesi tersedia.</p>
 </section>
-<section id="bobot-dan-nilai-akhir-uts" class="level2">
-<h2 class="anchored" data-anchor-id="bobot-dan-nilai-akhir-uts">Bobot dan nilai akhir UTS</h2>
+<section id="bobot-dan-nilai-akhir-uts-1" class="level2">
+<h2 class="anchored" data-anchor-id="bobot-dan-nilai-akhir-uts-1">Bobot dan nilai akhir UTS</h2>
 <table class="caption-top table">
 <thead>
 <tr class="header">
@@ -1296,7 +1362,7 @@ ul.task-list li input[type="checkbox"] {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>Portfolio KIPP-2 · Nama Mahasiswa</p>
+<p>Portfolio KIPP-2 · Tio Christian Doly Silitonga</p>
 </div>   
     <div class="nav-footer-center">
       &nbsp;

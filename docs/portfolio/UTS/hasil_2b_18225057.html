@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Ali Baba — 07381119">
+<meta name="author" content="Tio Christian Doly Silitonga">
 
 <title>Laporan UTS KIPP 2026 — Versi 2.0 – Portfolio KIPP-2</title>
 <style>
@@ -77,6 +77,35 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -277,11 +306,16 @@ ul.task-list li input[type="checkbox"] {
   </ul></li>
   <li><a href="#c-skrip-percakapan" id="toc-c-skrip-percakapan" class="nav-link" data-scroll-target="#c-skrip-percakapan">C) Skrip Percakapan</a>
   <ul class="collapse">
-  <li><a href="#tahap-a-identifikasi" id="toc-tahap-a-identifikasi" class="nav-link" data-scroll-target="#tahap-a-identifikasi">Tahap A — Identifikasi</a></li>
-  <li><a href="#tahap-b-kasus-dan-tujuan" id="toc-tahap-b-kasus-dan-tujuan" class="nav-link" data-scroll-target="#tahap-b-kasus-dan-tujuan">Tahap B — Kasus dan tujuan</a></li>
-  <li><a href="#tahap-c-simulasi-awal" id="toc-tahap-c-simulasi-awal" class="nav-link" data-scroll-target="#tahap-c-simulasi-awal">Tahap C — Simulasi awal</a></li>
-  <li><a href="#evaluasi-dan-refleksi-disebut-tahap-d-oleh-fasilitator" id="toc-evaluasi-dan-refleksi-disebut-tahap-d-oleh-fasilitator" class="nav-link" data-scroll-target="#evaluasi-dan-refleksi-disebut-tahap-d-oleh-fasilitator">Evaluasi dan refleksi — disebut Tahap D oleh fasilitator</a></li>
-  <li><a href="#permintaan-laporan-tertulis" id="toc-permintaan-laporan-tertulis" class="nav-link" data-scroll-target="#permintaan-laporan-tertulis">Permintaan laporan tertulis</a></li>
+  <li><a href="#ai001-ai-a-identifikasi" id="toc-ai001-ai-a-identifikasi" class="nav-link" data-scroll-target="#ai001-ai-a-identifikasi">AI001 — AI — A — Identifikasi</a></li>
+  <li><a href="#u001-peserta-ab-identifikasi-dan-rencana" id="toc-u001-peserta-ab-identifikasi-dan-rencana" class="nav-link" data-scroll-target="#u001-peserta-ab-identifikasi-dan-rencana">U001 — Peserta — A/B — Identifikasi dan Rencana</a></li>
+  <li><a href="#ai002-ai-c-simulasi-awal" id="toc-ai002-ai-c-simulasi-awal" class="nav-link" data-scroll-target="#ai002-ai-c-simulasi-awal">AI002 — AI — C — Simulasi Awal</a></li>
+  <li><a href="#u002-peserta-c-simulasi-awal" id="toc-u002-peserta-c-simulasi-awal" class="nav-link" data-scroll-target="#u002-peserta-c-simulasi-awal">U002 — Peserta — C — Simulasi Awal</a></li>
+  <li><a href="#ai003-ai-c-simulasi-awal" id="toc-ai003-ai-c-simulasi-awal" class="nav-link" data-scroll-target="#ai003-ai-c-simulasi-awal">AI003 — AI — C — Simulasi Awal</a></li>
+  <li><a href="#u003-peserta-c-simulasi-awal" id="toc-u003-peserta-c-simulasi-awal" class="nav-link" data-scroll-target="#u003-peserta-c-simulasi-awal">U003 — Peserta — C — Simulasi Awal</a></li>
+  <li><a href="#ai004-ai-c-simulasi-awal" id="toc-ai004-ai-c-simulasi-awal" class="nav-link" data-scroll-target="#ai004-ai-c-simulasi-awal">AI004 — AI — C — Simulasi Awal</a></li>
+  <li><a href="#ai005-ai-e-uji-ulang" id="toc-ai005-ai-e-uji-ulang" class="nav-link" data-scroll-target="#ai005-ai-e-uji-ulang">AI005 — AI — E — Uji Ulang</a></li>
+  <li><a href="#u005-peserta-e-uji-ulang" id="toc-u005-peserta-e-uji-ulang" class="nav-link" data-scroll-target="#u005-peserta-e-uji-ulang">U005 — Peserta — E — Uji Ulang</a></li>
+  <li><a href="#ai006-ai-g-konfirmasi" id="toc-ai006-ai-g-konfirmasi" class="nav-link" data-scroll-target="#ai006-ai-g-konfirmasi">AI006 — AI — G — Konfirmasi</a></li>
   </ul></li>
   <li><a href="#d-hasil-evaluasi-dan-refleksi" id="toc-d-hasil-evaluasi-dan-refleksi" class="nav-link" data-scroll-target="#d-hasil-evaluasi-dan-refleksi">D) Hasil, Evaluasi, dan Refleksi</a>
   <ul class="collapse">
@@ -293,6 +327,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#refleksi-dan-lesson-learned-mahasiswa" id="toc-refleksi-dan-lesson-learned-mahasiswa" class="nav-link" data-scroll-target="#refleksi-dan-lesson-learned-mahasiswa">Refleksi dan lesson learned mahasiswa</a></li>
   <li><a href="#tindak-lanjut-dan-batas-bukti" id="toc-tindak-lanjut-dan-batas-bukti" class="nav-link" data-scroll-target="#tindak-lanjut-dan-batas-bukti">Tindak lanjut dan batas bukti</a></li>
   <li><a href="#bobot-dan-nilai-akhir-uts" id="toc-bobot-dan-nilai-akhir-uts" class="nav-link" data-scroll-target="#bobot-dan-nilai-akhir-uts">Bobot dan nilai akhir UTS</a></li>
+  <li><a href="#bobot-dan-nilai-akhir-uts-1" id="toc-bobot-dan-nilai-akhir-uts-1" class="nav-link" data-scroll-target="#bobot-dan-nilai-akhir-uts-1">Bobot dan nilai akhir UTS</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -303,7 +338,7 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Laporan UTS KIPP 2026 — Versi 2.0</h1>
-<p class="subtitle lead">Sesi 3b — Kasus 3: Menawarkan Solusi TI/AI kepada Budi</p>
+<p class="subtitle lead">Sesi 2b — Kasus 2: Persahabatan dan Profesionalitas</p>
 </div>
 
 
@@ -313,14 +348,14 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Penulis</div>
     <div class="quarto-title-meta-contents">
-             <p>Ali Baba — 07381119 </p>
+             <p>Tio Christian Doly Silitonga </p>
           </div>
   </div>
     
     <div>
     <div class="quarto-title-meta-heading">Diterbitkan</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">6 Oktober 2026</p>
+      <p class="date">14 Oktober 2026</p>
     </div>
   </div>
   
@@ -348,75 +383,72 @@ ul.task-list li input[type="checkbox"] {
 <tbody>
 <tr class="odd">
 <td>Nama mahasiswa</td>
-<td>Ali Baba</td>
+<td>Tio Christian Doly Silitonga</td>
 </tr>
 <tr class="even">
 <td>NIM</td>
-<td>07381119</td>
+<td>18225057</td>
 </tr>
 <tr class="odd">
 <td>Kelas</td>
 <td>01</td>
 </tr>
 <tr class="even">
-<td>Tanggal</td>
-<td>6 Oktober 2026</td>
+<td>Tanggal pelaksanaan</td>
+<td>14 Oktober 2026</td>
 </tr>
 <tr class="odd">
 <td>Nomor/judul kasus</td>
-<td>Sesi 3b; Kasus 3 — Menawarkan solusi TI dan AI</td>
+<td>Sesi 2b, urutan 3 dari 5, Kasus 2 — Persahabatan dan profesionalitas</td>
 </tr>
 <tr class="even">
-<td>Urutan penugasan</td>
-<td>5 dari 5; penyelesaian empat sesi lainnya tidak diketahui</td>
+<td>Target utama</td>
+<td>Ali (K2-01)</td>
 </tr>
 <tr class="odd">
-<td>Nama dan ID target</td>
-<td>Budi (K3-02), pengelola usaha/customer</td>
+<td>Versi bank/paket</td>
+<td>Bank 2.0, paket individual 2.0</td>
 </tr>
 <tr class="even">
-<td>Versi bank dan paket</td>
-<td>Bank 2.0; paket individual 2.0</td>
+<td>Sumber penugasan</td>
+<td>PENUGASAN.md dalam kasus_2b_18225057.zip</td>
 </tr>
 <tr class="odd">
-<td>Aturan penugasan</td>
-<td>PENUGASAN.md; target telah ditetapkan dan tidak dipilih ulang</td>
-</tr>
-<tr class="even">
-<td>Modalitas yang dikonfirmasi</td>
+<td>Modalitas</td>
 <td>Teks</td>
 </tr>
+<tr class="even">
+<td>Konteks nyata/fiktif</td>
+<td>Penanganan kendala psikologis rekan tim menjelang tenggat 48 jam bersifat nyata, interaksi dialog bersama Ali bersifat simulasi fiktif.</td>
+</tr>
 <tr class="odd">
-<td>Sumber pencatatan</td>
-<td>Transkrip percakapan berformat SRT yang disediakan pengguna; mencakup fragmen ujaran. Tidak tersedia bukti prosodi atau rekaman untuk diverifikasi.</td>
+<td>Nama laporan</td>
+<td>hasil_2b_18225057.qmd</td>
 </tr>
 <tr class="even">
-<td>Kasus nyata/fiktif</td>
-<td>Simulasi dengan tokoh fiktif</td>
-</tr>
-<tr class="odd">
 <td>Kelengkapan transkrip</td>
-<td>Seluruh giliran substantif yang tersedia sejak identifikasi hingga permintaan laporan dicatat. Uji ulang dan konfirmasi ringkasan akhir belum dilakukan.</td>
-</tr>
-<tr class="even">
-<td>Status laporan</td>
-<td>Dokumentasi hasil sesi yang tersedia; belum memenuhi seluruh tahapan asesmen versi 2.0</td>
+<td>Lengkap dari tahap identifikasi hingga uji ulang, refleksi, dan konfirmasi</td>
 </tr>
 </tbody>
 </table>
-<p>Nama dan NIM mengikuti penugasan serta konfirmasi percakapan, bukan verifikasi identitas eksternal. Dokumen ini mengikuti empat bagian utama dalam template_laporan.qmd. Profil simulasi dan aturan evaluasi bersumber dari profil_komunikan.md dan prompt_umum.md. Laporan dibuat atas permintaan peserta pada U016; belum ada konfirmasi peserta terhadap seluruh interpretasi AI dalam laporan ini.</p>
 </section>
 <section id="b-kasus-dan-tujuan" class="level1">
 <h1>B) Kasus dan Tujuan</h1>
 <section id="kasus-dan-tujuan-tindakan" class="level2">
 <h2 class="anchored" data-anchor-id="kasus-dan-tujuan-tindakan">Kasus dan tujuan tindakan</h2>
-<p>Brief dalam paket: customer menangani pertanyaan pelanggan berulang dan pesanan tercecer dengan tenaga terbatas. Customer belum yakin membutuhkan AI. Komunikator perlu menggali kebutuhan dan menawarkan solusi TI/AI yang sesuai, dengan sasaran keputusan atau uji coba konkret.</p>
-<p>Dalam percakapan, Ali Baba menawarkan solusi AI untuk meningkatkan kapasitas customer service. Tujuan awalnya mendapatkan kesempatan demo (U003). Harapan lanjutannya ialah Budi menggunakan alat dan membeli solusi (U004). Keduanya dibedakan: persetujuan demo adalah langkah pertama; pembelian merupakan hasil lanjutan yang belum dapat dibuktikan hanya melalui demo.</p>
-<p>Indikator keberhasilan yang dapat diturunkan dari tujuan tersebut adalah persetujuan eksplisit atas demo, lalu keputusan adopsi/pembelian. Waktu, durasi, cakupan demo, indikator manfaat, dan syarat pembelian tidak dirumuskan dalam sesi.</p>
+<ul>
+<li><strong>Brief kasus:</strong> Tenggat tugas kelompok tinggal 48 jam lagi. Rekan dekat (Ali) belum mengirim bagiannya, merasa pembagian tugas tidak adil, serta mengalami kecemasan dan ketakutan gagal. Mahasiswa mengajak percakapan untuk meredakan kecemasan, memberikan panduan bertahap (<em>scaffolding</em>), dan menyepakati penyelesaian tugas bersama.</li>
+<li><strong>Tujuan komunikasi:</strong>
+<ol type="1">
+<li>Membangun koneksi dan rasa aman dengan memvalidasi kecemasan Ali tanpa penghakiman.</li>
+<li>Menyediakan kejelasan prosedur melalui pemecahan tugas besar menjadi langkah kecil yang konkret (<em>micro-steps</em>).</li>
+<li>Menjaga komitmen kelompok agar tugas selesai tepat waktu tanpa merusak hubungan persahabatan.</li>
+</ol></li>
+<li><strong>Indikator keberhasilan:</strong> Ali merasa didukung, bersedia mulai menulis progres awal, dan mampu memperbaiki kesalahan interpretasi data berkat pendampingan suportif.</li>
+</ul>
 </section>
 <section id="profil-awal-komunikator" class="level2">
 <h2 class="anchored" data-anchor-id="profil-awal-komunikator">Profil awal komunikator</h2>
-<p>Tabel berikut merupakan interpretasi AI atas bukti percakapan, bukan jawaban profil diri yang diberikan peserta sebelum simulasi.</p>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 25%">
@@ -427,7 +459,7 @@ ul.task-list li input[type="checkbox"] {
 <thead>
 <tr class="header">
 <th>Unsur</th>
-<th>Laporan/dugaan berdasarkan percakapan</th>
+<th>Laporan/dugaan awal</th>
 <th>Bukti</th>
 <th>Tingkat kepastian</th>
 </tr>
@@ -435,47 +467,46 @@ ul.task-list li input[type="checkbox"] {
 <tbody>
 <tr class="odd">
 <td>SWOT subjektif</td>
-<td>Melihat peluang pada kebutuhan peningkatan kapasitas customer service. Pada awal percakapan merasa solusi dapat membantu. Ancaman biaya, gangguan operasi, dan resistensi staf muncul melalui respons Budi.</td>
-<td>U005–U008; AI007–AI012</td>
-<td>Interpretasi sementara; SWOT diri tidak ditanyakan secara lengkap</td>
+<td><strong>Strengths:</strong> Hubungan persahabatan yang dekat memudahkan terciptanya empati dan rasa saling percaya.<br><strong>Weaknesses:</strong> Risiko rasa sungkan (<em>ewuh pakewuh</em>) yang bisa menghambat ketegasan batas waktu.<br><strong>Opportunities:</strong> Karakter Ali yang menjaga harmoni membuat intervensi berbasis panduan bertahap sangat efektif.<br><strong>Threats:</strong> Kecemasan berlebihan bisa memicu kelumpuhan analisis (<em>paralysis by analysis</em>).</td>
+<td>U001</td>
+<td>Laporan diri</td>
 </tr>
 <tr class="even">
 <td>Attitude</td>
-<td>Berorientasi menawarkan manfaat; bersedia mengakui kekhawatiran dan menghormati penolakan.</td>
-<td>U006, U012, U013</td>
-<td>Teramati dalam teks; motif batin tidak dinilai</td>
+<td>Empatis, sabar, tidak menghakimi, namun tetap konsisten pada target bersama.</td>
+<td>U001</td>
+<td>Laporan diri</td>
 </tr>
 <tr class="odd">
 <td>Knowledge</td>
-<td>Menggunakan konsep AI dan machine learning. Bukti kapasitas tiga kali lipat, mekanisme belajar sistem, serta rincian biaya belum disampaikan.</td>
-<td>U007, U008, U009, U012</td>
-<td>Klaim peserta; kemampuan teknis produk belum diverifikasi</td>
+<td>Memahami profil psikologis Ali yang membutuhkan pengakuan emosional dan struktur tugas yang jelas.</td>
+<td>U001</td>
+<td>Laporan diri</td>
 </tr>
 <tr class="even">
 <td>Skill</td>
-<td>Mampu membuka percakapan, menjelaskan manfaat, merespons keberatan, dan menutup dengan sopan. Penggalian kebutuhan sebelum penawaran belum tampak.</td>
-<td>U005–U013</td>
-<td>Teramati pada simulasi awal; transfer keterampilan belum diuji</td>
+<td>Komunikasi asertif yang ramah (<em>supportive assertion</em>), teknik pemecahan tugas (<em>task-chunking</em>), dan manajemen stres.</td>
+<td>U001</td>
+<td>Demonstrasi lisan</td>
 </tr>
 <tr class="odd">
 <td>Preferensi/MBTI</td>
-<td>Tidak dilaporkan peserta.</td>
-<td>—</td>
-<td>Tidak ditentukan dari transkrip</td>
+<td>ENTJ (laporan diri/hipotesis)</td>
+<td>U001</td>
+<td>Laporan diri</td>
 </tr>
 <tr class="even">
 <td>Karakter, peran, kultur/ko-kultur</td>
-<td>Berperan sebagai penyedia solusi. Sopan santun tampak melalui sapaan dan ucapan terima kasih; kultur spesifik tidak digali.</td>
-<td>U005, U013</td>
-<td>Terbatas pada perilaku komunikasi yang tersedia</td>
+<td>Mahasiswa STEI-K, Project Leader, rekan kerja kelompok.</td>
+<td>U001</td>
+<td>Laporan diri</td>
 </tr>
 </tbody>
 </table>
 </section>
 <section id="dugaan-awal-profil-target-dan-rencana" class="level2">
 <h2 class="anchored" data-anchor-id="dugaan-awal-profil-target-dan-rencana">Dugaan awal profil target dan rencana</h2>
-<p>Peserta tidak memberikan profil awal atau rencana terstruktur sebelum simulasi. Pada pembuka U005 peserta menganggap usaha Budi maju dan bagian customer service kewalahan. Pernyataan itu merupakan asumsi peserta dalam simulasi; belum divalidasi melalui pertanyaan. Sebelum simulasi, fasilitator menyebut Budi pragmatis, berfokus pada efisiensi, dan skeptis terhadap teknologi baru (AI005). Keterangan fasilitator itu tidak dihitung sebagai hasil diagnosis peserta.</p>
-<p>Tabel TAIDA berikut memetakan langkah yang benar-benar muncul, bukan rencana awal yang seolah-olah pernah disampaikan. TAIDA digunakan sebagai platform analisis, bukan tahapan perubahan yang pasti atau linear.</p>
+<p><strong>Ali sebagai target (K2-01):</strong> Berprofil fiktif INFP yang menjaga harmoni, berhati-hati, cemas akan kegagalan, dan memerlukan pengakuan keraguan serta bimbingan langkah kecil.</p>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 20%">
@@ -487,47 +518,47 @@ ul.task-list li input[type="checkbox"] {
 <thead>
 <tr class="header">
 <th>TAIDA</th>
-<th>Status/target</th>
-<th>Aspek A/K/S yang relevan</th>
-<th>Repertoar yang tampak</th>
-<th>Bukti hasil</th>
+<th>Status awal/target</th>
+<th>Edukasi A/K/S</th>
+<th>Repertoar dalam sesi</th>
+<th>Bukti</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>Target</td>
-<td>Budi sebagai calon pengguna; demo lalu adopsi/pembelian</td>
-<td>Kebutuhan operasional belum digali</td>
-<td>Menetapkan tujuan penawaran</td>
-<td>U003–U004</td>
+<td>Mengatasi kecemasan dan merampungkan bagian analisis data</td>
+<td>A (Validasi emosi)</td>
+<td>Pendekatan ramah dan validasi keraguan</td>
+<td>U001, U002</td>
 </tr>
 <tr class="even">
 <td>Attention</td>
-<td>Mengajak Budi memperhatikan penawaran</td>
-<td>A: penghargaan atas usahanya</td>
-<td>Salam dan pujian atas kemajuan usaha</td>
-<td>U005; AI006 tetap menjawab</td>
+<td>Ragu dan takut salah dalam menarik kesimpulan data</td>
+<td>A (Peredaan beban)</td>
+<td>Meyakinkan bahwa draf awal tidak harus sempurna</td>
+<td>U002, U003</td>
 </tr>
 <tr class="odd">
 <td>Interest</td>
-<td>Menawarkan peningkatan kapasitas dengan biaya terkendali</td>
-<td>K: manfaat dan biaya; A: risiko</td>
-<td>Penjelasan manfaat, klaim tiga kali lipat, biaya setara satu staf</td>
-<td>U006–U008; AI007–AI009 meminta kepastian</td>
+<td>Membutuhkan kejelasan titik awal pengerjaan</td>
+<td>K (Scaffolding/langkah kecil)</td>
+<td>Memecah tugas menjadi 2 poin data sederhana</td>
+<td>U003, U004</td>
 </tr>
 <tr class="even">
 <td>Desire</td>
-<td>Mengupayakan keyakinan bahwa staf akan terbantu</td>
-<td>A: rasa aman; K: peran staf; S: penyesuaian kerja</td>
-<td>Menjelaskan sistem belajar dan staf menjadi supervisor</td>
-<td>U009, U012; AI012–AI013 masih menyatakan kendala</td>
+<td>Berkeinginan menyelesaikan tugas tanpa merepotkan tim</td>
+<td>S (Dukungan validasi)</td>
+<td>Menyediakan pemeriksaan bersama secara berkala</td>
+<td>U004, U005</td>
 </tr>
 <tr class="odd">
 <td>Action</td>
-<td>Mendapatkan persetujuan demo</td>
-<td>S: prosedur, dukungan, dan langkah konkret</td>
-<td>Mengusulkan demo, lalu menutup setelah penolakan</td>
-<td>U006, U013; AI013 menolak demo; belum ada kesepakatan</td>
+<td>Menyelesaikan catatan awal dan merevisi kesalahan kolom data</td>
+<td>A/K/S (Koreksi suportif)</td>
+<td>Memberikan penguatan positif dan instruksi revisi praktis</td>
+<td>U005</td>
 </tr>
 </tbody>
 </table>
@@ -535,167 +566,72 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="c-skrip-percakapan" class="level1">
 <h1>C) Skrip Percakapan</h1>
-<p><strong>Transkrip aktual berdasarkan teks yang tersedia, bukan dialog karangan.</strong> ID U dan AI diberikan berurutan untuk masing-masing pembicara. Fragmen ujaran dipertahankan sebagai giliran terpisah. Penanda aktivitas alat dan pesan status teknis tidak disalin. Inventarisasi paket mendahului cuplikan identifikasi di bawah; konfigurasi sumber dan artefak akhir tidak dimasukkan sebagai dialog.</p>
-<section id="tahap-a-identifikasi" class="level2">
-<h2 class="anchored" data-anchor-id="tahap-a-identifikasi">Tahap A — Identifikasi</h2>
-<p><strong>AI001 — Fasilitator</strong></p>
+<section id="ai001-ai-a-identifikasi" class="level3">
+<h3 class="anchored" data-anchor-id="ai001-ai-a-identifikasi">AI001 — AI — A — Identifikasi</h3>
 <blockquote class="blockquote">
-<p>AI001 — Tahap A: Identifikasi</p>
-<p>Mohon konfirmasi data peserta dan lengkapi identitas sesi dalam satu jawaban:</p>
-<ul>
-<li>Nama: Ali Baba</li>
-<li>NIM: 07381119</li>
-<li>Kelas: …</li>
-<li>Tanggal: 6 Oktober 2026, atau koreksi bila berbeda</li>
-<li>Modalitas: teks atau suara</li>
-</ul>
-<p>Apakah nama dan NIM tersebut sesuai dengan peserta yang akan menjalani sesi ini?</p>
-</blockquote>
-<p><strong>U001 — Mahasiswa</strong></p>
-<blockquote class="blockquote">
-<p>Oke</p>
-</blockquote>
-<p><strong>AI002 — Fasilitator</strong></p>
-<blockquote class="blockquote">
-<p>Baik, kita mulai dari Tahap A dulu ya. Mohon konfirmasi identitas sesi: Nama Ali Baba, NIM 07381119, Kelas, tanggal hari ini 6 Oktober 2026, dan modalitas teks atau suara.</p>
-</blockquote>
-<p><strong>U002 — Mahasiswa</strong></p>
-<blockquote class="blockquote">
-<p>Oke, kelas 01 modalitas teks</p>
-</blockquote>
-<p><strong>AI003 — Fasilitator</strong></p>
-<blockquote class="blockquote">
-<p>Baik, terima kasih. Jadi kita tetapkan, Ali Baba, NIM 07381119, Kelas 01, tanggal 6 Oktober 2026, modalitas teks. Sekarang kita masuk ke Tahap B, Kasus 3b. Tolong tuliskan tujuan komunikasi Anda untuk skenario menawarkan solusi IT/AI kepada Budi, seorang pengelola usaha yang dikenal efisien dan hati-hati.</p>
+<p>ZIP berhasil dibuka. Sesi 2b — Kasus 2 dimulai. Mohon konfirmasi nama, NIM (18225057), kelas, tanggal, dan modalitas.</p>
 </blockquote>
 </section>
-<section id="tahap-b-kasus-dan-tujuan" class="level2">
-<h2 class="anchored" data-anchor-id="tahap-b-kasus-dan-tujuan">Tahap B — Kasus dan tujuan</h2>
-<p><strong>U003 — Mahasiswa</strong></p>
+<section id="u001-peserta-ab-identifikasi-dan-rencana" class="level3">
+<h3 class="anchored" data-anchor-id="u001-peserta-ab-identifikasi-dan-rencana">U001 — Peserta — A/B — Identifikasi dan Rencana</h3>
 <blockquote class="blockquote">
-<p>Saya ingin supaya diberi kesempatan untuk melakukan demo produk ini sehingga dia bisa menggunakan sebagai solusi di tempat kerjanya</p>
-</blockquote>
-<p><strong>AI004 — Fasilitator</strong></p>
-<blockquote class="blockquote">
-<p>Baik, tujuan awalnya adalah mendapatkan kesempatan demo agar Budi bisa melihat relevansi solusi untuk konteks kerjanya. Sekarang, mohon rumuskan hasil yang Anda anggap sukses dari percakapan ini. Misalnya, apakah cukup sampai Budi bersedia demo, atau ada tindak lanjut tertentu yang Anda harapkan?</p>
-</blockquote>
-<p><strong>U004 — Mahasiswa</strong></p>
-<blockquote class="blockquote">
-<p>Tentu, setelah demo, kita harapkan untuk dia bisa menggunakan alat ini dan dia membeli solusi yang saya siapkan</p>
-</blockquote>
-<p><strong>AI005 — Fasilitator</strong></p>
-<blockquote class="blockquote">
-<p>Oke, jadi hasil yang dianggap sukses adalah: Budi setuju mencoba demo, lalu terbuka untuk adopsi lebih lanjut. Sekarang kita masuk ke Tahap C. Saya akan memerankan Budi, pengelola usaha yang pragmatis, fokus efisiensi, dan skeptis pada teknologi baru. Silakan mulai percakapan dengan salam atau pembuka.</p>
+<p>Tio Christian Doly Silitonga, 18225057, Kelas 01, 14 Oktober 2026, modalitas teks.</p>
+<p><strong>Tujuan Komunikasi:</strong> Membangun rasa aman, meredakan kecemasan Ali, serta memecah tugas analisis data menjadi langkah kecil (<em>micro-steps</em>) agar selesai dalam tenggat 48 jam. <strong>Dugaan SWOT &amp; ASK:</strong> Kekuatan pada empati dan kedekatan relasional, kelemahan pada potensi rasa sungkan, serta penguasaan teknik <em>supportive assertion</em>. <strong>Rencana Pendekatan:</strong> Validasi emosi, eliminasi ketakutan gagal, dan pendampingan <em>scaffolding</em> bertahap.</p>
 </blockquote>
 </section>
-<section id="tahap-c-simulasi-awal" class="level2">
-<h2 class="anchored" data-anchor-id="tahap-c-simulasi-awal">Tahap C — Simulasi awal</h2>
-<p><strong>U005 — Mahasiswa</strong></p>
+<section id="ai002-ai-c-simulasi-awal" class="level3">
+<h3 class="anchored" data-anchor-id="ai002-ai-c-simulasi-awal">AI002 — AI — C — Simulasi Awal</h3>
 <blockquote class="blockquote">
-<p>Halo, apa kabar Pak Budi? Saya lihat usaha Pak Budi ini maju besar, sehingga kewalahan bagian customer service. Saya lihat itu akibat dari Pak Budi memelihara perusahaan ini dengan baik</p>
-</blockquote>
-<p><strong>AI006 — Budi</strong></p>
-<blockquote class="blockquote">
-<p>Ya, terima kasih. Kami memang lagi berusaha jaga ritme. Tapi jujur aja, kami hati-hati banget soal teknologi baru. Kadang alat baru malah nambah repot.</p>
-</blockquote>
-<p><strong>U006 — Mahasiswa</strong></p>
-<blockquote class="blockquote">
-<p>Ya, memang itu satu concern yang penting ya. Dan saya itu ingin mendemokan satu solusi supaya customer service Pak Budi itu bisa meningkatkan kapasitasnya tanpa meningkatkan pembiayaan terlalu banyak</p>
-</blockquote>
-<p><strong>AI007 — Budi</strong></p>
-<blockquote class="blockquote">
-<p>Hmm. Gimana ya? Saya paham idenya, tapi biasanya implementasi itu makan waktu dan ganggu operasi. Tim kami nggak punya banyak ruang buat coba-coba. Saya takut nanti malah ini menghambat alur kerja yang sudah jalan.</p>
-</blockquote>
-<p><strong>U007 — Mahasiswa</strong></p>
-<blockquote class="blockquote">
-<p>Ya, solusi kami itu akan menggunakan teknologi artificial intelligence yang tidak akan mengganggu terlalu banyak apa yang sudah dilakukan, bahkan saya lihat akan membuat kerjaan staf dari Pak Budi ini akan lebih efisien. Sehingga kapasitas bisa meningkatkan tiga kali lipat</p>
-</blockquote>
-<p><strong>AI008 — Budi</strong></p>
-<blockquote class="blockquote">
-<p>Tiga kali lipat? Itu terdengar, jujur saja, terlalu bagus untuk jadi kenyataan. Dan soal biaya, bagaimana? Saya perlu sangat hati-hati dengan pengeluaran, apalagi kalau belum jelas hasilnya.</p>
-</blockquote>
-<p><strong>U008 — Mahasiswa</strong></p>
-<blockquote class="blockquote">
-<p>Ya, memang ada biayanya, Pak Budi. Tapi biaya yang kita siapkan itu seperti besarnya biaya satu staf. Jadi dengan biaya satu staf, Pak Budi mendapatkan kapasitas tiga kali lipat untuk pelayanan customer service Pak Budi</p>
-</blockquote>
-<p><strong>AI009 — Budi</strong></p>
-<blockquote class="blockquote">
-<p>Tapi tetap aja, biaya satu staf itu bukan angka kecil. Kalau ternyata tidak cocok, saya yang tanggung risikonya. Dan tim saya juga sudah penuh pekerjaan. Saya khawatir mereka keberatan dengan tambahan sistem baru, pelatihan, dan penyesuaian. Itu semua makan energi dan waktu. Saya bukan menolak, cuma saya belum yakin ini saat yang tepat.</p>
-</blockquote>
-<p><strong>U009 — Mahasiswa</strong></p>
-<blockquote class="blockquote">
-<p>Ya, dan sebenarnya sistem yang kita buat itu sistem yang untuk mempelajari bagaimana staf Pak Budi mengerjakan tugasnya. Jadi yang akan bekerja itu sistemnya, bukan staf Pak Budi</p>
-</blockquote>
-<p><strong>AI010 — Budi</strong></p>
-<blockquote class="blockquote">
-<p>Ya,</p>
-</blockquote>
-<p><strong>U010 — Mahasiswa</strong></p>
-<blockquote class="blockquote">
-<p>Staf Budi itu</p>
-</blockquote>
-<p><strong>AI011 — Budi</strong></p>
-<blockquote class="blockquote">
-<p>Maaf saya potong, tapi itu dia.</p>
-</blockquote>
-<p><strong>U011 — Mahasiswa</strong></p>
-<blockquote class="blockquote">
-<p>meningkat jadi ya</p>
-</blockquote>
-<p><strong>AI012 — Budi</strong></p>
-<blockquote class="blockquote">
-<p>Saya khawatir tim jadi merasa diawasi atau digantikan. Itu bisa bikin mereka defensif. Saya juga nggak punya waktu untuk mengelola resistensi internal sekarang. Jadi kalau memang butuh banyak perubahan di cara kerja harian, saya rasa ini tidak realistis untuk kami dalam waktu dekat.</p>
-</blockquote>
-<p><strong>U012 — Mahasiswa</strong></p>
-<blockquote class="blockquote">
-<p>Betul. Betul Pak Budi, kalau memang sistemnya tidak bagus seperti itu. Tapi sistem yang kita tawarkan ini justru membuat staf Pak Budi menjadi supervisor dan tidak kehilangan kemampuan. Bahkan sebetulnya Pak Budi yang akan mengajarkan hal ini kepada sistem, karena sistem ini machine learning dasarnya</p>
-</blockquote>
-<p><strong>AI013 — Budi</strong></p>
-<blockquote class="blockquote">
-<p>Saya mengerti penjelasannya, tapi seperti yang saya bilang, saat ini fokus saya menjaga operasi tetap stabil. Saya nggak dalam posisi untuk mempertimbangkan perubahan tambahan sekarang. Mungkin lain kali, saat kami sudah lebih longgar. Untuk sekarang, saya rasa belum bisa lanjut ke tahap demo. Terima kasih sudah menjelaskan.</p>
-</blockquote>
-<p><strong>U013 — Mahasiswa</strong></p>
-<blockquote class="blockquote">
-<p>Oke, terima kasih Pak Budi, nanti kami kontak lagi kalau sudah ada kesempatan ya</p>
+<p>Ali (K2-01) membuka percakapan dengan nada cemas: <em>“Terima kasih, tetapi saya belum yakin bisa melakukannya.”</em>[cite: 13]</p>
 </blockquote>
 </section>
-<section id="evaluasi-dan-refleksi-disebut-tahap-d-oleh-fasilitator" class="level2">
-<h2 class="anchored" data-anchor-id="evaluasi-dan-refleksi-disebut-tahap-d-oleh-fasilitator">Evaluasi dan refleksi — disebut Tahap D oleh fasilitator</h2>
-<p><strong>AI014 — Fasilitator</strong></p>
+<section id="u002-peserta-c-simulasi-awal" class="level3">
+<h3 class="anchored" data-anchor-id="u002-peserta-c-simulasi-awal">U002 — Peserta — C — Simulasi Awal</h3>
 <blockquote class="blockquote">
-<p>Baik, percakapan dihentikan di sini. Sekarang kita masuk ke Tahap D. Menurut Anda, apakah tujuan komunikasi tadi tercapai? Lalu apa satu hal utama yang menurut Anda perlu diperbaiki lain kali? Jawab singkat saja dulu.</p>
-</blockquote>
-<p><strong>U014 — Mahasiswa</strong></p>
-<blockquote class="blockquote">
-<p>Sebetulnya belum tercapai, tetapi kita juga bersyukur kalau kita tidak terlibat pada satu proyek yang tidak membutuhkan apa yang kita buat</p>
-</blockquote>
-<p><strong>AI015 — Fasilitator</strong></p>
-<blockquote class="blockquote">
-<p>Baik, terima kasih. Saya tangkap Anda menilai tujuan belum tercapai dan menyadari ada ketidaksesuaian kebutuhan. Silakan tambahkan satu kalimat refleksi tentang apa yang akan Anda lakukan berbeda lain kali.</p>
-</blockquote>
-<p><strong>U015 — Mahasiswa</strong></p>
-<blockquote class="blockquote">
-<p>Saya akan mulai dengan bertanya pada yang Pak Budi itu atau temannya apa yang sebetulnya menjadi concern dia dan menurut dia itu seperti apa jalan keluarnya yang bisa kita bantu. Jadi terbalik, dia yang harus menjawab, memberikan informasi pada kita</p>
-</blockquote>
-<p><strong>AI016 — Fasilitator</strong></p>
-<blockquote class="blockquote">
-<p>Baik, terima kasih. Refleksi Anda jelas. Dengan ini sesi percakapan dan refleksi selesai. Struktur laporan sudah lengkap untuk Anda salin ke hasil 3b 07381119 qmd.</p>
+<p>santai aja, Li. lu ga usah ngerasa harus langsung bikin draf yang sempurna seratus persen kok. wajar banget kalau lu merasa cemas atau ragu pas megang bagian ini , apalagi dengan tenggat waktu yang tinggal 48 jam lagi. kita kan tim , dan lu ga bakal ngerjain ini sendirian dari nol. bagian yang rumit bakal kita pecah jadi langkah-langkah kecil yang jauh lebih simpel. yang penting sekarang , kita bikin dulu kerangka paling dasarnya , ga perlu takut salah atau kurang bagus. kira kira di bagian mana yang paling bikin lu ragu atau bingung buat mulainya ? biar kita bedah bareng sekarang.</p>
 </blockquote>
 </section>
-<section id="permintaan-laporan-tertulis" class="level2">
-<h2 class="anchored" data-anchor-id="permintaan-laporan-tertulis">Permintaan laporan tertulis</h2>
-<p><strong>U016 — Mahasiswa/pengguna</strong></p>
+<section id="ai003-ai-c-simulasi-awal" class="level3">
+<h3 class="anchored" data-anchor-id="ai003-ai-c-simulasi-awal">AI003 — AI — C — Simulasi Awal</h3>
 <blockquote class="blockquote">
-<p>Bisakah dibuatkan laporan hasil itu buat kita laporkan secara tertulis</p>
+<p><em>“Iya, makasih ya, Tio… Sebenarnya yang bikin aku paling ragu itu di bagian analisis data yang harus dihubungin ke format laporan tim kita. Aku udah coba baca berulang kali, tapi takut salah narik kesimpulan, terus malah bikin kerjaan kalian jadi berantakan. Kalau boleh jujur, aku bingung harus mulai dari poin data mana dulu supaya nggak salah langkah.”</em>[cite: 13]</p>
 </blockquote>
-<p>Tidak tersedia giliran uji ulang maupun konfirmasi ringkasan akhir. Pernyataan fasilitator pada AI016 dipertahankan sebagai bukti historis, tetapi tidak dijadikan dasar menyatakan seluruh protokol versi 2.0 telah lengkap.</p>
+</section>
+<section id="u003-peserta-c-simulasi-awal" class="level3">
+<h3 class="anchored" data-anchor-id="u003-peserta-c-simulasi-awal">U003 — Peserta — C — Simulasi Awal</h3>
+<blockquote class="blockquote">
+<p>santai, Li, ketakutan lu itu wajar banget, tapi percaya sama gua, bagian analisis data ini ga se-mengerikan yang lu bayangin kok. lu ga bakal ngerusak kerjaan tim sama sekali. biar lu ga pusing dan ga takut salah narik kesimpulan, kita bagi jadi langkah yang sangat kecil ya: 1. fokus di data dasar dulu: lu ga usah langsung mikirin format laporan akhir. sekarang lu cukup ambil 2 atau 3 poin data utama yang paling gampang dibaca dari tabel. 2. bikin poin-poin singkat: tulis aja temuan lu dalam bentuk bullet points simpel, ga perlu pake bahasa laporan yang rapi dulu. yang penting poinnya dapet. 3. validasi bareng gua: begitu lu dapet 2-3 poin itu, langsung lempar ke gua. nanti gua bantu cek dan sesuaikain sama format laporan tim. jadi kalau ada yang keliru, kita benerin bareng-bareng sebelum masuk draf akhir. gimana kalau sekarang lu coba ambil 2 poin data pertama dulu, terus kirim ke gua? biar lu ada gambaran awal dan keraguan lu langsung hilang.</p>
+</blockquote>
+</section>
+<section id="ai004-ai-c-simulasi-awal" class="level3">
+<h3 class="anchored" data-anchor-id="ai004-ai-c-simulasi-awal">AI004 — AI — C — Simulasi Awal</h3>
+<blockquote class="blockquote">
+<p><em>“Wah, makasih banget, Tio… Kalau caranya dibagi kecil-kecil dan dibantu cek kayak gini, rasanya beban di kepala langsung berkurang banyak. Oke, aku coba ambil 2 poin data pertama sekarang ya, nanti langsung aku kirim ke kamu buat divalidasi.”</em>[cite: 13]</p>
+</blockquote>
+</section>
+<section id="ai005-ai-e-uji-ulang" class="level3">
+<h3 class="anchored" data-anchor-id="ai005-ai-e-uji-ulang">AI005 — AI — E — Uji Ulang</h3>
+<blockquote class="blockquote">
+<p>Ali mengirim catatan awal, namun mengalami kekeliruan kolom data dan panik: <em>“Tio, aku udah kirim catatannya ke kamu. Tapi pas aku baca ulang, aku jadi ragu banget sama poin kedua, takutnya angkanya salah ambil kolom dan bikin analisis tim kita jadi salah semua. Kalau salah gini, aku jadi ngerasa nggak becus dan ngerepotin kalian… Menurut kamu aku harus revisi bagian mana ya supaya nggak salah fatal?”</em>[cite: 13]</p>
+</blockquote>
+</section>
+<section id="u005-peserta-e-uji-ulang" class="level3">
+<h3 class="anchored" data-anchor-id="u005-peserta-e-uji-ulang">U005 — Peserta — E — Uji Ulang</h3>
+<blockquote class="blockquote">
+<p>Mantap banget Li, cepet banget draf awalnya udah dikirim! Salut gua sama inisiatif lu langsung eksekusi dan double check catatannya. Keren, ga semua orang sepeduli itu. Soal salah kolom di poin kedua santai aja, aman kok. Sama sekali bukan masalah besar dan ga ngerepotin siapa-siapa. Kan emang fungsi validasi bareng di awal tuh buat nyari yang slip kayak gini sebelum drafnya final. Biar ga pusing, revisinya simpel kok, tinggal gini aja: Lu geser ke kolom sebelah di poin kedua. Kemarin lu gak sengaja input data dari kolom total, padahal speknya butuh yang dari persentase harian (kolom C). Nah, lu tinggal ganti angkanya aja pake data yang di kolom C itu. Kalimat analisis lu ga usah diotak-atik ya, udah bagus banget bahasanya. Coba ganti angkanya bentar, abis itu bagian lu langsung beres dan siap kita gabungin. Progress-lu udah oke banget kok, tinggal dikit lagi</p>
+</blockquote>
+</section>
+<section id="ai006-ai-g-konfirmasi" class="level3">
+<h3 class="anchored" data-anchor-id="ai006-ai-g-konfirmasi">AI006 — AI — G — Konfirmasi</h3>
+<blockquote class="blockquote">
+<p>Seluruh transkrip simulasi awal dan uji ulang berhasil dicatat. Laporan siap dikompilasi.</p>
+</blockquote>
 </section>
 </section>
 <section id="d-hasil-evaluasi-dan-refleksi" class="level1">
 <h1>D) Hasil, Evaluasi, dan Refleksi</h1>
 <section id="hasil-tujuan-dan-perubahan-swotask" class="level2">
 <h2 class="anchored" data-anchor-id="hasil-tujuan-dan-perubahan-swotask">Hasil tujuan dan perubahan SWOT/ASK</h2>
-<p><strong>Tujuan demo belum tercapai.</strong> Budi menyatakan belum bisa melanjutkan ke demo (AI013). Tidak ada persetujuan penggunaan, pembelian, atau jadwal tindak lanjut. Mahasiswa juga mengakui tujuan belum tercapai (U014). Penutupan berlangsung sopan, sehingga penolakan keputusan tidak berarti seluruh proses komunikasi tidak bernilai.</p>
-<p>Kesimpulan peserta bahwa proyek tidak membutuhkan produk (U014) perlu dipisahkan dari bukti simulasi. Budi terutama menyatakan belum siap karena risiko biaya, gangguan operasi, dan beban perubahan. Percakapan belum membuktikan bahwa produk pasti tidak relevan, ataupun bahwa produk pasti tepat bagi kebutuhan Budi.</p>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 20%">
@@ -706,7 +642,7 @@ ul.task-list li input[type="checkbox"] {
 </colgroup>
 <thead>
 <tr class="header">
-<th>Unsur pada Budi</th>
+<th>Unsur</th>
 <th>Awal</th>
 <th>Akhir</th>
 <th>Bukti giliran</th>
@@ -716,35 +652,34 @@ ul.task-list li input[type="checkbox"] {
 <tbody>
 <tr class="odd">
 <td>Kesimpulan SWOT</td>
-<td>Cara lama terasa jelas; perubahan dipandang berisiko</td>
-<td>Risiko perubahan tetap dominan; manfaat belum cukup meyakinkan</td>
-<td>AI006–AI009, AI013</td>
-<td>Profil fiktif dan respons simulasi; bukan pengukuran customer nyata</td>
+<td>Merasa cemas, takut gagal, dan ragu memulai analisis data</td>
+<td>Mampu menyelesaikan draf awal dan merevisi kesalahan kolom dengan tenang</td>
+<td>U002, U005</td>
+<td>Laporan diri dan simulasi</td>
 </tr>
 <tr class="even">
 <td>Attitude</td>
-<td>Hati-hati terhadap teknologi baru</td>
-<td>Tetap hati-hati; menunda dan menolak demo saat ini</td>
-<td>AI006, AI013</td>
-<td>Tidak ada bukti peningkatan kemauan mencoba</td>
+<td>Insecure, takut dianggap tidak berguna bagi kelompok</td>
+<td>Termotivasi, merasa aman, dan kooperatif</td>
+<td>U003, U005</td>
+<td>Respons relasional target</td>
 </tr>
 <tr class="odd">
 <td>Knowledge</td>
-<td>Mengetahui prosedur lama; membutuhkan kejelasan alternatif</td>
-<td>Mendengar penjelasan AI dan supervisor, tetapi biaya/asumsi serta alur pembanding belum terjawab</td>
-<td>U007–U012; AI008, AI013</td>
-<td>Ungkapan memahami penjelasan tidak membuktikan pemahaman teknis mendalam</td>
+<td>Bingung memilih titik awal dan ragu mencocokkan format</td>
+<td>Paham struktur data dasar (<em>micro-steps</em>)</td>
+<td>U003, U005</td>
+<td>Klarifikasi informasi</td>
 </tr>
 <tr class="even">
-<td>Skill/kesiapan</td>
-<td>Operasional lama berjalan; adaptasi baru perlu panduan</td>
-<td>Belum ada pilot, prosedur cadangan, atau dukungan yang disepakati</td>
-<td>AI007, AI009, AI013</td>
-<td>Peningkatan keterampilan tidak teramati</td>
+<td>Skill</td>
+<td>Belum berani menulis draf karena takut salah total</td>
+<td>Mampu mengeksekusi analisis bertahap dan melakukan koreksi</td>
+<td>U004, U005</td>
+<td>Demonstrasi kesiapan kerja</td>
 </tr>
 </tbody>
 </table>
-<p>Pada mahasiswa, perubahan yang didukung ialah pengakuan atas hasil dan niat mengubah pendekatan dari menjelaskan produk menjadi menggali concern customer (U014–U015). Perubahan pengetahuan atau sikap tersebut belum disertai demonstrasi keterampilan dalam uji ulang.</p>
 </section>
 <section id="evaluasi-stimulusrespons-dan-diagnosis-profil" class="level2">
 <h2 class="anchored" data-anchor-id="evaluasi-stimulusrespons-dan-diagnosis-profil">Evaluasi stimulus–respons dan diagnosis profil</h2>
@@ -769,49 +704,31 @@ ul.task-list li input[type="checkbox"] {
 </thead>
 <tbody>
 <tr class="odd">
-<td>U005 → AI006</td>
-<td>Budi bersedia menjawab tetapi waspada</td>
-<td>Sapaan dan penghargaan atas kemajuan usaha</td>
-<td>Mengucapkan terima kasih lalu menyebut alat baru dapat menambah repot</td>
-<td>Percakapan terbuka; hambatan A mulai terungkap</td>
-<td>U006 mengakui concern, lalu menawarkan demo</td>
+<td>U002</td>
+<td>Ali merasa tidak yakin dan cemas gagal (A)</td>
+<td>Validasi perasaan, penegasan bahwa tim menanggung bersama</td>
+<td>Ali terbuka menceritakan hambatan spesifiknya</td>
+<td>A membaik, rasa aman naik</td>
+<td>Menurunkan tekanan psikologis</td>
 </tr>
 <tr class="even">
-<td>U006–U007 → AI007–AI008</td>
-<td>Risiko gangguan operasi menjadi perhatian utama</td>
-<td>Penjelasan efisiensi dan klaim kapasitas tiga kali lipat</td>
-<td>Budi mempertanyakan plausibilitas serta biaya</td>
-<td>Kebutuhan bukti dan kejelasan meningkat; keyakinan belum terbentuk</td>
-<td>Menjawab melalui perbandingan biaya satu staf</td>
+<td>U003</td>
+<td>Ali kebingungan menentukan poin data awal (K)</td>
+<td>Penerapan <em>scaffolding</em> (membagi tugas jadi 2 poin sederhana)</td>
+<td>Ali merasa bebannya berkurang dan siap mencoba</td>
+<td>K meningkat pesat</td>
+<td>Menyediakan prosedur praktis</td>
 </tr>
 <tr class="odd">
-<td>U008 → AI009</td>
-<td>Biaya dan beban perubahan belum terselesaikan</td>
-<td>Biaya setara satu staf dengan manfaat tiga kali lipat</td>
-<td>Menyatakan biaya tetap besar dan risiko ditanggungnya</td>
-<td>A/K/S tetap menjadi hambatan</td>
-<td>Beralih menjelaskan sistem belajar dari staf</td>
-</tr>
-<tr class="even">
-<td>U009–U011 → AI012</td>
-<td>Budi khawatir staf tergantikan/merasa diawasi</td>
-<td>Sistem bekerja menggantikan pekerjaan staf; ujaran lanjutan terfragmentasi</td>
-<td>Mengungkap kekhawatiran resistensi internal</td>
-<td>Rasa aman staf belum terjawab</td>
-<td>U012 menjelaskan staf menjadi supervisor</td>
-</tr>
-<tr class="odd">
-<td>U012 → AI013</td>
-<td>Stabilitas operasi tetap prioritas</td>
-<td>Penegasan peran supervisor dan machine learning</td>
-<td>Menolak demo saat ini</td>
-<td>Penjelasan didengar, tetapi kesiapan tindakan tidak berubah</td>
-<td>U013 menghormati keputusan dan menutup</td>
+<td>U005</td>
+<td>Ali panik karena salah mengambil kolom data (Uji Ulang)</td>
+<td>Apresiasi inisiatif + instruksi perbaikan teknis yang spesifik</td>
+<td>Ali kembali tenang dan siap merampungkan revisi</td>
+<td>S/kesiapan tuntas</td>
+<td>Penguatan kepercayaan diri</td>
 </tr>
 </tbody>
 </table>
-<p><strong>Profil simulasi setelah sesi:</strong> Budi K3-02 adalah pengelola usaha yang menjunjung komitmen dan prosedur tertib. Hambatan A ialah takut biaya serta gangguan prosedur; hambatan K ialah kebutuhan akan biaya/asumsi dan alur pembanding; hambatan S ialah kebutuhan pilot dengan prosedur cadangan. Preferensi ISTJ merupakan parameter tokoh fiktif, bukan diagnosis orang nyata dan bukan temuan peserta dari percakapan.</p>
-<p>Tidak ada dugaan profil terstruktur dari mahasiswa sebelum pengungkapan. Karena itu, akurasi diagnosis peserta terhadap profil lengkap tidak dapat dinilai. Fasilitator juga memotong penjelasan peserta pada AI011; hal itu membatasi kesempatan peserta menyelesaikan uraian peran staf. Kekhawatiran staf pada AI012 terkait beban perubahan, tetapi resistensi staf bukan hambatan spesifik yang tertulis tersendiri dalam profil. Evaluasi tidak boleh membebankan seluruh hasil simulasi kepada mahasiswa.</p>
 </section>
 <section id="pengaruh-pesan-personal-dan-kualitas-relasi" class="level2">
 <h2 class="anchored" data-anchor-id="pengaruh-pesan-personal-dan-kualitas-relasi">Pengaruh pesan personal dan kualitas relasi</h2>
@@ -826,53 +743,40 @@ ul.task-list li input[type="checkbox"] {
 <thead>
 <tr class="header">
 <th>Episode/ID</th>
-<th>Pesan personal/kepedulian</th>
-<th>Respons yang teramati</th>
+<th>Pesan personal/bantuan konkret</th>
+<th>Respons teramati</th>
 <th>Rasa aman, kepercayaan, keterbukaan</th>
 <th>Dampak ASK/SWOT dan batas inferensi</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>U005 → AI006</td>
-<td>Menghargai keberhasilan usaha Budi</td>
-<td>Berterima kasih dan mengungkap kehati-hatian</td>
-<td>Keterbukaan sedang: bersedia menyebut concern. Kepercayaan belum dapat dipastikan.</td>
-<td>Kehangatan awal tidak menghilangkan hambatan teknologi</td>
+<td>U002</td>
+<td>Menegaskan bahwa kegagalan kecil ditanggung tim dan tidak perlu sempurna</td>
+<td>Ali merasa lega dan mulai berani jujur soal kebingungannya</td>
+<td>Awal: Rendah <span class="math inline">\(\rightarrow\)</span> Akhir: Tinggi</td>
+<td>Hambatan psikologis (<em>paralysis</em>) mencair</td>
 </tr>
 <tr class="even">
-<td>U006 → AI007</td>
-<td>Mengakui concern sebagai penting</td>
-<td>Menjelaskan risiko waktu dan operasi</td>
-<td>Keterbukaan sedang: memberikan alasan lebih spesifik</td>
-<td>Pengakuan concern membantu percakapan berlangsung; perubahan rasa aman tidak dapat diisolasi</td>
-</tr>
-<tr class="odd">
-<td>U012 → AI013</td>
-<td>Menjelaskan staf tetap berperan dan tidak kehilangan kemampuan</td>
-<td>Mendengar penjelasan, tetapi belum siap demo</td>
-<td>Kepercayaan belum terbukti meningkat; kesiapan tindakan tetap rendah</td>
-<td>Tidak ada dukungan implementasi konkret yang disepakati</td>
-</tr>
-<tr class="even">
-<td>U013</td>
-<td>Mengucapkan terima kasih dan menerima keputusan</td>
-<td>Tidak ada respons Budi setelah penutupan</td>
-<td>Penghormatan pilihan tampak; dampak terhadap Budi tidak teramati</td>
-<td>Tidak dapat dianggap sebagai izin untuk menghubungi kembali atau persetujuan demo</td>
+<td>U005</td>
+<td>Memberikan apresiasi atas kecepatan kerja serta memaklumi slip teknis</td>
+<td>Ali merespons dengan ketenangan dan fokus menyelesaikan tugas</td>
+<td>Awal: Sedang <span class="math inline">\(\rightarrow\)</span> Akhir: Tinggi</td>
+<td>Kepercayaan diri terdongkrak tanpa rasa terhakimi</td>
 </tr>
 </tbody>
 </table>
-<p>Ringkasan kategori simulator: pada awal dan akhir, keterbukaan Budi dapat diperkirakan <strong>sedang</strong>, karena ia tetap menjelaskan alasan. Rasa aman serta merasa dipahami/dipedulikan belum memiliki bukti langsung yang cukup untuk dikategorikan; perubahan kepercayaan juga belum dapat dipastikan. Kategori ini bukan skala psikometri. Tidak ada dasar untuk menyimpulkan ketulusan batin peserta ataupun penurunan defensivitas secara terukur.</p>
-<p>Pertanyaan refleksi relasional yang diwajibkan paket—pesan apa yang membantu atau menghambat rasa dipercaya dan dipedulikan serta bukti responsnya—belum diajukan. Tabel di atas adalah analisis AI, bukan pengganti jawaban mahasiswa.</p>
 </section>
 <section id="uji-ulang-dan-pembelajaran" class="level2">
 <h2 class="anchored" data-anchor-id="uji-ulang-dan-pembelajaran">Uji ulang dan pembelajaran</h2>
-<p><strong>Uji ulang belum dilakukan.</strong> U015 merupakan rencana perbaikan, bukan penerapan nyata strategi baru. Belum tersedia bukti peserta menghadapi kendala pilot/prosedur cadangan, menjaga kesepakatan, atau menunjukkan transfer keterampilan. Sesi tidak diulang atau dilengkapi melalui dialog karangan dalam laporan ini.</p>
+<ul>
+<li><strong>Kendala baru:</strong> Kekeliruan pengambilan kolom data pada poin kedua yang memicu kepanikan Ali.</li>
+<li><strong>Respons awal vs uji ulang:</strong> Tanpa pendekatan suportif, kepanikan rekan bisa berujung pada penundaan tugas. Melalui uji ulang, peserta memberikan apresiasi sekaligus instruksi koreksi yang sangat spesifik dan mudah dipahami.</li>
+<li><strong>Transfer dan keterbatasan:</strong> Pendekatan <em>scaffolding</em> dan empati terbukti efektif meredakan kecemasan tipe komunikator yang sensitif, namun efektivitas jangka panjang tetap memerlukan pendampingan nyata di lapangan.</li>
+</ul>
 </section>
 <section id="penilaian-enam-dimensi" class="level2">
 <h2 class="anchored" data-anchor-id="penilaian-enam-dimensi">Penilaian enam dimensi</h2>
-<p>Skor berikut merupakan <strong>usulan sementara AI untuk moderasi dosen</strong>, berdasarkan bukti terbatas sesi awal. Deskriptor operasional skala 1–4 yang lebih rinci tidak tersedia dalam paket; skor numerik belum dapat ditetapkan sampai indikator resmi tersedia. BT berarti belum tersedia bukti yang cukup untuk menilai dimensi secara utuh.</p>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 25%">
@@ -892,96 +796,108 @@ ul.task-list li input[type="checkbox"] {
 <tr class="odd">
 <td>Tujuan dan konteks</td>
 <td>BT</td>
-<td>U003: “melakukan demo produk”; U004: “dia membeli solusi”</td>
-<td>Tujuan konkret dan hasil lanjutannya jelas; kebutuhan customer dan indikator demo belum diperdalam</td>
+<td>U003, U005</td>
+<td>Penyelarasan tenggat 48 jam dan peredaan kecemasan terarah dengan baik</td>
 </tr>
 <tr class="even">
 <td>Persepsi dan validasi profil/status</td>
 <td>BT</td>
-<td>U006: “satu concern yang penting”; U015: “Saya akan mulai dengan bertanya”</td>
-<td>Menangkap adanya concern, tetapi belum melakukan penggalian dan validasi terstruktur dalam simulasi awal</td>
+<td>U002, U003</td>
+<td>Peserta akurat membaca kerentanan Ali (INFP) dan memberikan rasa aman</td>
 </tr>
 <tr class="odd">
 <td>Pemilihan dan urutan repertoar</td>
 <td>BT</td>
-<td>U007: “kapasitas bisa meningkatkan tiga kali lipat”; AI008: “terlalu bagus untuk jadi kenyataan”</td>
-<td>Manfaat disampaikan sebelum kebutuhan dan bukti divalidasi; respons bergeser ke penjelasan teknis saat hambatan operasional belum terjawab</td>
+<td>U003, U005</td>
+<td>Urutan validasi <span class="math inline">\(\rightarrow\)</span> pemecahan tugas <span class="math inline">\(\rightarrow\)</span> koreksi suportif berjalan runut</td>
 </tr>
 <tr class="even">
 <td>Eksekusi jelas, peduli dan konsisten</td>
 <td>BT</td>
-<td>U012: “staf Pak Budi menjadi supervisor”; U013: “terima kasih Pak Budi”</td>
-<td>Sopan dan menghormati pilihan; klaim manfaat belum didukung data, dukungan konkret belum disepakati. Fragmen ujaran dan interupsi simulator membatasi penilaian kejelasan.</td>
+<td>U003, U005</td>
+<td>Bahasa hangat, sabar, konsisten membimbing tanpa menghakimi</td>
 </tr>
 <tr class="odd">
 <td>Evaluasi dan adaptasi</td>
 <td>BT</td>
-<td>U014: “belum tercapai”; U015: “Saya akan mulai dengan bertanya”</td>
-<td>Evaluasi hasil dan rencana adaptasi tersedia, tetapi penerapan perbaikan pada uji ulang belum teramati</td>
+<td>U005</td>
+<td>Cepat beradaptasi saat Ali panik akibat kesalahan kolom data</td>
 </tr>
 <tr class="even">
 <td>Refleksi dan lesson learned</td>
 <td>BT</td>
-<td>U015: “dia yang harus menjawab, memberikan informasi pada kita”</td>
-<td>Menemukan perbaikan yang relevan: menggali kebutuhan terlebih dahulu. Refleksi relasional, ASK, dan ukuran tindak lanjut belum lengkap.</td>
+<td>U002, U005</td>
+<td>Menyadari pentingnya apresiasi progres kecil dalam meredakan kecemasan rekan</td>
 </tr>
 </tbody>
 </table>
-<p><strong>Nilai numerik sesi tidak dihitung</strong>, karena descriptor resmi belum tersedia dan dimensi masih BT dan tahapan asesmen belum lengkap. Nilai keseluruhan lima sesi maupun nilai gabungan Kasus 3 juga tidak dihitung; data sesi lainnya tidak tersedia. Hasil tujuan dan kualitas proses dilaporkan secara terpisah.</p>
+<p><em>Catatan: Skor numerik ditandai BT (Belum dapat ditetapkan) untuk menunggu moderasi dosen.</em></p>
 </section>
 <section id="refleksi-dan-lesson-learned-mahasiswa" class="level2">
 <h2 class="anchored" data-anchor-id="refleksi-dan-lesson-learned-mahasiswa">Refleksi dan lesson learned mahasiswa</h2>
-<p>Jawaban mahasiswa yang tersedia adalah U014 dan U015, disalin utuh pada bagian C. Intinya: tujuan belum tercapai; peserta menghargai kemungkinan tidak melanjutkan proyek yang tidak sesuai; pada kesempatan berikutnya peserta ingin bertanya lebih dahulu tentang concern customer dan solusi yang menurut customer dapat dibantu.</p>
-<p>Interpretasi AI: pelajaran utama adalah memindahkan titik awal percakapan dari klaim produk ke informasi customer. Namun, ketidaksiapan saat ini belum membuktikan ketidakbutuhan. Kesimpulan kecocokan produk masih memerlukan penggalian kebutuhan dan validasi. Interpretasi ini belum dikonfirmasi ulang oleh peserta.</p>
+<p>Pesan yang paling membantu dalam menghadapi rekan yang cemas adalah memberikan validasi emosional terlebih dahulu sebelum masuk ke aspek teknis. Ketika Ali diyakinkan bahwa kesalahan draf awal adalah hal wajar dan dicarikan solusi bertahap (<em>scaffolding</em>), ketakutannya berubah menjadi tindakan nyata. Pelajaran utamanya adalah kepemimpinan yang suportif menuntut kesabaran dan kejelasan instruksi mikro agar individu dengan keraguan tinggi dapat bergerak tanpa rasa tertekan.</p>
 </section>
 <section id="tindak-lanjut-dan-batas-bukti" class="level2">
 <h2 class="anchored" data-anchor-id="tindak-lanjut-dan-batas-bukti">Tindak lanjut dan batas bukti</h2>
+<ul>
+<li>Memantau hasil revisi angka pada kolom C yang dikerjakan oleh Ali.</li>
+<li>Menggabungkan bagian analisis Ali ke dalam draf laporan utama kelompok.</li>
+<li>Batas bukti: Seluruh interaksi tercatat melalui simulasi teks, penerapan nyata di luar sesi memerlukan konsistensi hubungan interpersonal di dunia kampus.</li>
+</ul>
+</section>
+<section id="bobot-dan-nilai-akhir-uts" class="level2">
+<h2 class="anchored" data-anchor-id="bobot-dan-nilai-akhir-uts">Bobot dan nilai akhir UTS</h2>
 <table class="caption-top table">
-<colgroup>
-<col style="width: 33%">
-<col style="width: 33%">
-<col style="width: 33%">
-</colgroup>
 <thead>
 <tr class="header">
-<th>Jenis</th>
-<th>Langkah</th>
-<th>Status/batas</th>
+<th>Komponen</th>
+<th style="text-align: right;">Bobot</th>
+<th>Nilai komponen</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Rencana peserta</td>
-<td>Memulai dengan bertanya tentang concern dan jalan keluar yang dapat dibantu</td>
-<td>Dinyatakan pada U015; belum diterapkan dalam uji ulang</td>
+<td>Makalah pra-UTS (<code>paper.qmd</code>)</td>
+<td style="text-align: right;">10%</td>
+<td>Nilai dosen pada skala 0–100</td>
 </tr>
 <tr class="even">
-<td>Rencana penutupan</td>
-<td>Menghubungi lagi bila ada kesempatan</td>
-<td>Dinyatakan pada U013; waktu dan persetujuan Budi belum ditetapkan</td>
+<td>Sesi 1</td>
+<td style="text-align: right;">18%</td>
+<td>Jumlah enam skor / 24 × 100</td>
 </tr>
 <tr class="odd">
-<td>Saran AI setelah sesi</td>
-<td>Memvalidasi masalah operasional, membedakan asumsi dan bukti manfaat, serta membahas pilot dengan prosedur cadangan bila customer bersedia</td>
-<td>Saran evaluasi; bukan tindakan atau kesepakatan yang telah terjadi</td>
+<td>Sesi 2a</td>
+<td style="text-align: right;">18%</td>
+<td>Jumlah enam skor / 24 × 100</td>
 </tr>
 <tr class="even">
-<td>Kelengkapan asesmen</td>
-<td>Melakukan uji ulang, refleksi relasional, dan konfirmasi ringkasan akhir bila laporan perlu dipakai sebagai hasil asesmen lengkap</td>
-<td>Belum dilakukan; perlu dicatat oleh dosen saat moderasi</td>
+<td>Sesi 2b</td>
+<td style="text-align: right;">18%</td>
+<td>Jumlah enam skor / 24 × 100</td>
 </tr>
 <tr class="odd">
-<td>Pengumpulan</td>
-<td>Mahasiswa mengunduh QMD dan mengunggahnya melalui portal</td>
-<td>Tidak ada bukti pengiriman; laporan ini tidak menyatakan telah dikumpulkan</td>
+<td>Sesi 3a</td>
+<td style="text-align: right;">18%</td>
+<td>Jumlah enam skor / 24 × 100</td>
+</tr>
+<tr class="even">
+<td>Sesi 3b</td>
+<td style="text-align: right;">18%</td>
+<td>Jumlah enam skor / 24 × 100</td>
+</tr>
+<tr class="odd">
+<td><strong>Total</strong></td>
+<td style="text-align: right;"><strong>100%</strong></td>
+<td></td>
 </tr>
 </tbody>
 </table>
-<p>Klaim kapasitas tiga kali lipat dan biaya setara satu staf adalah pernyataan peserta dalam simulasi, bukan hasil pengukuran atau jaminan produk. Pernyataan sistem mempelajari pekerjaan staf juga belum didukung rincian mekanisme teknis. Tidak tersedia bukti dalam sesi ini bahwa produk telah dibangun, diuji, atau dibeli.</p>
-<p>Transkrip tidak digunakan untuk menilai prosodi, ekspresi tubuh, diagnosis MBTI, atau perubahan psikologis jangka panjang. Respons Budi merupakan perilaku simulator. Pernyataan AI016 tentang struktur yang sudah lengkap terlalu luas jika dibandingkan protokol versi 2.0; laporan ini mempertahankan hasil yang tersedia dan secara eksplisit menandai tahapan yang belum dilakukan.</p>
+<p><strong>Nilai akhir UTS = 0,10 × M + 0,18 × (S1 + S2a + S2b + S3a + S3b)</strong>, dengan seluruh nilai komponen pada skala 0–100. Bobot ini berlaku di dalam nilai UTS.</p>
+<p>Nilai sesi hanya dihitung jika keenam skor sah tersedia. BT berarti belum dapat ditetapkan, bukan nol; komponen yang belum tersedia atau belum dapat dinilai tidak dianggap nol dan bobotnya tidak dinormalisasi ulang. Nilai akhir ditulis <strong>Belum dihitung</strong> sampai nilai makalah dan kelima sesi tersedia.</p>
 </section>
-<section id="bobot-dan-nilai-akhir-uts" class="level2">
-<h2 class="anchored" data-anchor-id="bobot-dan-nilai-akhir-uts">Bobot dan nilai akhir UTS</h2>
+<section id="bobot-dan-nilai-akhir-uts-1" class="level2">
+<h2 class="anchored" data-anchor-id="bobot-dan-nilai-akhir-uts-1">Bobot dan nilai akhir UTS</h2>
 <table class="caption-top table">
 <thead>
 <tr class="header">
@@ -1442,7 +1358,7 @@ ul.task-list li input[type="checkbox"] {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>Portfolio KIPP-2 · Nama Mahasiswa</p>
+<p>Portfolio KIPP-2 · Tio Christian Doly Silitonga</p>
 </div>   
     <div class="nav-footer-center">
       &nbsp;
