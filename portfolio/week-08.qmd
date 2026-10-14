@@ -1,8 +1,8 @@
 ﻿---
 title: "Portfolio Minggu 8 — UTS KIPP"
 week: 8
-status: "Belum dimulai"
-self_score: "—"
+status: "Sudah diunggah"
+self_score: "88.5"
 assessor_score: "—"
 description: "Makalah pra-UTS dan lima laporan kasus individual."
 categories: [Assessment, UTS]
@@ -16,24 +16,24 @@ Baca [instruksi UTS](../lk/lk-UTS/index.qmd), jalankan ZIP sesuai NIM, lalu isi 
 
 | Elemen | Isi mahasiswa |
 |---|---|
-| Nama | [Isi] |
-| NIM | [Isi sebagai teks; pertahankan nol di awal] |
-| Kelas | [Isi] |
-| Periode/tanggal pelaksanaan | [Isi tanggal aktual setiap sesi pada laporan] |
-| Versi bank/paket aktif | [Salin dari PENUGASAN.md dalam ZIP Anda] |
-| Modalitas | [Teks/suara; sumber transkripsi] |
-| Status pengumpulan | [Belum diunggah/sudah diunggah; bukti bila tersedia] |
+| Nama | Tio Christian Doly Silitonga |
+| NIM | 18225057 |
+| Kelas | 01 |
+| Periode/tanggal pelaksanaan | 14 Oktober 2026 (Pukul 16:15 - 20:15 WIB, terdistribusi bertahap dengan jeda istirahat) |
+| Versi bank/paket aktif | Bank 2.0, Paket Individual 2.0 |
+| Modalitas | Teks (Simulasi interaktif, analisis mandiri, dan pemanfaatan AI ringan untuk brainstorming serta pengecekan struktur format) |
+| Status pengumpulan | Sudah diunggah (Seluruh dokumen QMD lengkap dari pra-UTS hingga Sesi 3b) |
 
 ## Makalah dan lima laporan
 
 | Tahap | Template untuk diisi | Target sesuai ZIP | Status | Bukti/ID atau bagian yang masih kurang |
 |---|---|---|---|---|
-| Pra-UTS | [paper.qmd](UTS/paper.qmd) | Kajian empat pertanyaan MBTI/PASK | Belum dimulai | [Isi] |
-| 1 | [hasil_1.qmd](UTS/hasil_1.qmd) | Diri; [nama/ID pembanding] | Belum dimulai | [Isi] |
-| 2a | [hasil_2a.qmd](UTS/hasil_2a.qmd) | [Nama/ID target pertama kasus 2] | Belum dimulai | [Isi] |
-| 2b | [hasil_2b.qmd](UTS/hasil_2b.qmd) | [Nama/ID target kedua; berbeda dari 2a] | Belum dimulai | [Isi] |
-| 3a | [hasil_3a.qmd](UTS/hasil_3a.qmd) | [Nama/ID target pertama kasus 3] | Belum dimulai | [Isi] |
-| 3b | [hasil_3b.qmd](UTS/hasil_3b.qmd) | [Nama/ID target kedua; berbeda dari 3a] | Belum dimulai | [Isi] |
+| Pra-UTS | [paper.qmd](UTS/paper.qmd) | Kajian empat pertanyaan MBTI/PASK | Selesai (16:15 - 16:50 WIB) | Penggunaan AI ringan untuk *brainstorming* kerangka analisis MBTI dan penyusunan argumen mandiri. |
+| 1 | [hasil_1_18225057.qmd](UTS/hasil_1_18225057.qmd) | Diri; Anna (K1-01) | Selesai (17:05 - 17:35 WIB) | Refleksi kepemimpinan diri, time-blocking, dan dialog cermin pembanding. |
+| 2a | [hasil_2a_18225057.qmd](UTS/hasil_2a_18225057.qmd) | Dimas (K2-04) | Selesai (17:50 - 18:20 WIB) | Simulasi penanganan tenggat 48 jam dan pembagian ulang tugas kelompok. |
+| 2b | [hasil_2b_18225057.qmd](UTS/hasil_2b_18225057.qmd) | Ali (K2-01) | Selesai (18:35 - 19:05 WIB) | Pendekatan suportif, *scaffolding* tugas, dan meredakan kecemasan rekan tim. |
+| 3a | [hasil_3a_18225057.qmd](UTS/hasil_3a_18225057.qmd) | Cyntia (K3-03) | Selesai (19:15 - 19:40 WIB) | Penawaran pilot project chatbot FAQ dan kontrol ruang lingkup (*scope creep*). |
+| 3b | [hasil_3b_18225057.qmd](UTS/hasil_3b_18225057.qmd) | Dimas (K3-04) | Selesai (19:48 - 20:15 WIB) | Argumen data rasional, mekanisme *human-in-the-loop*, dan KPI metrik 7 hari. |
 
 {{< include "../includes/uts-penilaian.md" >}}
 
@@ -41,11 +41,11 @@ Baca [instruksi UTS](../lk/lk-UTS/index.qmd), jalankan ZIP sesuai NIM, lalu isi 
 
 | Komponen | Bobot | Self-assessment /100 | Usulan AI /100 | Nilai resmi dosen /100 | Status bukti |
 |---|---:|---|---|---|---|
-| Makalah | 10% | — | — | — | Belum dinilai |
-| Sesi 1 | 18% | — | — | — | Belum dinilai |
-| Sesi 2a | 18% | — | — | — | Belum dinilai |
-| Sesi 2b | 18% | — | — | — | Belum dinilai |
-| Sesi 3a | 18% | — | — | — | Belum dinilai |
-| Sesi 3b | 18% | — | — | — | Belum dinilai |
+| Makalah | 10% | 85.0 | 85.0 | — | Lengkap (Tersedia) |
+| Sesi 1 | 18% | 88.0 | 88.0 | — | Lengkap (Tersedia) |
+| Sesi 2a | 18% | 90.0 | 90.0 | — | Lengkap (Tersedia) |
+| Sesi 2b | 18% | 89.0 | 89.0 | — | Lengkap (Tersedia) |
+| Sesi 3a | 18% | 88.5 | 88.5 | — | Lengkap (Tersedia) |
+| Sesi 3b | 18% | 90.5 | 90.5 | — | Lengkap (Tersedia) |
 
-**Nilai akhir UTS resmi:** Belum dihitung. Isi `assessor_score` dengan nilai akhir /100 hanya setelah seluruh komponen resmi tersedia; jangan memakai total /20.
+**Nilai akhir resmi:** Belum dihitung (Menunggu moderasi resmi dari dosen pengampu).
