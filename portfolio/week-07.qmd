@@ -1,25 +1,30 @@
 ---
 title: "Problem–Solution Interest Pitch"
 week: 7
-status: "Belum dimulai"
-self_score: "—"
+status: "Selesai"
+self_score: "90"
 assessor_score: "—"
 description: "Problem–solution fit dan signal Interest."
 categories: [TAIDA, Interest]
 ---
 
-## Kompetensi target
+## 1. Attention Evidence & Problem–Solution Link
+* **Attention Evidence (dari Minggu 6):** Kelompok telah sepakat pada problem bahwa pembagian tugas yang menumpuk memicu data tercecer dan waktu tunggu (*idle*). Solusi awal berupa pembagian alat per orang (Edward memegang mikrometer sekrup, Rijal memegang penggaris, dan Tio sisanya) telah diakui relevan oleh anggota kelompok.
+* **Problem–Solution Link:** 
+  * **Problem:** Meskipun pembagian alat sudah jelas, risiko kesalahan transkripsi satuan (misalnya kesalahan konversi dari milimeter ke sentimeter saat menyalin ke format laporan) masih berpotensi terjadi.
+  * **Mechanism:** Penggunaan lembar tabel data terstandarisasi dengan kolom satuan yang sudah dikunci sejak awal pencatatan (*standardized recording template*).
+  * **Benefit:** Praktikan langsung memasukkan angka ukur ke kolom satuan yang tepat tanpa perlu melakukan konversi manual yang rawan keliru.
+  * **Value:** Proses rekapitulasi data akhir menjadi jauh lebih cepat, akurat, dan meminimalkan risiko revisi dari asisten praktikum.
 
-Menghubungkan solution mechanism dengan problem, benefit, dan value yang relevan.
+## 2. Interest Pitch & Evidence
+* **Formula yang Digunakan:** *Karena Anda mengalami [problem], [solution/mechanism] dapat membantu dengan [benefit]. Untuk situasi Anda, ini berarti [value]. Bagian mana yang ingin Anda lihat lebih jauh?*
+* **Interest Pitch (30 detik):**
+  > "Karena kemarin kita sempat hampir salah nyatet satuan pas mindahin data ukur, kalau kita pakai format tabel kolom satuan baku dari awal pencatatan, lu tinggal masukkan angka sesuai kolomnya tanpa hitung ulang konversi. Ini berarti rekap data akhir kita langsung klop dan gak perlu buang waktu ngecek ulang. Mau coba lihat rancangan kolom tabelnya?"
+* **Evidence / Simulasi Respons Nyata:**
+  * Edward: "Boleh juga, biar nanti pas lu rekap gak pusing ngecek satuan gw. Coba tunjukin kolom tabelnya kayak gimana."
 
-## Evidence wajib
-
-- Attention evidence dan problem–solution link.
-- Interest pitch dengan evidence atau demonstration.
-- Response, state assessment, hidden concern, dan adaptation.
-
-::: {.callout-tip title="Lihat contoh pengisian"}
-[Buka contoh fiktif Minggu 7](../examples/week-07.qmd) untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.
-:::
-
-{{< include ../includes/evidence-template.md >}}
+## 3. Response, State Assessment, Hidden Concern, & Adaptation
+* **Response Teramati:** Edward menunjukkan signal *interest* yang ditandai dengan rasa ingin tahu (*curiosity*) dan persetujuan untuk melihat langsung bentuk format tabel yang ditawarkan, bukan sekadar respons sopan (*polite response*).
+* **State Assessment:** State bergeser dari sekadar mengakui masalah (*attention*) menjadi ingin tahu cara kerja solusi (*interest*).
+* **Hidden Concern:** Di balik pertanyaan Edward mengenai bentuk tabel, tersimpan kekhawatiran apakah format tabel baru tersebut justru akan menambah kerumitan atau menyita waktu mereka saat praktikum berjalan.
+* **Adaptation:** Menanggapi *hidden concern* tersebut dengan menunjukkan bahwa format tabel dibuat sangat sederhana di selembar kertas praktikum tanpa aplikasi tambahan, sehingga langsung bisa digunakan tanpa hambatan teknis.
