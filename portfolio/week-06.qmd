@@ -1,25 +1,40 @@
 ---
 title: "Target–Attention Challenge"
 week: 6
-status: "Belum dimulai"
-self_score: "—"
+status: "Selesai"
+self_score: "90"
 assessor_score: "—"
 description: "Target map, attention pitch, response, dan state assessment."
 categories: [TAIDA, Attention]
 ---
 
-## Kompetensi target
+## 1. Problem / Opportunity Statement
+Dalam kegiatan Praktikum Fisika Dasar TPB ITB (Modul Pengukuran dan Ketidakpastian), kelompok sering menghadapi hambatan operasional berupa data tercecer, kesalahan transkripsi satuan seperti konversi milimeter ke sentimeter, serta waktu tunggu atau idle antar anggota karena pembagian tugas pencatatan yang tidak merata. Perhatian praktikan terpecah antara fokus membaca presisi alat ukur dan ketergesaan waktu.
 
-Memilih target person yang tepat dan membuat issue diakui relevan melalui evidence.
+## 2. Target Map & Alasan Pemilihan
+Pemetaan target person atau character dalam kelompok praktikum diuraikan sebagai berikut:
 
-## Evidence wajib
+| Person/Character | Problem / Opportunity | Pengaruh | Authority | Current State |
+|---|---|---|---|---|
+| Praktikan A (Edward) | Membaca alat ukur presisi tinggi mikrometer sekrup dengan beban tugas ganda | Tinggi | Sedang | Terburu-buru dan terpecah perhatiannya |
+| Praktikan B (Rijal) | Mengukur dimensi makro penggaris atau massa dengan risiko data tercecer | Sedang | Sedang | Belum optimal dalam alur pencatatan |
+| Pencatat & Pengolah Data | Menerima data mentah yang sering salah satuan dan tidak sinkron | Tinggi | Tinggi | Sadar masalah dan kewalahan |
+| Asisten Praktikum (Asprak) | Menilai kebenaran alur data dan ketepatan waktu kelompok | Tinggi | Tinggi | Mengawasi proses praktikum |
 
-- Target map dan alasan memilih satu target.
-- Problem/opportunity pitch serta evidence.
-- Response, state sesudah pitch, dan adaptation.
+* **Target yang Dipilih:** Edward sebagai praktikan pemegang mikrometer sekrup.
+* **Alasan Pemilihan:** Edward memegang peran krusial pada pengukuran presisi tinggi yang sering menjadi sumber utama hambatan alur kerja dan kesalahan transkripsi data di dalam kelompok.
 
-::: {.callout-tip title="Lihat contoh pengisian"}
-[Buka contoh fiktif Minggu 6](../examples/week-06.qmd) untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.
-:::
+## 3. Attention Pitch & Evidence
+* **Jenis Pitch:** Problem-oriented pitch.
+* **Pitch (30 detik):** 
+  > "Kita ngeliat kemarin pas praktikum, kalau pencatatan data numpuk ke satu orang dan pembagian alat ukur gak jelas, data gampang banget tercecer atau salah satuan, terus anggota lain jadi nunggu. Apakah lu juga ngerasa alur kerja kayak gini bikin kita buang banyak waktu?"
+* **Evidence (Percakapan langsung di laboratorium tanpa perangkat seluler):**
+  * Tio: "gmana kalau kita 1 orang 1 alat aja yg ngitung biar semanya kebagian ngitung dan ga dibebanin untuk 1 orng doang yg nyatet nyatet"
+  * Edward: "boleh tuh gw yg mmskrup ya"
+  * Rijal: "gw penggaris"
+  * Tio: "iyauda gw sisanya"
 
-{{< include ../includes/evidence-template.md >}}
+## 4. Response, State Sesudah Pitch, & Adaptation
+* **Response Teramati:** Edward langsung mengenali masalah efisiensi tersebut dan merespons secara aktif dengan mengambil alih tugas mikrometer sekrup tanpa menunjukkan sikap defensif.
+* **State Sesudah Pitch:** Dari kondisi awal yang terburu-buru dan terpecah perhatiannya, state berubah menjadi lebih sadar, kolaboratif, serta memiliki kejelasan peran operasional yang pasti.
+* **Adaptation:** Melakukan penyesuaian alur kerja secara langsung di tempat dengan membagi kepemilikan alat ukur secara merata yaitu satu orang satu alat guna menghilangkan beban ganda dan mencegah kesalahan transkripsi data.
