@@ -1,1 +1,43 @@
-# Ujian Akhir Semester (TBD)
+---
+title: "UAS — KIPP Triune Academic Commons"
+---
+
+**AI for Academic Work** adalah proyek kelas untuk membangun sumber belajar akademik yang dapat digunakan kembali. Kecerdasan individu (II) terlihat dari kontribusi dan pertimbangan setiap mahasiswa, kecerdasan kolektif (CI) dari kerja tim dan review silang, serta kecerdasan artifisial (AI) dari bantuan yang diuji dan diperiksa manusia.
+
+Proyek ini menggantikan tugas UAS sebelumnya. Gunakan repositori resmi Triune yang diumumkan dosen atau koordinator. Konten dan PR dikerjakan di repositori tersebut; portfolio KIPP ini merangkum bukti dan refleksi, tanpa menyalin karya ke repositori kedua.
+
+## Lingkup dan pembagian kerja
+
+Rancangan pilot: **21 hari, 12 tim berisi 5–6 mahasiswa**. Pembagian final mengikuti roster koordinator. Target **seluruh kelas** adalah 42 artefak: 12 modul pengetahuan, 12 tutorial keterampilan, 12 prompt AI teruji, dan 6 kasus integratif. Kelas juga menyiapkan enam alur belajar, satu portal Quarto, dan forum GitHub Discussions. Ini target kelas, bukan kuota setiap tim.
+
+Enam tema: AI untuk belajar, literatur dan riset, penulisan akademik, coding dan data, visualisasi dan presentasi, serta pemecahan masalah akademik. Temukan berkas yang ditugaskan melalui `ARTIFACT_REGISTER.csv` dan `governance/team-roster.csv`. Edit artefak yang sudah tersedia dan gunakan template sesuai jenisnya. Jaga ID dan metadata; jangan membuat duplikat.
+
+## Dari pembentukan tim hingga siap dinilai
+
+| Waktu | Kegiatan | Bukti |
+|---|---|---|
+| Hari 1–7 | Bentuk tim, tetapkan peran/ID, dengarkan minimal tiga calon pengguna per tim, buat Issue dan draf modul konsep (P0) | Roster, ringkasan kebutuhan, Issue, draf dan rencana alur belajar |
+| Hari 8–14 | Kembangkan tutorial dan prompt (P1), uji contoh, ajukan pull request (PR), minta review tim lain, dan revisi | PR, rujukan, contoh input-output, komentar dan tanggapan |
+| Hari 15–19 | Selesaikan kasus integratif (P2) dan alur belajar sesuai penugasan, uji paket dengan minimal dua pengguna di luar tim, perbaiki dan minta review ulang | Catatan uji, hasil validasi, revisi dan status PR |
+| Hari 20–21 | Showcase, komunikasi TAIDA, dan refleksi individual | Ringkasan demo, feedback reviewer, tautan kontribusi tiap anggota dan refleksi |
+
+Buat branch dari repositori resmi, edit file yang ditugaskan, commit, push, lalu buka PR. Gunakan `python scripts/check_artifacts.py` dan `python scripts/check_portal.py` bila bekerja lokal, atau periksa hasil validasi PR. Jangan bekerja langsung di `main`; koordinator menangani merge dan publikasi setelah pemeriksaan lulus.
+
+## Pemeriksaan mutu
+
+- Nyatakan pengguna dan tujuan, beri petunjuk penggunaan serta latihan atau asesmen.
+- Pastikan klaim penting memiliki rujukan yang dapat diperiksa, contoh benar-benar diuji, dan hasil uji tidak direkayasa.
+- Catat bantuan AI, bagian yang dipakai atau ditolak, verifikasi manusia, dan batasannya.
+- Tindak lanjuti minimal satu masukan substantif dari reviewer tim lain dan catat uji pengguna yang bukan pembuat artefak.
+- Lindungi data pribadi, materi tanpa izin dan kredensial. Sertakan ringkasan bukti yang aman dan akses terbatas bila diperlukan.
+- Koordinasikan perubahan status `reviewed` dengan pengelola register setelah review dan uji tercatat. PR yang masih menunggu merge ditulis apa adanya.
+
+## Showcase dan penilaian
+
+Tunjukkan kebutuhan pengguna → artefak → contoh penggunaan → hasil uji → revisi → dampak dan keterbatasan. Gunakan TAIDA (Target, Attention, Interest, Desire, Action) dalam penyajian dan jelaskan peran II, CI, dan AI. Tim lain menyampaikan satu pertanyaan substantif dan satu saran.
+
+Paket siap dinilai saat indeks memuat tautan karya dan PR, uji pengguna, review dan revisi, bukti showcase, serta refleksi setiap anggota. Ubah status menjadi **Siap dinilai** dan kirim indeks melalui kanal yang ditetapkan dosen. **Tanggal dan format penyerahan mengikuti pengumuman dosen**; capstone Minggu 15 tetap dicatat terpisah.
+
+[Buka template portfolio](../../portfolio/UAS/index.qmd) · [Lihat contoh](../../examples/UAS/index.qmd) · [Baca rubrik](../../assessment/uas.qmd)
+
+Di repositori Triune, rujuk `PROJECT_CHARTER.md`, `docs/student-workflow.md`, `QUALITY_GATE.md`, `assessments/rubric.md`, dan `assessments/showcase-guide.md`.

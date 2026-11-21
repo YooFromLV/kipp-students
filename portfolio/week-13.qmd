@@ -1,25 +1,36 @@
 ---
 title: "Public Contribution Challenge"
 week: 13
-status: "Belum dimulai"
-self_score: "—"
+status: "Selesai"
+self_score: "85"
 assessor_score: "—"
 description: "Public artifact, evidence, context, response, dan reputation."
 categories: [Public, Contribution]
 ---
 
-## Kompetensi target
+## 1. Public Character, Target, Objective, & Core Meaning
+- **Public Character:** Hadir sebagai perpaduan peran **citizen** dan **field leader** skala kegiatan mahasiswa—yakni anggota panitia Pengmas Asrama ITB yang turun langsung ke lapangan sebagai koordinator kegiatan bersih-bersih sungai, bukan sebagai juru bicara resmi pemerintah kota maupun pengelola permanen kawasan sungai.
+- **Target Public:** Seluruh *followers* akun Instagram Asrama ITB, yang mencakup penghuni asrama, rekan mahasiswa ITB, alumni penghuni asrama, serta jaringan kampus yang mengikuti informasi kegiatan asrama.
+- **Objective:** Membangun *awareness* dan *understanding* publik mengenai aksi nyata bersih-bersih Sungai Cikapundung pada hari kedua Pengmas Asrama ITB, sekaligus mendorong kepedulian kolektif terhadap kebersihan aliran sungai di lingkungan sekitar.
+- **Core Meaning:** Kontribusi lingkungan yang bermakna membutuhkan keterlibatan langsung di lapangan dan koordinasi bersama, bukan sekadar kampanye slogan dari jarak jauh.
 
-Mengomunikasikan core meaning kepada public secara sederhana, benar, dan bertanggung jawab.
+## 2. TAIDA Map pada Ruang Publik
 
-## Evidence wajib
+| Tahap TAIDA | Pemetaan pada Publikasi SG Asrama ITB |
+|---|---|
+| **Target Public** | *Followers* akun Instagram Asrama ITB (penghuni asrama dan jejaring mahasiswa). |
+| **Attention** | Visual langsung dari bawah aliran Sungai Cikapundung saat proses bersih-bersih berlangsung di hari kedua Pengmas. |
+| **Interest** | Keterangan singkat mengenai alur kegiatan lapangan dan kondisi sampah sungai yang sedang ditangani bersama. |
+| **Desire** | Menumbuhkan rasa bangga sekaligus kesadaran bahwa mahasiswa bisa ikut ambil bagian menjaga kebersihan sungai. |
+| **Primary Action** | Mendorong pengikut untuk peduli pada kebersihan lingkungan sekitar asrama/sungai dan mendukung agenda pengabdian masyarakat berikutnya. |
 
-- Public character, target, objective, dan TAIDA map.
-- Public artifact serta sumber evidence.
-- Context-collapse/reputation check, response, dan correction bila diperlukan.
+## 3. Public Artifact & Sumber Evidence
+- **Medium & Waktu Publikasi:** Unggahan **Instagram Story (SG)** pada akun Instagram Asrama ITB, dipublikasikan pada **14 November 2026 siang hari** bertepatan dengan berlangsungnya sesi bersih-bersih sungai.
+- **Bentuk & Isi Artefak Publik:**
+  > **Visual:** Dokumentasi langsung kondisi di area bawah Sungai Cikapundung yang memperlihatkan proses koordinasi peserta dan pengangkatan sampah di aliran sungai.  
+  > **Teks / Keterangan SG:** Menyampaikan laporan singkat kegiatan hari kedua Pengmas Asrama ITB saat tim turun langsung ke sungai untuk membersihkan sampah bersama, disertai ajakan menjaga kebersihan aliran sungai.
+- **Sumber Evidence:** Aktivitas lapangan nyata (*real-time*) di Sungai Cikapundung pada 14 November 2026 siang, di mana saya bertugas langsung sebagai koordinator lapangan di bawah area sungai untuk mengatur pembagian titik pembersihan dan keamanan peserta.
 
-::: {.callout-tip title="Lihat contoh pengisian"}
-[Buka contoh fiktif Minggu 13](../examples/week-13.qmd) untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.
-:::
-
-{{< include ../includes/evidence-template.md >}}
+## 4. Context-Collapse & Reputation Check
+- **Context-Collapse & Screenshot Test:** Karena unggahan di akun Instagram Asrama ITB dapat dilihat dan diteruskan (*screenshot*) oleh publik luas di luar penghuni asrama—termasuk pengurus kawasan Sungai Cikapundung (komunitas Cika-Cika)—narasi dijaga agar tetap proporsional. Informasi tidak dibingkai seolah-olah satu kali aksi mahasiswa langsung menyelesaikan seluruh persoalan sampah Sungai Cikapundung, serta menghindari kalimat yang menyudutkan warga sekitar.
+- **Reputation Check:** Reputasi di ruang publik dijaga dengan memastikan keselarasan antara apa yang ditampilkan di media sosial dan tindakan nyata di lokasi (*consistency between claim and action*). Posisi sebagai koordinator lapangan benar-benar dijalankan dengan turun langsung ke bawah aliran sungai

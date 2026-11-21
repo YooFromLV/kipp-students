@@ -1,0 +1,9 @@
+---
+title: "UAS — KIPP Triune Academic Commons"
+---
+
+Bersama kelas, bangun sumber belajar **AI for Academic Work**: modul pengetahuan, tutorial, prompt teruji, dan kasus integratif. Pilih kebutuhan akademik yang nyata; kembangkan artefak sesuai penugasan, minta review tim lain, lalu uji dan perbaiki.
+
+Karya utama berada di repositori resmi Triune. Portfolio UAS menghubungkan kontribusi, hasil uji, showcase dan refleksi individual.
+
+[Panduan pelaksanaan dan submisi](../lk-UAS/index.qmd) · [Template portfolio](../../portfolio/UAS/index.qmd) · [Contoh fiktif](../../examples/UAS/index.qmd)

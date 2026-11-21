@@ -1,0 +1,24 @@
+---
+title: "Portfolio UAS — KIPP Triune Academic Commons"
+status: "Belum dimulai"
+---
+
+Gunakan indeks ini untuk menghubungkan bukti kontribusi tim dan individual di repositori Triune. Bagian di bawah adalah pengelompokan bukti portfolio, bukan target karya tambahan.
+
+**Tim, anggota/NIM, tema, repo resmi, periode dan status:** [Isi].
+
+
+- [Penugasan dan Kontribusi](01-penugasan-kontribusi.qmd)
+- [Review, Uji Pengguna, dan Revisi](02-review-dan-uji.qmd)
+- [Showcase dan Hasil](03-showcase.qmd)
+- [Refleksi Individual](04-refleksi-individual.qmd)
+
+## Pemeriksaan submisi
+
+- [ ] ID penugasan, Issue, PR dan kontribusi setiap anggota dapat ditelusuri.
+- [ ] Review tim lain, uji pengguna, perubahan dan validasi tercatat; status PR akurat.
+- [ ] Bukti showcase dan refleksi seluruh anggota tersedia.
+- [ ] Assessor dapat membuka tautan; data sensitif tidak dipublikasikan.
+- [ ] Ubah metadata status menjadi **Siap dinilai** dan kirim indeks melalui kanal kelas.
+
+[Panduan UAS](../../lk/lk-UAS/index.qmd) · [Penilaian](../../assessment/uas.qmd)

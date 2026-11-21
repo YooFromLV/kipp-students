@@ -79,6 +79,35 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -260,6 +289,12 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Capstone Performance Portfolio</span></a>
   </div>
 </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../portfolio/UAS/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Portfolio UAS — KIPP Triune Academic Commons</span></a>
+  </div>
+</li>
     </ul>
     </div>
 </nav>
@@ -270,17 +305,12 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Di halaman ini</h2>
    
   <ul>
-  <li><a href="#kompetensi-target" id="toc-kompetensi-target" class="nav-link active" data-scroll-target="#kompetensi-target">Kompetensi target</a></li>
-  <li><a href="#evidence-wajib" id="toc-evidence-wajib" class="nav-link" data-scroll-target="#evidence-wajib">Evidence wajib</a></li>
-  <li><a href="#konteks-performance" id="toc-konteks-performance" class="nav-link" data-scroll-target="#konteks-performance">Konteks performance</a></li>
-  <li><a href="#evidence" id="toc-evidence" class="nav-link" data-scroll-target="#evidence">Evidence</a></li>
-  <li><a href="#analisis-komunikasi" id="toc-analisis-komunikasi" class="nav-link" data-scroll-target="#analisis-komunikasi">Analisis komunikasi</a></li>
-  <li><a href="#penggunaan-ai" id="toc-penggunaan-ai" class="nav-link" data-scroll-target="#penggunaan-ai">Penggunaan AI</a></li>
-  <li><a href="#feedback-dan-tindak-lanjut" id="toc-feedback-dan-tindak-lanjut" class="nav-link" data-scroll-target="#feedback-dan-tindak-lanjut">Feedback dan tindak lanjut</a></li>
-  <li><a href="#self-assessment" id="toc-self-assessment" class="nav-link" data-scroll-target="#self-assessment">Self-assessment</a>
-  <ul class="collapse">
-  <li><a href="#assessment-dosen" id="toc-assessment-dosen" class="nav-link" data-scroll-target="#assessment-dosen">Assessment dosen</a></li>
-  </ul></li>
+  <li><a href="#konteks-masalah-komunitas-community-person-map" id="toc-konteks-masalah-komunitas-community-person-map" class="nav-link active" data-scroll-target="#konteks-masalah-komunitas-community-person-map">1. Konteks Masalah Komunitas &amp; Community Person Map</a></li>
+  <li><a href="#tiga-frames-common-ground-lima-options" id="toc-tiga-frames-common-ground-lima-options" class="nav-link" data-scroll-target="#tiga-frames-common-ground-lima-options">2. Tiga Frames, Common Ground, &amp; Lima Options</a></li>
+  <li><a href="#community-taida-map" id="toc-community-taida-map" class="nav-link" data-scroll-target="#community-taida-map">3. Community TAIDA Map</a></li>
+  <li><a href="#deliberation-evidence-sufficient-agreement-safeguards" id="toc-deliberation-evidence-sufficient-agreement-safeguards" class="nav-link" data-scroll-target="#deliberation-evidence-sufficient-agreement-safeguards">4. Deliberation Evidence, Sufficient Agreement, &amp; Safeguards</a></li>
+  <li><a href="#collective-action-review-plan-relationship-review" id="toc-collective-action-review-plan-relationship-review" class="nav-link" data-scroll-target="#collective-action-review-plan-relationship-review">5. Collective Action, Review Plan, &amp; Relationship Review</a></li>
+  <li><a href="#self-assessment" id="toc-self-assessment" class="nav-link" data-scroll-target="#self-assessment">6. Self-Assessment</a></li>
   </ul>
 </nav>
     </div>
@@ -315,143 +345,186 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="kompetensi-target" class="level2">
-<h2 class="anchored" data-anchor-id="kompetensi-target">Kompetensi target</h2>
-<p>Memfasilitasi community communication melintasi perbedaan dan power menuju action yang layak.</p>
-</section>
-<section id="evidence-wajib" class="level2">
-<h2 class="anchored" data-anchor-id="evidence-wajib">Evidence wajib</h2>
-<ul>
-<li>Community person map dan fact/story/value/position.</li>
-<li>Sedikitnya tiga frames dan lima options.</li>
-<li>Deliberation evidence, safeguard, action, dan review plan.</li>
-</ul>
-<div class="callout callout-style-default callout-tip callout-titled" title="Lihat contoh pengisian">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Tip</span>Lihat contoh pengisian
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p><a href="../examples/week-12.html">Buka contoh fiktif Minggu 12</a> untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.</p>
-</div>
-</div>
-</section>
-<section id="konteks-performance" class="level2">
-<h2 class="anchored" data-anchor-id="konteks-performance">Konteks performance</h2>
-<p><strong>Tanggal dan setting:</strong> Ganti dengan tanggal, tempat, dan bentuk kegiatan.</p>
-<p><strong>Persons dan relationship:</strong> Jelaskan siapa yang terlibat tanpa membuka data pribadi yang tidak diperlukan.</p>
-<p><strong>Objective dan initial state:</strong> Nyatakan perubahan yang ingin dicapai serta evidence state awal.</p>
-</section>
-<section id="evidence" class="level2">
-<h2 class="anchored" data-anchor-id="evidence">Evidence</h2>
-<div class="evidence-block">
-<p>Tambahkan link, gambar, video, transcript, artefak, catatan observer, atau bukti tindakan. Jelaskan bagian mana yang merupakan kontribusi Anda.</p>
-</div>
-</section>
-<section id="analisis-komunikasi" class="level2">
-<h2 class="anchored" data-anchor-id="analisis-komunikasi">Analisis komunikasi</h2>
+<section id="konteks-masalah-komunitas-community-person-map" class="level2">
+<h2 class="anchored" data-anchor-id="konteks-masalah-komunitas-community-person-map">1. Konteks Masalah Komunitas &amp; Community Person Map</h2>
+<p>Dalam pelaksanaan kegiatan Pengabdian Masyarakat (Pengmas) Asrama ITB pada <strong>13–14 November 2026</strong>, panitia berkoordinasi dengan <strong>empat orang perwakilan pengurus kawasan Sungai Cikapundung (komunitas Cika-Cika)</strong> terkait pemakaian lapangan kegiatan. Pada kesepakatan awal sebelum acara dimulai, pihak pengurus menyatakan bahwa lapangan tersebut dapat digunakan oleh panitia Pengmas selama <strong>dua hari penuh</strong> (13 dan 14 November 2026).</p>
+<p>Namun, pada <strong>hari kedua (14 November 2026)</strong>, muncul persoalan di lapangan karena area lapangan tersebut ternyata telah disewakan kepada pihak lain pada jadwal yang sama, meskipun panitia Pengmas sudah berkoordinasi lebih dulu. Kondisi ini mempertemukan kepentingan beberapa pihak dengan peran dan kuasa yang berbeda di kawasan tersebut:</p>
 <table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
 <thead>
 <tr class="header">
-<th>Elemen</th>
-<th>Evidence dan analisis</th>
+<th>Kelompok / Person</th>
+<th>Fact yang Dibawa</th>
+<th>Story / Value</th>
+<th>Position Awal</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Person &amp; character</td>
-<td>Ganti dengan analisis Anda.</td>
+<td><strong>Pengurus Cika-Cika (4 orang perwakilan pengelola sungai)</strong></td>
+<td>Lapangan hari kedua sudah terlanjur terjadwal untuk pihak penyewa lain meski sebelumnya disetujui untuk dipakai 2 hari oleh Pengmas.</td>
+<td>Menjaga ketertiban kawasan sungai dan komitmen terhadap jadwal sewa yang sudah masuk.</td>
+<td>Mengarahkan panitia Pengmas agar menyesuaikan area pemakaian di hari kedua.</td>
 </tr>
 <tr class="even">
-<td>Objective &amp; state</td>
-<td>Ganti dengan analisis Anda.</td>
+<td><strong>Tio (Kadiv Logistik Pengmas Asrama ITB)</strong></td>
+<td>Peralatan logistik dan perlengkapan acara sudah disiapkan sejak hari pertama untuk pemakaian lapangan selama dua hari.</td>
+<td>Keamanan barang logistik, efisiensi tenaga tim di lapangan, dan kelancaran kegiatan hari kedua.</td>
+<td>Mempertanyakan tumpang tindih jadwal lapangan karena panitia sudah mengonfirmasi lebih dulu.</td>
 </tr>
 <tr class="odd">
-<td>Repertoire &amp; language</td>
-<td>Ganti dengan analisis Anda.</td>
+<td><strong>Katherine (Ketua Acara Pengmas Asrama ITB)</strong></td>
+<td>Rangkaian kegiatan hari kedua serta sesi evaluasi akhir membutuhkan area yang kondusif dan aman bagi peserta.</td>
+<td>Keberlangsungan seluruh mata acara dan evaluasi hingga selesai sesuai rencana.</td>
+<td>Memastikan seluruh agenda hari kedua tetap berjalan tanpa terganggu.</td>
 </tr>
 <tr class="even">
-<td>Response &amp; adaptation</td>
-<td>Ganti dengan analisis Anda.</td>
-</tr>
-<tr class="odd">
-<td>Agreement/action</td>
-<td>Ganti dengan analisis Anda.</td>
-</tr>
-<tr class="even">
-<td>Relationship outcome</td>
-<td>Ganti dengan analisis Anda.</td>
+<td><strong>Pihak Penyewa Lapangan Hari Kedua</strong></td>
+<td>Datang ke lokasi berdasarkan jadwal sewa yang diberikan oleh pengelola Cika-Cika.</td>
+<td>Memperoleh hak penggunaan lapangan utama sesuai kesepakatan sewa mereka.</td>
+<td>Menggunakan area lapangan utama pada hari kedua.</td>
 </tr>
 </tbody>
 </table>
 </section>
-<section id="penggunaan-ai" class="level2">
-<h2 class="anchored" data-anchor-id="penggunaan-ai">Penggunaan AI</h2>
-<p>Nyatakan <code>Tidak menggunakan AI</code> atau jelaskan:</p>
+<section id="tiga-frames-common-ground-lima-options" class="level2">
+<h2 class="anchored" data-anchor-id="tiga-frames-common-ground-lima-options">2. Tiga Frames, Common Ground, &amp; Lima Options</h2>
+<p>Untuk menghindari perdebatan kusir mengenai siapa yang lebih berhak memakai lapangan, situasi tersebut ditinjau melalui <strong>tiga sudut pandang (<em>frames</em>)</strong>:</p>
+<ol type="1">
+<li><strong>Frame Hak Pakai &amp; Urutan Pemesanan:</strong> Menekankan bahwa panitia Pengmas sudah mendapat persetujuan pemakaian 2 hari sejak awal. Frame ini cenderung memicu perdebatan defensif dengan pengurus Cika-Cika.</li>
+<li><strong>Frame Keamanan Barang &amp; Kelancaran Evaluasi:</strong> Menekankan keselamatan perlengkapan logistik dan ketenangan suasana agar sesi lanjutan serta evaluasi hari kedua tidak terganggu aktivitas penyewa lain.</li>
+<li><strong>Frame Relasi Komunitas Jangka Panjang:</strong> Memposisikan mahasiswa Asrama ITB sebagai tamu di kawasan Sungai Cikapundung yang perlu menjaga hubungan baik dengan pengurus lokal Cika-Cika agar akses kegiatan pengmas di masa depan tetap terbuka.</li>
+</ol>
 <ul>
-<li>alat dan peran AI;</li>
-<li>prompt atau instruksi penting;</li>
-<li>bagian output yang digunakan, diubah, atau ditolak;</li>
-<li>pemeriksaan accuracy, privacy, dan authority;</li>
-<li>apa yang tetap Anda pelajari sebagai manusia.</li>
+<li><strong>Common Ground:</strong> Seluruh pihak sepakat bahwa seluruh aktivitas di kawasan Sungai Cikapundung pada 14 November 2026 harus berjalan aman, tertib tanpa gesekan di lapangan, serta menjaga hubungan baik antara mahasiswa Asrama ITB dan pengurus Cika-Cika.</li>
+</ul>
+<p>Dari titik temu tersebut, dipertimbangkan <strong>lima opsi tindakan</strong>:</p>
+<ol type="1">
+<li><strong>Mempertahankan lapangan utama secara penuh:</strong> Menolak pindah karena merasa sudah izin lebih dulu <em>(ditolak karena memicu konflik terbuka dengan penyewa lain dan pengurus lokal)</em>.</li>
+<li><strong>Berbagi lapangan utama secara berdampingan:</strong> Tetap bertahan di setengah bagian lapangan <em>(ditolak karena area terlalu sempit, bising, dan berisiko terhadap keamanan barang logistik)</em>.</li>
+<li><strong>Mempercepat penutupan dan membatalkan evaluasi di lokasi:</strong> Langsung membubarkan kegiatan hari kedua <em>(ditolak karena agenda inti dan evaluasi lapangan menjadi tidak tuntas)</em>.</li>
+<li><strong>Memindahkan seluruh perlengkapan dan rangkaian hari kedua ke tempat lain yang lebih aman di sekitar kawasan (Opsi Terpilih):</strong> Mengalah secara taktis dari lapangan utama demi keamanan aset, kenyamanan evaluasi, dan keutuhan relasi dengan pengurus Cika-Cika.</li>
+<li><strong>Menunda sesi evaluasi ke hari lain di lingkungan asrama:</strong> Memisahkan kegiatan lapangan dan evaluasi <em>(ditolak karena sulit mengumpulkan ulang seluruh panitia dan peserta di hari berbeda)</em>.</li>
+</ol>
+</section>
+<section id="community-taida-map" class="level2">
+<h2 class="anchored" data-anchor-id="community-taida-map">3. Community TAIDA Map</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Kelompok / Person</th>
+<th>Current TAIDA State</th>
+<th>Kebutuhan Komunikasi</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Pengurus Cika-Cika (4 orang)</strong></td>
+<td><strong>Interest <span class="math inline">\(\rightarrow\)</span> Desire</strong> (menyadari benturan jadwal dan ingin mencari jalan keluar tanpa keributan)</td>
+<td>Komunikasi yang tidak menyudutkan serta kepastian area alternatif yang bisa dipakai panitia.</td>
+</tr>
+<tr class="even">
+<td><strong>Tio (Kadiv Logistik)</strong></td>
+<td><strong>Action</strong> (siap memindahkan aset segera setelah titik aman disepakati)</td>
+<td>Kepastian jarak angkut dan keamanan tempat baru untuk menaruh perlengkapan logistik.</td>
+</tr>
+<tr class="odd">
+<td><strong>Katherine (Ketua Acara)</strong></td>
+<td><strong>Desire <span class="math inline">\(\rightarrow\)</span> Action</strong> (ingin sesi hari kedua dan evaluasi tetap tuntas)</td>
+<td>Penyesuaian cepat tata letak kegiatan dan kondisi tempat yang cukup tenang untuk evaluasi.</td>
+</tr>
+<tr class="even">
+<td><strong>Pihak Penyewa Lain</strong></td>
+<td><strong>Attention</strong> (fokus pada penggunaan lapangan sesuai jadwal mereka)</td>
+<td>Pemisahan area yang jelas agar tidak terjadi tumpang tindih ruang gerak.</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="deliberation-evidence-sufficient-agreement-safeguards" class="level2">
+<h2 class="anchored" data-anchor-id="deliberation-evidence-sufficient-agreement-safeguards">4. Deliberation Evidence, Sufficient Agreement, &amp; Safeguards</h2>
+<ul>
+<li><p><strong>Catatan Deliberasi Lapangan (14 November 2026):</strong> &gt; <strong>Tio (Kadiv Logistik):</strong> “Pak/Bang, kemarin infonya lapangan ini bisa kita pakai dua hari penuh sampai hari ini. Kalau sekarang sudah dipakai penyewa lain, barang-barang logistik kita berisiko kecampur dan acara hari kedua juga keganggu.”<br>
+&gt; <strong>Perwakilan Pengurus Cika-Cika:</strong> “Iya mohon maaf dari kami ada miskomunikasi pencatatan jadwal untuk hari kedua ini karena penyewa yang ini juga sudah masuk jadwal. Kalau mau, panitia bisa bergeser ke area sebelah yang lebih aman dan kosong supaya acaranya tetap jalan.”<br>
+&gt; <strong>Katherine (Ketua Acara):</strong> “Yang penting tempatnya cukup tenang buat lanjutin agenda hari kedua sama sesi evaluasi akhir kita, dan barang logistik aman.”<br>
+&gt; <strong>Tio (Kadiv Logistik):</strong> “Oke, daripada bentrok di lapangan utama, kita pindahin semua perlengkapan ke tempat yang lebih aman itu sekarang.”</p></li>
+<li><p><strong>Sufficient Agreement:</strong> Panitia Pengmas dan keempat pengurus Cika-Cika sepakat bahwa panitia bergeser secara taktis dari lapangan utama ke <strong>tempat alternatif yang lebih aman di sekitar lokasi</strong> untuk melanjutkan seluruh rangkaian acara dan sesi evaluasi hari kedua pada 14 November 2026.</p></li>
+<li><p><strong>Specific Dissent (Catatan Keberatan Khusus):</strong> Panitia Pengmas tetap menyampaikan catatan keberatan secara sopan terkait <strong>ketidaksinkronan pencatatan izin pemakaian dua hari</strong> di pihak pengelola, agar pada pelaksanaan pengmas berikutnya konfirmasi jadwal tercatat lebih jelas dan tidak berbenturan di hari pelaksanaan.</p></li>
+<li><p><strong>Safeguards (Aturan Pengaman):</strong></p>
+<ol type="1">
+<li>Pemindahan seluruh barang logistik dikawal langsung oleh tim logistik dalam satu jalur agar tidak ada perlengkapan yang tercecer atau tertukar dengan milik penyewa lain.</li>
+<li>Lokasi pengganti dipastikan berada di titik yang aman dari keramaian lalu lalang sehingga sesi evaluasi berjalan kondusif.</li>
+<li>Seluruh komunikasi dilakukan secara tertutup antara perwakilan panitia dan pengurus Cika-Cika tanpa memicu ketegangan di hadapan peserta maupun penyewa lain.</li>
+</ol></li>
 </ul>
 </section>
-<section id="feedback-dan-tindak-lanjut" class="level2">
-<h2 class="anchored" data-anchor-id="feedback-dan-tindak-lanjut">Feedback dan tindak lanjut</h2>
-<p><strong>Feedback yang diterima:</strong> Ganti dengan kutipan atau ringkasan berbasis evidence.</p>
-<p><strong>Adaptation/replay:</strong> Jelaskan apa yang Anda ubah dan response setelah perubahan.</p>
-<p><strong>Next practice:</strong> Tetapkan satu perilaku spesifik yang akan dilatih berikutnya.</p>
+<section id="collective-action-review-plan-relationship-review" class="level2">
+<h2 class="anchored" data-anchor-id="collective-action-review-plan-relationship-review">5. Collective Action, Review Plan, &amp; Relationship Review</h2>
+<ul>
+<li><strong>Collective Action (14 November 2026):</strong>
+<ul>
+<li><strong>Tim Logistik (dipimpin Tio):</strong> Segera memindahkan seluruh peralatan, perlengkapan acara, dan logistik konsumsi dari lapangan utama ke area alternatif yang lebih aman sebelum sesi hari kedua dimulai.</li>
+<li><strong>Tim Acara (dipimpin Katherine):</strong> Menyesuaikan alur kegiatan hari kedua serta memimpin sesi evaluasi akhir di tempat baru tersebut hingga seluruh rangkaian acara selesai.</li>
+<li><strong>Pengurus Cika-Cika (4 orang):</strong> Membantu mengarahkan penempatan area pengganti dan memastikan tidak ada gangguan selama panitia menyelesaikan kegiatan hingga selesai.</li>
+</ul></li>
+<li><strong>Review Plan:</strong> Evaluasi langsung dilakukan pada akhir sesi hari kedua (<strong>14 November 2026</strong>) di lokasi aman tersebut untuk memastikan seluruh target acara Pengmas tercapai sekaligus mencatat perlunya konfirmasi tertulis/ulang H-1 untuk perizinan lokasi di kepanitiaan mendatang.</li>
+<li><strong>Relationship Review &amp; Evaluasi Kritis Bantuan AI:</strong> Dengan memilih langkah taktis memindahkan kegiatan ke tempat yang lebih aman alih-alih memperpanjang perdebatan soal hak sewa lapangan, hubungan antara mahasiswa Asrama ITB dan pengurus komunitas Cika-Cika tetap terjaga baik hingga acara berakhir. Dalam penyusunan laporan ini, AI hanya digunakan untuk merapikan pemetaan <em>fact–story–value–position</em> dan struktur analisis opsi, tanpa menambahkan nama individu pengurus maupun detail tempat yang tidak tercatat di lapangan.</li>
+</ul>
 </section>
 <section id="self-assessment" class="level2">
-<h2 class="anchored" data-anchor-id="self-assessment">Self-assessment</h2>
+<h2 class="anchored" data-anchor-id="self-assessment">6. Self-Assessment</h2>
 <table class="caption-top table">
+<colgroup>
+<col style="width: 30%">
+<col style="width: 40%">
+<col style="width: 30%">
+</colgroup>
 <thead>
 <tr class="header">
 <th>Dimensi</th>
-<th style="text-align: right;">Skor 1–4</th>
+<th style="text-align: right;">Skor</th>
 <th>Evidence singkat</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>Person &amp; Character</td>
-<td style="text-align: right;">—</td>
-<td>—</td>
+<td style="text-align: right;">3</td>
+<td>Melibatkan empat perwakilan pengurus Cika-Cika, tim logistik, acara, dan penyewa lain sesuai perannya</td>
 </tr>
 <tr class="even">
 <td>Objective &amp; State</td>
-<td style="text-align: right;">—</td>
-<td>—</td>
+<td style="text-align: right;">4</td>
+<td>Fact, story, value, position, serta common ground dirumuskan jernih dari kejadian hari kedua</td>
 </tr>
 <tr class="odd">
 <td>Repertoire, Language &amp; AI</td>
-<td style="text-align: right;">—</td>
-<td>—</td>
+<td style="text-align: right;">3</td>
+<td>Tiga frames dan lima opsi dengan trade-off konkret dijelaskan tanpa asumsi berlebihan</td>
 </tr>
 <tr class="even">
 <td>Response &amp; Adaptation</td>
-<td style="text-align: right;">—</td>
-<td>—</td>
+<td style="text-align: right;">4</td>
+<td>Mengambil keputusan taktis memindahkan logistik dan acara ke tempat lebih aman saat jadwal bentrok</td>
 </tr>
 <tr class="odd">
 <td>Agreement, Action &amp; Relationship</td>
-<td style="text-align: right;">—</td>
-<td>—</td>
+<td style="text-align: right;">3</td>
+<td>Sufficient agreement, catatan keberatan jadwal, safeguard barang, dan hubungan baik dengan Cika-Cika terjaga</td>
 </tr>
 </tbody>
 </table>
-<p><strong>Total:</strong> — / 20</p>
-<section id="assessment-dosen" class="level3 assessor-only">
-<h3 class="anchored" data-anchor-id="assessment-dosen">Assessment dosen</h3>
-<p><strong>Skor:</strong> — / 20<br>
-<strong>Evidence yang mendukung:</strong> —<br>
-<strong>Prioritas perbaikan:</strong> —<br>
-<strong>Keputusan:</strong> Belum dinilai / Perlu revisi / Tercapai</p>
-</section>
+<p><strong>Total: 17/20 (85) — Lanjut.</strong></p>
 
 
 </section>

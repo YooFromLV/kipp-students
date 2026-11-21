@@ -1,0 +1,12 @@
+---
+title: "Contoh Portfolio Triune"
+---
+
+Contoh fiktif tentang modul membaca abstrak secara kritis. Semua nama, percakapan, review dan hasil uji merupakan ilustrasi; tidak ada Issue atau PR nyata.
+
+- [Penugasan dan Kontribusi](01-penugasan-kontribusi.qmd)
+- [Review, Uji Pengguna, dan Revisi](02-review-dan-uji.qmd)
+- [Showcase dan Hasil](03-showcase.qmd)
+- [Refleksi Individual](04-refleksi-individual.qmd)
+
+[Panduan UAS](../../lk/lk-UAS/index.qmd) · [Penilaian](../../assessment/uas.qmd)

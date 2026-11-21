@@ -1,25 +1,85 @@
 ---
 title: "Community Communication Challenge"
 week: 12
-status: "Belum dimulai"
-self_score: "—"
+status: "Selesai"
+self_score: "85"
 assessor_score: "—"
 description: "Framing, deliberation, sufficient agreement, dan collective action."
 categories: [Community, Deliberation]
 ---
 
-## Kompetensi target
+## 1. Konteks Masalah Komunitas & Community Person Map
+Dalam pelaksanaan kegiatan Pengabdian Masyarakat (Pengmas) Asrama ITB pada **13–14 November 2026**, panitia berkoordinasi dengan **empat orang perwakilan pengurus kawasan Sungai Cikapundung (komunitas Cika-Cika)** terkait pemakaian lapangan kegiatan. Pada kesepakatan awal sebelum acara dimulai, pihak pengurus menyatakan bahwa lapangan tersebut dapat digunakan oleh panitia Pengmas selama **dua hari penuh** (13 dan 14 November 2026).
 
-Memfasilitasi community communication melintasi perbedaan dan power menuju action yang layak.
+Namun, pada **hari kedua (14 November 2026)**, muncul persoalan di lapangan karena area lapangan tersebut ternyata telah disewakan kepada pihak lain pada jadwal yang sama, meskipun panitia Pengmas sudah berkoordinasi lebih dulu. Kondisi ini mempertemukan kepentingan beberapa pihak dengan peran dan kuasa yang berbeda di kawasan tersebut:
 
-## Evidence wajib
+| Kelompok / Person | Fact yang Dibawa | Story / Value | Position Awal |
+|---|---|---|---|
+| **Pengurus Cika-Cika (4 orang perwakilan pengelola sungai)** | Lapangan hari kedua sudah terlanjur terjadwal untuk pihak penyewa lain meski sebelumnya disetujui untuk dipakai 2 hari oleh Pengmas. | Menjaga ketertiban kawasan sungai dan komitmen terhadap jadwal sewa yang sudah masuk. | Mengarahkan panitia Pengmas agar menyesuaikan area pemakaian di hari kedua. |
+| **Tio (Kadiv Logistik Pengmas Asrama ITB)** | Peralatan logistik dan perlengkapan acara sudah disiapkan sejak hari pertama untuk pemakaian lapangan selama dua hari. | Keamanan barang logistik, efisiensi tenaga tim di lapangan, dan kelancaran kegiatan hari kedua. | Mempertanyakan tumpang tindih jadwal lapangan karena panitia sudah mengonfirmasi lebih dulu. |
+| **Katherine (Ketua Acara Pengmas Asrama ITB)** | Rangkaian kegiatan hari kedua serta sesi evaluasi akhir membutuhkan area yang kondusif dan aman bagi peserta. | Keberlangsungan seluruh mata acara dan evaluasi hingga selesai sesuai rencana. | Memastikan seluruh agenda hari kedua tetap berjalan tanpa terganggu. |
+| **Pihak Penyewa Lapangan Hari Kedua** | Datang ke lokasi berdasarkan jadwal sewa yang diberikan oleh pengelola Cika-Cika. | Memperoleh hak penggunaan lapangan utama sesuai kesepakatan sewa mereka. | Menggunakan area lapangan utama pada hari kedua. |
 
-- Community person map dan fact/story/value/position.
-- Sedikitnya tiga frames dan lima options.
-- Deliberation evidence, safeguard, action, dan review plan.
+## 2. Tiga Frames, Common Ground, & Lima Options
+Untuk menghindari perdebatan kusir mengenai siapa yang lebih berhak memakai lapangan, situasi tersebut ditinjau melalui **tiga sudut pandang (*frames*)**:
 
-::: {.callout-tip title="Lihat contoh pengisian"}
-[Buka contoh fiktif Minggu 12](../examples/week-12.qmd) untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.
-:::
+1. **Frame Hak Pakai & Urutan Pemesanan:** Menekankan bahwa panitia Pengmas sudah mendapat persetujuan pemakaian 2 hari sejak awal. Frame ini cenderung memicu perdebatan defensif dengan pengurus Cika-Cika.
+2. **Frame Keamanan Barang & Kelancaran Evaluasi:** Menekankan keselamatan perlengkapan logistik dan ketenangan suasana agar sesi lanjutan serta evaluasi hari kedua tidak terganggu aktivitas penyewa lain.
+3. **Frame Relasi Komunitas Jangka Panjang:** Memposisikan mahasiswa Asrama ITB sebagai tamu di kawasan Sungai Cikapundung yang perlu menjaga hubungan baik dengan pengurus lokal Cika-Cika agar akses kegiatan pengmas di masa depan tetap terbuka.
 
-{{< include ../includes/evidence-template.md >}}
+- **Common Ground:** Seluruh pihak sepakat bahwa seluruh aktivitas di kawasan Sungai Cikapundung pada 14 November 2026 harus berjalan aman, tertib tanpa gesekan di lapangan, serta menjaga hubungan baik antara mahasiswa Asrama ITB dan pengurus Cika-Cika.
+
+Dari titik temu tersebut, dipertimbangkan **lima opsi tindakan**:
+
+1. **Mempertahankan lapangan utama secara penuh:** Menolak pindah karena merasa sudah izin lebih dulu *(ditolak karena memicu konflik terbuka dengan penyewa lain dan pengurus lokal)*.
+2. **Berbagi lapangan utama secara berdampingan:** Tetap bertahan di setengah bagian lapangan *(ditolak karena area terlalu sempit, bising, dan berisiko terhadap keamanan barang logistik)*.
+3. **Mempercepat penutupan dan membatalkan evaluasi di lokasi:** Langsung membubarkan kegiatan hari kedua *(ditolak karena agenda inti dan evaluasi lapangan menjadi tidak tuntas)*.
+4. **Memindahkan seluruh perlengkapan dan rangkaian hari kedua ke tempat lain yang lebih aman di sekitar kawasan (Opsi Terpilih):** Mengalah secara taktis dari lapangan utama demi keamanan aset, kenyamanan evaluasi, dan keutuhan relasi dengan pengurus Cika-Cika.
+5. **Menunda sesi evaluasi ke hari lain di lingkungan asrama:** Memisahkan kegiatan lapangan dan evaluasi *(ditolak karena sulit mengumpulkan ulang seluruh panitia dan peserta di hari berbeda)*.
+
+## 3. Community TAIDA Map
+
+| Kelompok / Person | Current TAIDA State | Kebutuhan Komunikasi |
+|---|---|---|
+| **Pengurus Cika-Cika (4 orang)** | **Interest $\rightarrow$ Desire** (menyadari benturan jadwal dan ingin mencari jalan keluar tanpa keributan) | Komunikasi yang tidak menyudutkan serta kepastian area alternatif yang bisa dipakai panitia. |
+| **Tio (Kadiv Logistik)** | **Action** (siap memindahkan aset segera setelah titik aman disepakati) | Kepastian jarak angkut dan keamanan tempat baru untuk menaruh perlengkapan logistik. |
+| **Katherine (Ketua Acara)** | **Desire $\rightarrow$ Action** (ingin sesi hari kedua dan evaluasi tetap tuntas) | Penyesuaian cepat tata letak kegiatan dan kondisi tempat yang cukup tenang untuk evaluasi. |
+| **Pihak Penyewa Lain** | **Attention** (fokus pada penggunaan lapangan sesuai jadwal mereka) | Pemisahan area yang jelas agar tidak terjadi tumpang tindih ruang gerak. |
+
+## 4. Deliberation Evidence, Sufficient Agreement, & Safeguards
+- **Catatan Deliberasi Lapangan (14 November 2026):**
+  > **Tio (Kadiv Logistik):** "Pak/Bang, kemarin infonya lapangan ini bisa kita pakai dua hari penuh sampai hari ini. Kalau sekarang sudah dipakai penyewa lain, barang-barang logistik kita berisiko kecampur dan acara hari kedua juga keganggu."  
+  > **Perwakilan Pengurus Cika-Cika:** "Iya mohon maaf dari kami ada miskomunikasi pencatatan jadwal untuk hari kedua ini karena penyewa yang ini juga sudah masuk jadwal. Kalau mau, panitia bisa bergeser ke area sebelah yang lebih aman dan kosong supaya acaranya tetap jalan."  
+  > **Katherine (Ketua Acara):** "Yang penting tempatnya cukup tenang buat lanjutin agenda hari kedua sama sesi evaluasi akhir kita, dan barang logistik aman."  
+  > **Tio (Kadiv Logistik):** "Oke, daripada bentrok di lapangan utama, kita pindahin semua perlengkapan ke tempat yang lebih aman itu sekarang."
+
+- **Sufficient Agreement:**
+  Panitia Pengmas dan keempat pengurus Cika-Cika sepakat bahwa panitia bergeser secara taktis dari lapangan utama ke **tempat alternatif yang lebih aman di sekitar lokasi** untuk melanjutkan seluruh rangkaian acara dan sesi evaluasi hari kedua pada 14 November 2026.
+- **Specific Dissent (Catatan Keberatan Khusus):**
+  Panitia Pengmas tetap menyampaikan catatan keberatan secara sopan terkait **ketidaksinkronan pencatatan izin pemakaian dua hari** di pihak pengelola, agar pada pelaksanaan pengmas berikutnya konfirmasi jadwal tercatat lebih jelas dan tidak berbenturan di hari pelaksanaan.
+- **Safeguards (Aturan Pengaman):**
+  1. Pemindahan seluruh barang logistik dikawal langsung oleh tim logistik dalam satu jalur agar tidak ada perlengkapan yang tercecer atau tertukar dengan milik penyewa lain.
+  2. Lokasi pengganti dipastikan berada di titik yang aman dari keramaian lalu lalang sehingga sesi evaluasi berjalan kondusif.
+  3. Seluruh komunikasi dilakukan secara tertutup antara perwakilan panitia dan pengurus Cika-Cika tanpa memicu ketegangan di hadapan peserta maupun penyewa lain.
+
+## 5. Collective Action, Review Plan, & Relationship Review
+- **Collective Action (14 November 2026):**
+  - **Tim Logistik (dipimpin Tio):** Segera memindahkan seluruh peralatan, perlengkapan acara, dan logistik konsumsi dari lapangan utama ke area alternatif yang lebih aman sebelum sesi hari kedua dimulai.
+  - **Tim Acara (dipimpin Katherine):** Menyesuaikan alur kegiatan hari kedua serta memimpin sesi evaluasi akhir di tempat baru tersebut hingga seluruh rangkaian acara selesai.
+  - **Pengurus Cika-Cika (4 orang):** Membantu mengarahkan penempatan area pengganti dan memastikan tidak ada gangguan selama panitia menyelesaikan kegiatan hingga selesai.
+- **Review Plan:**
+  Evaluasi langsung dilakukan pada akhir sesi hari kedua (**14 November 2026**) di lokasi aman tersebut untuk memastikan seluruh target acara Pengmas tercapai sekaligus mencatat perlunya konfirmasi tertulis/ulang H-1 untuk perizinan lokasi di kepanitiaan mendatang.
+- **Relationship Review & Evaluasi Kritis Bantuan AI:**
+  Dengan memilih langkah taktis memindahkan kegiatan ke tempat yang lebih aman alih-alih memperpanjang perdebatan soal hak sewa lapangan, hubungan antara mahasiswa Asrama ITB dan pengurus komunitas Cika-Cika tetap terjaga baik hingga acara berakhir. Dalam penyusunan laporan ini, AI hanya digunakan untuk merapikan pemetaan *fact–story–value–position* dan struktur analisis opsi, tanpa menambahkan nama individu pengurus maupun detail tempat yang tidak tercatat di lapangan.
+
+## 6. Self-Assessment
+
+| Dimensi | Skor | Evidence singkat |
+|---|---:|---|
+| Person & Character | 3 | Melibatkan empat perwakilan pengurus Cika-Cika, tim logistik, acara, dan penyewa lain sesuai perannya |
+| Objective & State | 4 | Fact, story, value, position, serta common ground dirumuskan jernih dari kejadian hari kedua |
+| Repertoire, Language & AI | 3 | Tiga frames dan lima opsi dengan trade-off konkret dijelaskan tanpa asumsi berlebihan |
+| Response & Adaptation | 4 | Mengambil keputusan taktis memindahkan logistik dan acara ke tempat lebih aman saat jadwal bentrok |
+| Agreement, Action & Relationship | 3 | Sufficient agreement, catatan keberatan jadwal, safeguard barang, dan hubungan baik dengan Cika-Cika terjaga |
+
+**Total: 17/20 (85) — Lanjut.**

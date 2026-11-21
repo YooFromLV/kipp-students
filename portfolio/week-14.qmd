@@ -1,25 +1,51 @@
 ---
 title: "AI-Mediated Communication Design"
 week: 14
-status: "Belum dimulai"
-self_score: "—"
+status: "Selesai"
+self_score: "85"
 assessor_score: "—"
 description: "AI role, prompt, output, human revision, boundary, dan risk."
 categories: [AI, Ethics]
 ---
 
-## Kompetensi target
+## 1. Communication Design: Persons, Characters, Objective, & State
+Pada **16 November 2026**, saya memanfaatkan AI dalam proses persiapan dan diskusi Tugas Besar Object-Oriented Programming (Tubes OOP). Dalam desain komunikasi ini, peran manusia dan sistem AI dipisahkan secara tegas agar AI hanya berfungsi sebagai alat bantu belajar, bukan pengganti pemahaman maupun pengambil keputusan teknis.
 
-Memilih dan membatasi peran AI sambil menjaga human competence, authority, dan relationship.
+- **Persons & Characters:**
+  - **Tio (Mahasiswa / Pengambil Keputusan Teknis):** Berperan sebagai *learner* aktif yang mempelajari materi kuliah OOP dan menerjemahkannya ke dalam diskusi pengerjaan Tubes OOP bersama rekan kelompok.
+  - **AI (Coach & Translator):** Berperan sebagai mitra *brainstorming* dan penerjemah konsep teknis dari materi kuliah agar lebih mudah dipahami alur logikanya.
+  - **Rekan Kelompok Tubes OOP:** Pihak tujuan komunikasi hasil pemahaman konsep yang digunakan untuk menyamakan persepsi desain program.
+- **Objective:** Memahami konsep materi kuliah OOP secara utuh melalui *brainstorming* terarah dengan AI, lalu mengolah pemahaman tersebut menjadi komunikasi dan keputusan teknis yang tetap dikuasai sepenuhnya oleh manusia (*human-owned*).
+- **Current State:** Dibutuhkan pemahaman cepat dan menyeluruh terhadap materi kuliah OOP untuk diterapkan pada pengerjaan Tubes, sementara membaca bahan mentah sendirian sering memunculkan kebingungan pada bagian penerapan praktisnya.
 
-## Evidence wajib
+## 2. Pemilihan Peran AI & Alasan Membatasi Penggunaannya
 
-- Persons, characters, objective, dan state.
-- AI role, prompt/output, serta human revision.
-- Privacy/authority/risk review dan alasan tidak menggunakan lebih banyak AI.
+| Aktivitas | Peran AI | Tanggung Jawab Manusia |
+|---|---|---|
+| Membedah konsep dari bahan kuliah OOP | **Translator** (menyederhanakan penjelasan teoretis) | Mencocokkan kembali penjelasan AI dengan slide kuliah dan spesifikasi soal Tubes |
+| Eksplorasi pemahaman & tanya-jawab konsep | **Coach** (mitra *brainstorming* interaktif) | Menguji pemahaman sendiri dan merumuskan kesimpulan dengan bahasa sendiri |
+| Penentuan desain kode & pembagian kerja tim | **Tidak digunakan** (bukan *Delegate*) | Mahasiswa memegang penuh keputusan arsitektur program dan koordinasi tim |
 
-::: {.callout-tip title="Lihat contoh pengisian"}
-[Buka contoh fiktif Minggu 14](../examples/week-14.qmd) untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.
-:::
+**Alasan Tidak Menggunakan Lebih Banyak AI:**
+AI sengaja tidak digunakan pada level *Delegate* (seperti menyuruh AI membuatkan seluruh kode Tubes atau menyusun pesan mentah untuk dikirim langsung ke rekan tim) karena tiga pertimbangan:
+1. **Menjaga kompetensi inti (*human competence*):** Tujuan Tubes OOP adalah menguasai logika pemrograman berorientasi objek, sehingga pemahaman konsep tidak boleh dialihdayakan ke mesin.
+2. **Kejelasan wewenang (*authority*):** Keputusan struktur kelas dan kesepakatan pembagian tugas merupakan tanggung jawab anggota kelompok, bukan rekomendasi otomatis dari AI.
+3. **Mencegah ketergantungan (*dependency*):** Menyalin jawaban AI tanpa proses cerna membuat mahasiswa kesulitan menjelaskan ulang desain program saat berdiskusi dengan tim maupun saat evaluasi.
 
-{{< include ../includes/evidence-template.md >}}
+## 3. Prompt, Output AI, & Human Revision
+- **Prompt yang Digunakan (16 November 2026):**
+  > *"Tolong ajarin saya materi OOP berdasarkan dari materi OOP [bahan/slide kuliah OOP] ini."*
+- **Gambaran Output AI:**
+  AI memberikan uraian konsep OOP secara bertahap berdasarkan materi kuliah yang dirujuk, lengkap dengan contoh struktur dasar serta analogi sederhana untuk memperjelas hubungan antar-konsep.
+- **Human Revision (Penyaringan & Penyesuaian oleh Manusia):**
+
+| Aspek Output AI | Revisi yang Dilakukan | Alasan Revisi |
+|---|---|---|
+| Penjelasan teoretis yang terlalu panjang dan normatif | Dirangkum ulang menjadi poin-poin logika inti dengan bahasa sendiri | Agar lebih mudah dipahami dan tidak terdengar seperti hafalan teks saat didiskusikan dengan tim |
+| Contoh ilustrasi umum dari AI | Disesuaikan ulang dengan kebutuhan dan batasan masalah pada Tubes OOP | Contoh umum AI belum tentu sesuai dengan aturan atau spesifikasi tugas yang berlaku |
+| Kalimat penjelas yang kaku | Diubah menjadi bahasa obrolan teknis yang natural saat berkoordinasi | Menjaga keaslian suara (*authentic voice*) dan menghindari komunikasi yang terasa robotik |
+
+## 4. Privacy, Authority, Risk Review, & Human Learning
+- **Privacy Check:** Materi yang dimasukkan ke dalam *prompt* dibatasi pada bahan konsep kuliah OOP yang bersifat umum. Data pribadi anggota kelompok, NIM, kredensial repositori, maupun berkas internal tim tidak dimasukkan ke dalam percakapan AI.
+- **Authority & Risk Review:** Risiko utama dari penggunaan AI dalam pembelajaran teknis adalah *hallucination* (penjelasan yang terdengar meyakinkan tetapi kurang tepat secara aturan bahasa/spesifikasi) serta *loss of authenticity* jika teks mentah AI langsung diteruskan ke orang lain. Risiko ini dikendalikan dengan menempatkan AI hanya pada tahap *before/during learning* dan tetap menjadikan dokumen kuliah asli sebagai rujukan final.
+- **Human Learning:** Dengan memposisikan AI sebagai teman *brainstorming* alih-alih mesin

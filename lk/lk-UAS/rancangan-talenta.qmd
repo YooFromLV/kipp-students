@@ -1,0 +1,5 @@
+---
+title: "Rancangan UAS Lama"
+---
+
+Rancangan sosok dan talenta telah digantikan oleh [UAS KIPP Triune Academic Commons](index.qmd). Gunakan panduan baru untuk pembagian tim, kontribusi, review, uji pengguna, dan pengumpulan.

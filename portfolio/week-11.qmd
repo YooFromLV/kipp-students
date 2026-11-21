@@ -1,25 +1,71 @@
 ---
 title: "Multi-Person Negotiation Challenge"
 week: 11
-status: "Belum dimulai"
-self_score: "—"
+status: "Selesai"
+self_score: "90"
 assessor_score: "—"
 description: "Stakeholder map, interests, options, trade-offs, dan agreement."
 categories: [Negotiation, Stakeholder]
 ---
 
-## Kompetensi target
+## 1. Konteks Situasi & Shared Problem Statement
+Pada **11 November 2026** (menjelang pelaksanaan Pengmas Asrama ITB tanggal 13–14 November 2026), divisi logistik harus melakukan pembelian perlengkapan bernilai besar sebesar **Rp500.000** secara daring (*online*). Barang tersebut tidak tersedia dengan layanan pengiriman *same-day*, sehingga proses *checkout* harus segera dilakukan agar paket tiba sebelum hari pelaksanaan.
 
-Memfasilitasi beberapa person dengan objective, constraint, authority, dan state berbeda.
+Kendala muncul karena rantai pencairan dana kepanitiaan melibatkan empat pihak secara berurutan: pengajuan dari logistik diteruskan ke **Naufal** (Bendahara), lalu diperiksa oleh **QC Bendahara**, kembali ke Naufal untuk pencairan, ditransfer ke saya (**Tio**, Kadiv Logistik), dan baru diteruskan ke **Staff Logistik** yang melakukan pemesanan. Sementara itu, saldo pribadi Staff Logistik tidak mencukupi untuk menalangi transaksi sebesar Rp500.000 secara langsung.
 
-## Evidence wajib
+- **Shared Problem Statement:** Bagaimana memastikan pembayaran pembelian online sebesar Rp500.000 dapat diproses secepat mungkin sebelum batas waktu pengiriman non-*same-day* terlewati, tanpa membebani kondisi keuangan pribadi Staff Logistik dan tetap mengikuti alur verifikasi QC Bendahara.
 
-- Stakeholder person map dan multi-state TAIDA.
-- Position–interest analysis, common ground, dan options.
-- Negotiation evidence, agreement/dissent, dan relationship review.
+## 2. Stakeholder Map & Multi-State TAIDA
+Pemetaan posisi awal (*position*), kepentingan dan kendala (*interest & constraint*), wewenang (*authority*), serta posisi tahap TAIDA masing-masing pihak diuraikan sebagai berikut:
 
-::: {.callout-tip title="Lihat contoh pengisian"}
-[Buka contoh fiktif Minggu 11](../examples/week-11.qmd) untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.
-:::
+| Person / Peran | Position (Tuntutan Awal) | Interest & Constraint | Authority | Current TAIDA State |
+|---|---|---|---|---|
+| **Staff Logistik** | Meminta dana ditransfer lebih dulu sebelum melakukan pemesanan online. | Ingin barang segera dipesan; kendala utama adalah saldo pribadi tidak cukup untuk menalangi Rp500.000. | Menjalankan eksekusi *checkout* online dan memantau pengiriman. | **Desire** (ingin segera *checkout*, tertahan dana) |
+| **Tio (Kadiv Logistik)** | Mengajukan pencairan cepat ke bendahara agar pembelian online tidak tertunda. | Menjaga ketersediaan barang sebelum 13 November sekaligus melindungi staff dari beban talangan pribadi. | Mengoordinasikan kebutuhan logistik dan menjembatani komunikasi ke bendahara. | **Action** (mencari jalur pencairan tercepat) |
+| **Naufal (Bendahara)** | Memproses pencairan sesuai antrean dan prosedur verifikasi QC terlebih dahulu. | Menjaga ketertiban kas panitia; terikat aturan bahwa dana besar tidak bisa keluar tanpa persetujuan QC Bendahara. | Mengajukan berkas ke QC dan mentransfer dana setelah disetujui. | **Interest** (memahami urgensi, terikat SOP kas) |
+| **QC Bendahara** | Memeriksa rincian kebutuhan dan kesesuaian nominal Rp500.000 sebelum dana cair. | Mencegah pengeluaran tidak valid atau tanpa rincian jelas; butuh waktu untuk meninjau pengajuan. | Memberi persetujuan (*clearance*) pencairan dana Rp500.000. | **Attention** (meninjau kelayakan pengajuan) |
 
-{{< include ../includes/evidence-template.md >}}
+- **Common Ground:** Seluruh pihak sepakat bahwa barang senilai Rp500.000 tersebut wajib dibeli agar kegiatan Pengmas tidak terhambat, namun pencairannya tetap harus tercatat sah di kas bendahara tanpa memaksa staff menanggung risiko finansial pribadi.
+
+## 3. Options & Trade-Off Analysis
+Sebelum mengambil keputusan final pada 11 November 2026, tiga opsi mekanisme pembayaran dibandingkan berdasarkan kecepatan pemesanan, beban finansial staff, dan kepatuhan prosedur:
+
+| Opsi | Mekanisme | Kecepatan Checkout | Beban Finansial Staff | Kepatuhan Prosedur QC | Risiko Utama |
+|---|---|---|---|---|---|
+| **Opsi 1: Dana Talangan Staff** | Staff Logistik membayar Rp500.000 memakai uang pribadi lebih dulu lalu melakukan *reimburse* setelah QC turun. | **Tinggi** (langsung *checkout* saat itu juga) | **Sangat Tinggi** (saldo staff tidak mencukupi) | Sedang (berisiko jika ada item dikoreksi QC) | Tidak feasible karena kapasitas dana pribadi staff memang tidak ada. |
+| **Opsi 2: Talangan Patungan Internal** | Mengumpulkan dana sementara dari beberapa anggota logistik hingga terkumpul Rp500.000. | **Sedang** (butuh waktu mengumpulkan transfer) | **Tinggi** (membebani beberapa orang sekaligus) | Sedang | Memecah fokus tim dan menyulitkan pencatatan *reimburse* ke bendahara. |
+| **Opsi 3: Menunggu Jalur Resmi Bendahara (Terpilih)** | Mengawal pengajuan berantai dari Logistik $\rightarrow$ Naufal $\rightarrow$ QC Bendahara $\rightarrow$ Naufal $\rightarrow$ Tio $\rightarrow$ Staff sebelum *checkout*. | **Rendah–Sedang** (bergantung kecepatan respon QC & Naufal) | **Nol** (tidak memakai uang pribadi staff) | **Tinggi** (dana cair setelah lolos verifikasi QC) | Waktu pengiriman makin mepet karena barang tidak bisa *same-day*. |
+
+## 4. Negotiation Evidence, Agreement, & Specific Dissent
+- **Potongan Percakapan Koordinasi (11 November 2026):**
+  - **Staff Logistik:** "Bang, ini barang yang 500 ribu harus beli online dan gak ada opsi *same-day*. Kalau nunggu cair takutnya mepet, tapi duit pribadi gue gak cukup kalau harus nalangin segitu."
+  - **Tio (Kadiv Logistik):** "Oke, jangan dipaksain pakai duit pribadi lu. Gue langsung dorong pengajuannya ke Naufal sekarang biar langsung dinaikkan ke QC Bendahara."
+  - **Naufal (Bendahara):** "Masuk Yo, nominal 500 ribu harus lewat QC Bendahara dulu baru bisa gue transfer ke lu. Gue terusin ke QC sekarang biar dicek."
+  - **Tio (Kadiv Logistik):** "Siap Fal, kabarin kalau dari QC udah turun ya soalnya ini pengiriman reguler gak bisa *same-day*, jadi hari ini juga harus kebayar."
+
+- **Final Agreement (Disepakati 11 November 2026):**
+  1. **Keputusan Mekanisme:** Pembelian online sebesar Rp500.000 **menggunakan dana resmi jalur Bendahara** dan **tidak menggunakan uang talangan pribadi Staff Logistik**.
+  2. **Alur & Owner:**
+     - **Naufal (Bendahara)** mengajukan rincian Rp500.000 ke **QC Bendahara** dan segera mentransfer dana ke **Tio** begitu persetujuan QC turun.
+     - **Tio (Kadiv Logistik)** meneruskan transfer dana ke **Staff Logistik** tanpa jeda setelah dana masuk dari Naufal.
+     - **Staff Logistik** menyiapkan keranjang belanja dan alamat tujuan lebih dulu sehingga dapat langsung melakukan *checkout* detik itu juga saat dana diterima.
+  3. **Review Point:** Status persetujuan QC dipantau berkala pada hari yang sama (11 November 2026) agar batas waktu pemrosesan pengiriman penjual online tidak terlewat.
+
+- **Specific Dissent (Catatan Keberatan Khusus):**
+  Staff Logistik dan saya tetap mencatat keberatan operasional mengenai **risiko keterlambatan pengiriman**. Karena pencairan harus melewati rantai empat tahap (Naufal $\rightarrow$ QC $\rightarrow$ Naufal $\rightarrow$ Tio $\rightarrow$ Staff) sementara kurir tidak menyediakan layanan *same-day*, jeda waktu persetujuan QC berpotensi mengurangi margin waktu pengiriman sebelum acara dimulai pada 13 November 2026.
+
+## 5. Relationship Review & Evaluasi Bantuan AI
+- **Relationship Review:** Dengan menolak opsi dana talangan pribadi dan memilih menunggu jalur resmi Bendahara, tekanan finansial pada Staff Logistik berhasil dihindari sehingga kepercayaan di dalam tim tetap terjaga. Di sisi lain, komunikasi dengan Naufal tetap berjalan kooperatif karena tim logistik menghormati wewenang QC Bendahara tanpa memaksa pencairan kas secara sepihak, melainkan hanya meminta percepatan koordinasi antar-tahap.
+- **Evaluasi Kritis Bantuan AI:** AI digunakan untuk menyusun struktur pemetaan *position vs interest* serta matriks perbandingan *trade-off* antaropsi pembayaran. Namun, keputusan akhir untuk tidak membebankan talangan Rp500.000 kepada staff sepenuhnya didasarkan pada kondisi keuangan nyata anggota di lapangan dan aturan otorisasi QC Bendahara, bukan rekomendasi otomatis dari AI.
+
+## 6. Self-Assessment
+
+| Dimensi | Skor | Evidence singkat |
+|---|---:|---|
+| Person & Character | 4 | Memetakan peran, keterbatasan dana staff, serta wewenang Naufal dan QC Bendahara secara akurat |
+| Objective & State | 4 | Shared problem dan posisi TAIDA keempat stakeholder dirumuskan jelas |
+| Repertoire, Language & AI | 3 | Tiga opsi beserta trade-off kecepatan, beban staff, dan prosedur QC dibandingkan proporsional |
+| Response & Adaptation | 4 | Mengakomodasi keterbatasan saldo staff dengan menyiapkan checkout siap-bayar sambil mengawal jalur QC |
+| Agreement, Action & Relationship | 3 | Kesepakatan jalur pencairan, owner berantai, dan catatan risiko pengiriman non-same-day terdokumentasi |
+
+**Total: 18/20 (90) — Lanjut.**

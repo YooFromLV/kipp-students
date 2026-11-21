@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>index – Portfolio KIPP-2</title>
+<title>UAS — KIPP Triune Academic Commons – Portfolio KIPP-2</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -154,18 +154,99 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Di halaman ini</h2>
    
   <ul>
-  <li><a href="#ujian-akhir-semester-tbd" id="toc-ujian-akhir-semester-tbd" class="nav-link active" data-scroll-target="#ujian-akhir-semester-tbd">Ujian Akhir Semester (TBD)</a></li>
+  <li><a href="#lingkup-dan-pembagian-kerja" id="toc-lingkup-dan-pembagian-kerja" class="nav-link active" data-scroll-target="#lingkup-dan-pembagian-kerja">Lingkup dan pembagian kerja</a></li>
+  <li><a href="#dari-pembentukan-tim-hingga-siap-dinilai" id="toc-dari-pembentukan-tim-hingga-siap-dinilai" class="nav-link" data-scroll-target="#dari-pembentukan-tim-hingga-siap-dinilai">Dari pembentukan tim hingga siap dinilai</a></li>
+  <li><a href="#pemeriksaan-mutu" id="toc-pemeriksaan-mutu" class="nav-link" data-scroll-target="#pemeriksaan-mutu">Pemeriksaan mutu</a></li>
+  <li><a href="#showcase-dan-penilaian" id="toc-showcase-dan-penilaian" class="nav-link" data-scroll-target="#showcase-dan-penilaian">Showcase dan penilaian</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">UAS — KIPP Triune Academic Commons</h1>
+</div>
 
 
 
+<div class="quarto-title-meta">
 
-<section id="ujian-akhir-semester-tbd" class="level1">
-<h1>Ujian Akhir Semester (TBD)</h1>
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p><strong>AI for Academic Work</strong> adalah proyek kelas untuk membangun sumber belajar akademik yang dapat digunakan kembali. Kecerdasan individu (II) terlihat dari kontribusi dan pertimbangan setiap mahasiswa, kecerdasan kolektif (CI) dari kerja tim dan review silang, serta kecerdasan artifisial (AI) dari bantuan yang diuji dan diperiksa manusia.</p>
+<p>Proyek ini menggantikan tugas UAS sebelumnya. Gunakan repositori resmi Triune yang diumumkan dosen atau koordinator. Konten dan PR dikerjakan di repositori tersebut; portfolio KIPP ini merangkum bukti dan refleksi, tanpa menyalin karya ke repositori kedua.</p>
+<section id="lingkup-dan-pembagian-kerja" class="level2">
+<h2 class="anchored" data-anchor-id="lingkup-dan-pembagian-kerja">Lingkup dan pembagian kerja</h2>
+<p>Rancangan pilot: <strong>21 hari, 12 tim berisi 5–6 mahasiswa</strong>. Pembagian final mengikuti roster koordinator. Target <strong>seluruh kelas</strong> adalah 42 artefak: 12 modul pengetahuan, 12 tutorial keterampilan, 12 prompt AI teruji, dan 6 kasus integratif. Kelas juga menyiapkan enam alur belajar, satu portal Quarto, dan forum GitHub Discussions. Ini target kelas, bukan kuota setiap tim.</p>
+<p>Enam tema: AI untuk belajar, literatur dan riset, penulisan akademik, coding dan data, visualisasi dan presentasi, serta pemecahan masalah akademik. Temukan berkas yang ditugaskan melalui <code>ARTIFACT_REGISTER.csv</code> dan <code>governance/team-roster.csv</code>. Edit artefak yang sudah tersedia dan gunakan template sesuai jenisnya. Jaga ID dan metadata; jangan membuat duplikat.</p>
+</section>
+<section id="dari-pembentukan-tim-hingga-siap-dinilai" class="level2">
+<h2 class="anchored" data-anchor-id="dari-pembentukan-tim-hingga-siap-dinilai">Dari pembentukan tim hingga siap dinilai</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Waktu</th>
+<th>Kegiatan</th>
+<th>Bukti</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Hari 1–7</td>
+<td>Bentuk tim, tetapkan peran/ID, dengarkan minimal tiga calon pengguna per tim, buat Issue dan draf modul konsep (P0)</td>
+<td>Roster, ringkasan kebutuhan, Issue, draf dan rencana alur belajar</td>
+</tr>
+<tr class="even">
+<td>Hari 8–14</td>
+<td>Kembangkan tutorial dan prompt (P1), uji contoh, ajukan pull request (PR), minta review tim lain, dan revisi</td>
+<td>PR, rujukan, contoh input-output, komentar dan tanggapan</td>
+</tr>
+<tr class="odd">
+<td>Hari 15–19</td>
+<td>Selesaikan kasus integratif (P2) dan alur belajar sesuai penugasan, uji paket dengan minimal dua pengguna di luar tim, perbaiki dan minta review ulang</td>
+<td>Catatan uji, hasil validasi, revisi dan status PR</td>
+</tr>
+<tr class="even">
+<td>Hari 20–21</td>
+<td>Showcase, komunikasi TAIDA, dan refleksi individual</td>
+<td>Ringkasan demo, feedback reviewer, tautan kontribusi tiap anggota dan refleksi</td>
+</tr>
+</tbody>
+</table>
+<p>Buat branch dari repositori resmi, edit file yang ditugaskan, commit, push, lalu buka PR. Gunakan <code>python scripts/check_artifacts.py</code> dan <code>python scripts/check_portal.py</code> bila bekerja lokal, atau periksa hasil validasi PR. Jangan bekerja langsung di <code>main</code>; koordinator menangani merge dan publikasi setelah pemeriksaan lulus.</p>
+</section>
+<section id="pemeriksaan-mutu" class="level2">
+<h2 class="anchored" data-anchor-id="pemeriksaan-mutu">Pemeriksaan mutu</h2>
+<ul>
+<li>Nyatakan pengguna dan tujuan, beri petunjuk penggunaan serta latihan atau asesmen.</li>
+<li>Pastikan klaim penting memiliki rujukan yang dapat diperiksa, contoh benar-benar diuji, dan hasil uji tidak direkayasa.</li>
+<li>Catat bantuan AI, bagian yang dipakai atau ditolak, verifikasi manusia, dan batasannya.</li>
+<li>Tindak lanjuti minimal satu masukan substantif dari reviewer tim lain dan catat uji pengguna yang bukan pembuat artefak.</li>
+<li>Lindungi data pribadi, materi tanpa izin dan kredensial. Sertakan ringkasan bukti yang aman dan akses terbatas bila diperlukan.</li>
+<li>Koordinasikan perubahan status <code>reviewed</code> dengan pengelola register setelah review dan uji tercatat. PR yang masih menunggu merge ditulis apa adanya.</li>
+</ul>
+</section>
+<section id="showcase-dan-penilaian" class="level2">
+<h2 class="anchored" data-anchor-id="showcase-dan-penilaian">Showcase dan penilaian</h2>
+<p>Tunjukkan kebutuhan pengguna → artefak → contoh penggunaan → hasil uji → revisi → dampak dan keterbatasan. Gunakan TAIDA (Target, Attention, Interest, Desire, Action) dalam penyajian dan jelaskan peran II, CI, dan AI. Tim lain menyampaikan satu pertanyaan substantif dan satu saran.</p>
+<p>Paket siap dinilai saat indeks memuat tautan karya dan PR, uji pengguna, review dan revisi, bukti showcase, serta refleksi setiap anggota. Ubah status menjadi <strong>Siap dinilai</strong> dan kirim indeks melalui kanal yang ditetapkan dosen. <strong>Tanggal dan format penyerahan mengikuti pengumuman dosen</strong>; capstone Minggu 15 tetap dicatat terpisah.</p>
+<p><a href="../../portfolio/UAS/index.html">Buka template portfolio</a> · <a href="../../examples/UAS/index.html">Lihat contoh</a> · <a href="../../assessment/uas.html">Baca rubrik</a></p>
+<p>Di repositori Triune, rujuk <code>PROJECT_CHARTER.md</code>, <code>docs/student-workflow.md</code>, <code>QUALITY_GATE.md</code>, <code>assessments/rubric.md</code>, dan <code>assessments/showcase-guide.md</code>.</p>
 
 
 </section>

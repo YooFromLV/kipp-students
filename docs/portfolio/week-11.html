@@ -79,6 +79,35 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -260,6 +289,12 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Capstone Performance Portfolio</span></a>
   </div>
 </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../portfolio/UAS/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Portfolio UAS — KIPP Triune Academic Commons</span></a>
+  </div>
+</li>
     </ul>
     </div>
 </nav>
@@ -270,17 +305,12 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Di halaman ini</h2>
    
   <ul>
-  <li><a href="#kompetensi-target" id="toc-kompetensi-target" class="nav-link active" data-scroll-target="#kompetensi-target">Kompetensi target</a></li>
-  <li><a href="#evidence-wajib" id="toc-evidence-wajib" class="nav-link" data-scroll-target="#evidence-wajib">Evidence wajib</a></li>
-  <li><a href="#konteks-performance" id="toc-konteks-performance" class="nav-link" data-scroll-target="#konteks-performance">Konteks performance</a></li>
-  <li><a href="#evidence" id="toc-evidence" class="nav-link" data-scroll-target="#evidence">Evidence</a></li>
-  <li><a href="#analisis-komunikasi" id="toc-analisis-komunikasi" class="nav-link" data-scroll-target="#analisis-komunikasi">Analisis komunikasi</a></li>
-  <li><a href="#penggunaan-ai" id="toc-penggunaan-ai" class="nav-link" data-scroll-target="#penggunaan-ai">Penggunaan AI</a></li>
-  <li><a href="#feedback-dan-tindak-lanjut" id="toc-feedback-dan-tindak-lanjut" class="nav-link" data-scroll-target="#feedback-dan-tindak-lanjut">Feedback dan tindak lanjut</a></li>
-  <li><a href="#self-assessment" id="toc-self-assessment" class="nav-link" data-scroll-target="#self-assessment">Self-assessment</a>
-  <ul class="collapse">
-  <li><a href="#assessment-dosen" id="toc-assessment-dosen" class="nav-link" data-scroll-target="#assessment-dosen">Assessment dosen</a></li>
-  </ul></li>
+  <li><a href="#konteks-situasi-shared-problem-statement" id="toc-konteks-situasi-shared-problem-statement" class="nav-link active" data-scroll-target="#konteks-situasi-shared-problem-statement">1. Konteks Situasi &amp; Shared Problem Statement</a></li>
+  <li><a href="#stakeholder-map-multi-state-taida" id="toc-stakeholder-map-multi-state-taida" class="nav-link" data-scroll-target="#stakeholder-map-multi-state-taida">2. Stakeholder Map &amp; Multi-State TAIDA</a></li>
+  <li><a href="#options-trade-off-analysis" id="toc-options-trade-off-analysis" class="nav-link" data-scroll-target="#options-trade-off-analysis">3. Options &amp; Trade-Off Analysis</a></li>
+  <li><a href="#negotiation-evidence-agreement-specific-dissent" id="toc-negotiation-evidence-agreement-specific-dissent" class="nav-link" data-scroll-target="#negotiation-evidence-agreement-specific-dissent">4. Negotiation Evidence, Agreement, &amp; Specific Dissent</a></li>
+  <li><a href="#relationship-review-evaluasi-bantuan-ai" id="toc-relationship-review-evaluasi-bantuan-ai" class="nav-link" data-scroll-target="#relationship-review-evaluasi-bantuan-ai">5. Relationship Review &amp; Evaluasi Bantuan AI</a></li>
+  <li><a href="#self-assessment" id="toc-self-assessment" class="nav-link" data-scroll-target="#self-assessment">6. Self-Assessment</a></li>
   </ul>
 </nav>
     </div>
@@ -315,143 +345,194 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="kompetensi-target" class="level2">
-<h2 class="anchored" data-anchor-id="kompetensi-target">Kompetensi target</h2>
-<p>Memfasilitasi beberapa person dengan objective, constraint, authority, dan state berbeda.</p>
-</section>
-<section id="evidence-wajib" class="level2">
-<h2 class="anchored" data-anchor-id="evidence-wajib">Evidence wajib</h2>
+<section id="konteks-situasi-shared-problem-statement" class="level2">
+<h2 class="anchored" data-anchor-id="konteks-situasi-shared-problem-statement">1. Konteks Situasi &amp; Shared Problem Statement</h2>
+<p>Pada <strong>11 November 2026</strong> (menjelang pelaksanaan Pengmas Asrama ITB tanggal 13–14 November 2026), divisi logistik harus melakukan pembelian perlengkapan bernilai besar sebesar <strong>Rp500.000</strong> secara daring (<em>online</em>). Barang tersebut tidak tersedia dengan layanan pengiriman <em>same-day</em>, sehingga proses <em>checkout</em> harus segera dilakukan agar paket tiba sebelum hari pelaksanaan.</p>
+<p>Kendala muncul karena rantai pencairan dana kepanitiaan melibatkan empat pihak secara berurutan: pengajuan dari logistik diteruskan ke <strong>Naufal</strong> (Bendahara), lalu diperiksa oleh <strong>QC Bendahara</strong>, kembali ke Naufal untuk pencairan, ditransfer ke saya (<strong>Tio</strong>, Kadiv Logistik), dan baru diteruskan ke <strong>Staff Logistik</strong> yang melakukan pemesanan. Sementara itu, saldo pribadi Staff Logistik tidak mencukupi untuk menalangi transaksi sebesar Rp500.000 secara langsung.</p>
 <ul>
-<li>Stakeholder person map dan multi-state TAIDA.</li>
-<li>Position–interest analysis, common ground, dan options.</li>
-<li>Negotiation evidence, agreement/dissent, dan relationship review.</li>
+<li><strong>Shared Problem Statement:</strong> Bagaimana memastikan pembayaran pembelian online sebesar Rp500.000 dapat diproses secepat mungkin sebelum batas waktu pengiriman non-<em>same-day</em> terlewati, tanpa membebani kondisi keuangan pribadi Staff Logistik dan tetap mengikuti alur verifikasi QC Bendahara.</li>
 </ul>
-<div class="callout callout-style-default callout-tip callout-titled" title="Lihat contoh pengisian">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Tip</span>Lihat contoh pengisian
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p><a href="../examples/week-11.html">Buka contoh fiktif Minggu 11</a> untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.</p>
-</div>
-</div>
 </section>
-<section id="konteks-performance" class="level2">
-<h2 class="anchored" data-anchor-id="konteks-performance">Konteks performance</h2>
-<p><strong>Tanggal dan setting:</strong> Ganti dengan tanggal, tempat, dan bentuk kegiatan.</p>
-<p><strong>Persons dan relationship:</strong> Jelaskan siapa yang terlibat tanpa membuka data pribadi yang tidak diperlukan.</p>
-<p><strong>Objective dan initial state:</strong> Nyatakan perubahan yang ingin dicapai serta evidence state awal.</p>
-</section>
-<section id="evidence" class="level2">
-<h2 class="anchored" data-anchor-id="evidence">Evidence</h2>
-<div class="evidence-block">
-<p>Tambahkan link, gambar, video, transcript, artefak, catatan observer, atau bukti tindakan. Jelaskan bagian mana yang merupakan kontribusi Anda.</p>
-</div>
-</section>
-<section id="analisis-komunikasi" class="level2">
-<h2 class="anchored" data-anchor-id="analisis-komunikasi">Analisis komunikasi</h2>
+<section id="stakeholder-map-multi-state-taida" class="level2">
+<h2 class="anchored" data-anchor-id="stakeholder-map-multi-state-taida">2. Stakeholder Map &amp; Multi-State TAIDA</h2>
+<p>Pemetaan posisi awal (<em>position</em>), kepentingan dan kendala (<em>interest &amp; constraint</em>), wewenang (<em>authority</em>), serta posisi tahap TAIDA masing-masing pihak diuraikan sebagai berikut:</p>
 <table class="caption-top table">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+</colgroup>
 <thead>
 <tr class="header">
-<th>Elemen</th>
-<th>Evidence dan analisis</th>
+<th>Person / Peran</th>
+<th>Position (Tuntutan Awal)</th>
+<th>Interest &amp; Constraint</th>
+<th>Authority</th>
+<th>Current TAIDA State</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Person &amp; character</td>
-<td>Ganti dengan analisis Anda.</td>
+<td><strong>Staff Logistik</strong></td>
+<td>Meminta dana ditransfer lebih dulu sebelum melakukan pemesanan online.</td>
+<td>Ingin barang segera dipesan; kendala utama adalah saldo pribadi tidak cukup untuk menalangi Rp500.000.</td>
+<td>Menjalankan eksekusi <em>checkout</em> online dan memantau pengiriman.</td>
+<td><strong>Desire</strong> (ingin segera <em>checkout</em>, tertahan dana)</td>
 </tr>
 <tr class="even">
-<td>Objective &amp; state</td>
-<td>Ganti dengan analisis Anda.</td>
+<td><strong>Tio (Kadiv Logistik)</strong></td>
+<td>Mengajukan pencairan cepat ke bendahara agar pembelian online tidak tertunda.</td>
+<td>Menjaga ketersediaan barang sebelum 13 November sekaligus melindungi staff dari beban talangan pribadi.</td>
+<td>Mengoordinasikan kebutuhan logistik dan menjembatani komunikasi ke bendahara.</td>
+<td><strong>Action</strong> (mencari jalur pencairan tercepat)</td>
 </tr>
 <tr class="odd">
-<td>Repertoire &amp; language</td>
-<td>Ganti dengan analisis Anda.</td>
+<td><strong>Naufal (Bendahara)</strong></td>
+<td>Memproses pencairan sesuai antrean dan prosedur verifikasi QC terlebih dahulu.</td>
+<td>Menjaga ketertiban kas panitia; terikat aturan bahwa dana besar tidak bisa keluar tanpa persetujuan QC Bendahara.</td>
+<td>Mengajukan berkas ke QC dan mentransfer dana setelah disetujui.</td>
+<td><strong>Interest</strong> (memahami urgensi, terikat SOP kas)</td>
 </tr>
 <tr class="even">
-<td>Response &amp; adaptation</td>
-<td>Ganti dengan analisis Anda.</td>
+<td><strong>QC Bendahara</strong></td>
+<td>Memeriksa rincian kebutuhan dan kesesuaian nominal Rp500.000 sebelum dana cair.</td>
+<td>Mencegah pengeluaran tidak valid atau tanpa rincian jelas; butuh waktu untuk meninjau pengajuan.</td>
+<td>Memberi persetujuan (<em>clearance</em>) pencairan dana Rp500.000.</td>
+<td><strong>Attention</strong> (meninjau kelayakan pengajuan)</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Common Ground:</strong> Seluruh pihak sepakat bahwa barang senilai Rp500.000 tersebut wajib dibeli agar kegiatan Pengmas tidak terhambat, namun pencairannya tetap harus tercatat sah di kas bendahara tanpa memaksa staff menanggung risiko finansial pribadi.</li>
+</ul>
+</section>
+<section id="options-trade-off-analysis" class="level2">
+<h2 class="anchored" data-anchor-id="options-trade-off-analysis">3. Options &amp; Trade-Off Analysis</h2>
+<p>Sebelum mengambil keputusan final pada 11 November 2026, tiga opsi mekanisme pembayaran dibandingkan berdasarkan kecepatan pemesanan, beban finansial staff, dan kepatuhan prosedur:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Opsi</th>
+<th>Mekanisme</th>
+<th>Kecepatan Checkout</th>
+<th>Beban Finansial Staff</th>
+<th>Kepatuhan Prosedur QC</th>
+<th>Risiko Utama</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Opsi 1: Dana Talangan Staff</strong></td>
+<td>Staff Logistik membayar Rp500.000 memakai uang pribadi lebih dulu lalu melakukan <em>reimburse</em> setelah QC turun.</td>
+<td><strong>Tinggi</strong> (langsung <em>checkout</em> saat itu juga)</td>
+<td><strong>Sangat Tinggi</strong> (saldo staff tidak mencukupi)</td>
+<td>Sedang (berisiko jika ada item dikoreksi QC)</td>
+<td>Tidak feasible karena kapasitas dana pribadi staff memang tidak ada.</td>
+</tr>
+<tr class="even">
+<td><strong>Opsi 2: Talangan Patungan Internal</strong></td>
+<td>Mengumpulkan dana sementara dari beberapa anggota logistik hingga terkumpul Rp500.000.</td>
+<td><strong>Sedang</strong> (butuh waktu mengumpulkan transfer)</td>
+<td><strong>Tinggi</strong> (membebani beberapa orang sekaligus)</td>
+<td>Sedang</td>
+<td>Memecah fokus tim dan menyulitkan pencatatan <em>reimburse</em> ke bendahara.</td>
 </tr>
 <tr class="odd">
-<td>Agreement/action</td>
-<td>Ganti dengan analisis Anda.</td>
-</tr>
-<tr class="even">
-<td>Relationship outcome</td>
-<td>Ganti dengan analisis Anda.</td>
+<td><strong>Opsi 3: Menunggu Jalur Resmi Bendahara (Terpilih)</strong></td>
+<td>Mengawal pengajuan berantai dari Logistik <span class="math inline">\(\rightarrow\)</span> Naufal <span class="math inline">\(\rightarrow\)</span> QC Bendahara <span class="math inline">\(\rightarrow\)</span> Naufal <span class="math inline">\(\rightarrow\)</span> Tio <span class="math inline">\(\rightarrow\)</span> Staff sebelum <em>checkout</em>.</td>
+<td><strong>Rendah–Sedang</strong> (bergantung kecepatan respon QC &amp; Naufal)</td>
+<td><strong>Nol</strong> (tidak memakai uang pribadi staff)</td>
+<td><strong>Tinggi</strong> (dana cair setelah lolos verifikasi QC)</td>
+<td>Waktu pengiriman makin mepet karena barang tidak bisa <em>same-day</em>.</td>
 </tr>
 </tbody>
 </table>
 </section>
-<section id="penggunaan-ai" class="level2">
-<h2 class="anchored" data-anchor-id="penggunaan-ai">Penggunaan AI</h2>
-<p>Nyatakan <code>Tidak menggunakan AI</code> atau jelaskan:</p>
+<section id="negotiation-evidence-agreement-specific-dissent" class="level2">
+<h2 class="anchored" data-anchor-id="negotiation-evidence-agreement-specific-dissent">4. Negotiation Evidence, Agreement, &amp; Specific Dissent</h2>
 <ul>
-<li>alat dan peran AI;</li>
-<li>prompt atau instruksi penting;</li>
-<li>bagian output yang digunakan, diubah, atau ditolak;</li>
-<li>pemeriksaan accuracy, privacy, dan authority;</li>
-<li>apa yang tetap Anda pelajari sebagai manusia.</li>
+<li><strong>Potongan Percakapan Koordinasi (11 November 2026):</strong>
+<ul>
+<li><strong>Staff Logistik:</strong> “Bang, ini barang yang 500 ribu harus beli online dan gak ada opsi <em>same-day</em>. Kalau nunggu cair takutnya mepet, tapi duit pribadi gue gak cukup kalau harus nalangin segitu.”</li>
+<li><strong>Tio (Kadiv Logistik):</strong> “Oke, jangan dipaksain pakai duit pribadi lu. Gue langsung dorong pengajuannya ke Naufal sekarang biar langsung dinaikkan ke QC Bendahara.”</li>
+<li><strong>Naufal (Bendahara):</strong> “Masuk Yo, nominal 500 ribu harus lewat QC Bendahara dulu baru bisa gue transfer ke lu. Gue terusin ke QC sekarang biar dicek.”</li>
+<li><strong>Tio (Kadiv Logistik):</strong> “Siap Fal, kabarin kalau dari QC udah turun ya soalnya ini pengiriman reguler gak bisa <em>same-day</em>, jadi hari ini juga harus kebayar.”</li>
+</ul></li>
+<li><strong>Final Agreement (Disepakati 11 November 2026):</strong>
+<ol type="1">
+<li><strong>Keputusan Mekanisme:</strong> Pembelian online sebesar Rp500.000 <strong>menggunakan dana resmi jalur Bendahara</strong> dan <strong>tidak menggunakan uang talangan pribadi Staff Logistik</strong>.</li>
+<li><strong>Alur &amp; Owner:</strong>
+<ul>
+<li><strong>Naufal (Bendahara)</strong> mengajukan rincian Rp500.000 ke <strong>QC Bendahara</strong> dan segera mentransfer dana ke <strong>Tio</strong> begitu persetujuan QC turun.</li>
+<li><strong>Tio (Kadiv Logistik)</strong> meneruskan transfer dana ke <strong>Staff Logistik</strong> tanpa jeda setelah dana masuk dari Naufal.</li>
+<li><strong>Staff Logistik</strong> menyiapkan keranjang belanja dan alamat tujuan lebih dulu sehingga dapat langsung melakukan <em>checkout</em> detik itu juga saat dana diterima.</li>
+</ul></li>
+<li><strong>Review Point:</strong> Status persetujuan QC dipantau berkala pada hari yang sama (11 November 2026) agar batas waktu pemrosesan pengiriman penjual online tidak terlewat.</li>
+</ol></li>
+<li><strong>Specific Dissent (Catatan Keberatan Khusus):</strong> Staff Logistik dan saya tetap mencatat keberatan operasional mengenai <strong>risiko keterlambatan pengiriman</strong>. Karena pencairan harus melewati rantai empat tahap (Naufal <span class="math inline">\(\rightarrow\)</span> QC <span class="math inline">\(\rightarrow\)</span> Naufal <span class="math inline">\(\rightarrow\)</span> Tio <span class="math inline">\(\rightarrow\)</span> Staff) sementara kurir tidak menyediakan layanan <em>same-day</em>, jeda waktu persetujuan QC berpotensi mengurangi margin waktu pengiriman sebelum acara dimulai pada 13 November 2026.</li>
 </ul>
 </section>
-<section id="feedback-dan-tindak-lanjut" class="level2">
-<h2 class="anchored" data-anchor-id="feedback-dan-tindak-lanjut">Feedback dan tindak lanjut</h2>
-<p><strong>Feedback yang diterima:</strong> Ganti dengan kutipan atau ringkasan berbasis evidence.</p>
-<p><strong>Adaptation/replay:</strong> Jelaskan apa yang Anda ubah dan response setelah perubahan.</p>
-<p><strong>Next practice:</strong> Tetapkan satu perilaku spesifik yang akan dilatih berikutnya.</p>
+<section id="relationship-review-evaluasi-bantuan-ai" class="level2">
+<h2 class="anchored" data-anchor-id="relationship-review-evaluasi-bantuan-ai">5. Relationship Review &amp; Evaluasi Bantuan AI</h2>
+<ul>
+<li><strong>Relationship Review:</strong> Dengan menolak opsi dana talangan pribadi dan memilih menunggu jalur resmi Bendahara, tekanan finansial pada Staff Logistik berhasil dihindari sehingga kepercayaan di dalam tim tetap terjaga. Di sisi lain, komunikasi dengan Naufal tetap berjalan kooperatif karena tim logistik menghormati wewenang QC Bendahara tanpa memaksa pencairan kas secara sepihak, melainkan hanya meminta percepatan koordinasi antar-tahap.</li>
+<li><strong>Evaluasi Kritis Bantuan AI:</strong> AI digunakan untuk menyusun struktur pemetaan <em>position vs interest</em> serta matriks perbandingan <em>trade-off</em> antaropsi pembayaran. Namun, keputusan akhir untuk tidak membebankan talangan Rp500.000 kepada staff sepenuhnya didasarkan pada kondisi keuangan nyata anggota di lapangan dan aturan otorisasi QC Bendahara, bukan rekomendasi otomatis dari AI.</li>
+</ul>
 </section>
 <section id="self-assessment" class="level2">
-<h2 class="anchored" data-anchor-id="self-assessment">Self-assessment</h2>
+<h2 class="anchored" data-anchor-id="self-assessment">6. Self-Assessment</h2>
 <table class="caption-top table">
+<colgroup>
+<col style="width: 30%">
+<col style="width: 40%">
+<col style="width: 30%">
+</colgroup>
 <thead>
 <tr class="header">
 <th>Dimensi</th>
-<th style="text-align: right;">Skor 1–4</th>
+<th style="text-align: right;">Skor</th>
 <th>Evidence singkat</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>Person &amp; Character</td>
-<td style="text-align: right;">—</td>
-<td>—</td>
+<td style="text-align: right;">4</td>
+<td>Memetakan peran, keterbatasan dana staff, serta wewenang Naufal dan QC Bendahara secara akurat</td>
 </tr>
 <tr class="even">
 <td>Objective &amp; State</td>
-<td style="text-align: right;">—</td>
-<td>—</td>
+<td style="text-align: right;">4</td>
+<td>Shared problem dan posisi TAIDA keempat stakeholder dirumuskan jelas</td>
 </tr>
 <tr class="odd">
 <td>Repertoire, Language &amp; AI</td>
-<td style="text-align: right;">—</td>
-<td>—</td>
+<td style="text-align: right;">3</td>
+<td>Tiga opsi beserta trade-off kecepatan, beban staff, dan prosedur QC dibandingkan proporsional</td>
 </tr>
 <tr class="even">
 <td>Response &amp; Adaptation</td>
-<td style="text-align: right;">—</td>
-<td>—</td>
+<td style="text-align: right;">4</td>
+<td>Mengakomodasi keterbatasan saldo staff dengan menyiapkan checkout siap-bayar sambil mengawal jalur QC</td>
 </tr>
 <tr class="odd">
 <td>Agreement, Action &amp; Relationship</td>
-<td style="text-align: right;">—</td>
-<td>—</td>
+<td style="text-align: right;">3</td>
+<td>Kesepakatan jalur pencairan, owner berantai, dan catatan risiko pengiriman non-same-day terdokumentasi</td>
 </tr>
 </tbody>
 </table>
-<p><strong>Total:</strong> — / 20</p>
-<section id="assessment-dosen" class="level3 assessor-only">
-<h3 class="anchored" data-anchor-id="assessment-dosen">Assessment dosen</h3>
-<p><strong>Skor:</strong> — / 20<br>
-<strong>Evidence yang mendukung:</strong> —<br>
-<strong>Prioritas perbaikan:</strong> —<br>
-<strong>Keputusan:</strong> Belum dinilai / Perlu revisi / Tercapai</p>
-</section>
+<p><strong>Total: 18/20 (90) — Lanjut.</strong></p>
 
 
 </section>

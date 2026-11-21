@@ -1,25 +1,61 @@
 ---
 title: "Desire-State Communication"
 week: 9
-status: "Belum dimulai"
-self_score: "—"
+status: "Selesai"
+self_score: "85"
 assessor_score: "—"
 description: "Current state, desired state, value, evidence, dan risk."
 categories: [TAIDA, Desire]
 ---
 
-## Kompetensi target
+## 1. Konteks Situasi & Pergeseran ke Desire
+Dalam persiapan kegiatan Pengabdian Masyarakat (Pengmas) Asrama ITB, sempat terjadi ketegangan antara saya selaku Kepala Divisi Logistik dan Katherine selaku Ketua Acara. Sebelumnya, Katherine selalu mengajukan permintaan barang pada H-1 secara mendadak, padahal SOP logistik mewajibkan pengajuan maksimal H-7. Setelah berdiskusi lebih lanjut pada 12 November 2026 malam hari, diketahui bahwa Katherine terpaksa menanggung seluruh koordinasi acara sendirian karena Ketua Pengmas tidak aktif (*matil*). 
 
-Membangun desired state bersama target dan menghubungkannya dengan solution secara kredibel.
+Mengetahui kondisi tersebut, saya menurunkan ego dan menghentikan pendekatan yang kaku pada aturan H-7. Fokus komunikasi digeser dari sekadar menuntut kepatuhan SOP menjadi membangun *desired state* bersama yang realistis dengan beban kerja Katherine saat itu.
 
-## Evidence wajib
+## 2. Current dan Desired State
 
-- Current dan desired state milik person.
-- Feature–benefit–value–outcome chain.
-- Risk, evidence threshold, response, dan adaptation.
+| Elemen | Rumusan target (Katherine), bukan asumsi komunikator |
+|---|---|
+| **Current state** | Katherine menangani koordinasi teknis acara Pengmas Asrama ITB sendirian akibat Ketua Pengmas tidak aktif; daftar kebutuhan barang baru terpikirkan di H-1 sehingga memicu gesekan dengan divisi logistik. |
+| **Desired state** | Kebutuhan perlengkapan acara tetap terpenuhi tepat waktu tanpa Katherine harus menyusun dokumen pengajuan dari nol sendirian, serta tim logistik tidak kewalahan mencari barang mendadak di H-1. |
+| **Must-keep conditions** | Tidak menambah form birokrasi baru yang membebani Katherine, namun barang yang butuh surat peminjaman atau sewa tetap memiliki jeda waktu pengurusan yang masuk akal bagi tim logistik. |
+| **Value** | Beban administratif Katherine berkurang di tengah kekosongan peran Ketua Pengmas, sementara divisi logistik memiliki kepastian daftar barang lebih awal sebelum hari pelaksanaan. |
+| **Acceptable risk** | Masih ada potensi barang kecil susulan di luar daftar awal akibat perubahan teknis lapangan yang ditangani satu orang. |
+| **Evidence threshold** | Daftar kebutuhan barang utama terkunci paling lambat H-4 tanpa ada permintaan barang berat mendadak pada H-1, dan Katherine merasa alur koordinasi lebih ringan. |
 
-::: {.callout-tip title="Lihat contoh pengisian"}
-[Buka contoh fiktif Minggu 9](../examples/week-09.qmd) untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.
-:::
+## 3. Feature–Benefit–Value–Outcome Chain
+Rantai nilai solusi yang ditawarkan disusun sebagai berikut:
 
-{{< include ../includes/evidence-template.md >}}
+`Sesi sinkronisasi singkat 15 menit di H-4 + daftar cek (checklist) barang standar per mata acara` $\rightarrow$ Katherine tidak perlu memikirkan dan mengetik daftar kebutuhan barang dari nol sendirian $\rightarrow$ beban perencanaan teknis Katherine berkurang dan divisi logistik memperoleh daftar barang lebih awal sebelum H-1 $\rightarrow$ perlengkapan acara Pengmas Asrama ITB siap tepat waktu tanpa konflik antar-divisi.
+
+Rantai di atas diperlakukan sebagai hipotesis kerja, bukan janji pasti. Efektivitasnya bergantung pada kesepakatan batas waktu antara barang berat (peminjaman/sewa) dan barang habis pakai yang disesuaikan dengan kapasitas kerja Katherine.
+
+## 4. Desire Pitch, Percakapan, & Evidence
+- **Formula Desire Pitch:** *Jika [solution/mechanism] bekerja dalam constraint Anda, [current friction] dapat berubah menjadi [desired outcome]. Bagian outcome mana yang paling penting, dan concern apa yang perlu kita uji?*
+- **Pitch yang Disampaikan:**
+  > "Kath, gue baru ngeh kalau selama ini lu nge-handle semuanya sendirian karena ketua pengmas matil, jadi wajar kemarin request barangnya baru kepikiran pas H-1. Daripada lu pusing ngisi form SOP H-7 sendirian dari nol, gimana kalau kita ganti jadi obrolan singkat 15 menit di H-4 pakai template checklist barang per mata acara? Jadi lu tinggal centang atau tambahin yang kurang, dan tim logistik juga punya waktu buat nyiapin barangnya tanpa dadakan. Menurut lu alur kayak gini udah ngebantu beban lu, atau masih ada bagian yang bikin lu keteteran?"
+
+- **Evidence Percakapan Nyata (12 November 2026, malam hari pukul 21.10 WIB):**
+  - **Tio (Kadiv Logistik):** "Kath, sorry tadi sempat kesel soal barang H-1. Gue baru tau lu nge-handle semua lini sendirian gara-gara ketua pengmas matil. Kalau SOP H-7 tetep dipaksain pasti lu makin keteteran."
+  - **Katherine (Ketua Acara):** "Iya Yo, sorry banget jadi dadakan terus. Soalnya gue harus ngurusin perizinan sama teknis acara sendirian, jadi list logistik baru kepikiran pas udah mepet."
+  - **Tio (Kadiv Logistik):** "Yaudah gini aja, buat acara berikutnya lu gak usah bikin list dari nol. Nanti H-4 malem kita call 15 menit aja, gue bawain template list barang tiap mata acara, lu tinggal koreksi. Yang penting barang pinjaman keluar dikunci di H-4."
+  - **Katherine (Ketua Acara):** "Serius dibantuin pakai template? Kalau gitu jauh lebih kebantu sih Yo, asal kalau ada barang printilan yang baru kepikiran pas H-2 malem masih boleh nyusul ya."
+  - **Tio (Kadiv Logistik):** "Aman, kalau cuma barang kecil habis pakai maksimal H-2 malem masih bisa gue handle."
+
+## 5. Risk, Safeguard, & Adaptation
+- **Risk & Safeguard:** Risiko utama adalah munculnya kebutuhan mendadak setelah H-4 karena Katherine memegang terlalu banyak pos sendirian. Sebagai pengaman (*safeguard*), pengajuan dibagi menjadi dua jalur: barang besar atau peminjaman eksternal dikunci pada H-4 malam, sedangkan barang kecil habis pakai diberi kelonggaran hingga H-2 malam.
+- **Response & Adaptation:** Respons Katherine menunjukkan pergeseran ke tahap *Desire* karena ia tidak lagi bersikap defensif terhadap aturan SOP, melainkan langsung menyepakati solusi dan mengajukan syarat (*constraint*) berupa kelonggaran H-2 untuk barang kecil. Saya mengadaptasi solusi awal dengan memisahkan batas waktu antara barang berat dan barang habis pakai agar tetap realistis dijalankan oleh kedua pihak.
+- **Evaluasi Kritis Bantuan AI:** AI digunakan untuk menguji apakah solusi yang ditawarkan sudah sesuai dengan *constraint* target. Rekomendasi awal AI untuk membuatkan papan kerja (*dashboard*) tugas terpisah ditolak karena justru akan menambah beban teknis baru bagi Katherine yang sudah kewalahan mengurus acara sendirian.
+
+## 6. Self-Assessment
+
+| Dimensi | Skor | Evidence singkat |
+|---|---:|---|
+| Person & Character | 4 | Memahami situasi kerja ganda Katherine dan menyusun desired state sesuai kapasitasnya |
+| Objective & State | 3 | Current state, desired state, must-keep condition, dan evidence threshold dirumuskan eksplisit |
+| Repertoire, Language & AI | 3 | Value chain diposisikan sebagai hipotesis dan saran AI yang tidak relevan dengan kondisi lapangan ditolak |
+| Response & Adaptation | 4 | Menurunkan ego dari aturan kaku H-7 dan menyesuaikan batas waktu H-4 / H-2 sesuai masukan Katherine |
+| Agreement, Action & Relationship | 3 | Tercapai kesepakatan sinkronisasi H-4 tanpa memaksakan birokrasi tambahan |
+
+**Total: 17/20 (85) — Lanjut.**
